@@ -1,7 +1,7 @@
 # 🎵 Arquitectura y Brainstorming Web — Mishka Adams
 > **Proyecto:** Landing Page + SEO (Plan B Metaflow)  
 > **Cliente:** Mishka Adams (Cantante, Multiinstrumentista, Compositora y Docente Vocal)  
-> **Dirección Creativa & Desarrollo:** Julián Baravino / Metaflow  
+> **Dirección Creativa & Desarrollo:** Julián Barabino / Metaflow  
 > **Estándar de Diseño:** Inspirado en [The Creative Corporation](https://thecreativecorporation.com/) (Janis Joplin, Little Simz, Nick Cave) y Blue Note Records.
 
 ---
@@ -178,4 +178,4 @@
 * **Redes Sociales & Plataformas de Música:**
   * 🟢 **Spotify** | 🔵 **Bandcamp** | 🔴 **YouTube** | 📸 **Instagram** | 👤 **Facebook** | ✉️ **Email**
 * **Legales:** Enlaces a Política de Privacidad y Términos y Condiciones.
-* **Créditos:** `Diseñado por Metaflow | Julián Baravino`.
+* **Créditos:** `Diseñado por Metaflow | Julián Barabino`.

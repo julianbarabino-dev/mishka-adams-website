@@ -1,7 +1,7 @@
 /**
  * ==========================================================================
  * MISHKA ADAMS — OFFICIAL WEBSITE SCRIPT (i18n, Carousel & Interactions)
- * Design & Architecture: Metaflow | Julián Baravino
+ * Design & Architecture: Metaflow | Julián Barabino
  * ==========================================================================
  */
 
@@ -11,9 +11,10 @@
 const i18nData = {
   es: {
     // Navigation
+    navHome: "Inicio",
     navTeaching: "Clases & Talleres",
     navMusic: "Música & Discografía",
-    navBio: "Biografía",
+    navBio: "Trayectoria & Discografía",
     navPress: "Prensa",
     navContact: "Contacto",
 
@@ -23,7 +24,7 @@ const i18nData = {
     heroTitleSuffix: "Adams",
     heroTagline: "Cantante, multiinstrumentista, compositora y pedagoga vocal radicada en Buenos Aires. Explorando el universo rítmico del jazz, la bossa nova y la música latinoamericana.",
     heroCtaTeaching: "Clases & Talleres",
-    heroCtaMusic: "Escuchar Música",
+    heroCtaMusic: "Trayectoria & Discografía",
 
     // Teaching Section (Positioned 1st after Hero)
     teachingTag: "Pedagogía Vocal & Ritmo",
@@ -32,37 +33,41 @@ const i18nData = {
     teachingQuote: "“Conectar con el groove y el tiempo mientras cantamos eleva la interpretación vocal y nos une orgánicamente con la música y los músicos con quienes compartimos.”",
     teachingQuoteAuthor: "— Mishka Adams",
 
-    // Music Section
-    musicTag: "Archivo Discográfico",
-    musicTitle: "Música & Proyectos",
-    musicSubtitle: "9 álbumes grabados y una constante exploración entre canciones originales, jazz acústico, bossa nova y ensambles vocales.",
+    // Bio & Discography Section
+    bioHeroTitle: "Trayectoria & Raíces",
+    bioTag: "Trayectoria, Raíces & Discografía",
+    bioTitle: "Sobre Mishka Adams",
+    bioTeaserTitle: "Sobre Mishka Adams",
+    bioTeaserText: "Cantante, multiinstrumentista, arregladora vocal y pedagoga filipino-británica radicada en Buenos Aires. Con 9 álbumes editados y una destacada trayectoria internacional desde Londres hasta Sudamérica, lidera proyectos como solista, a dúo junto a Beto Caletti y ensambles como Canciones Migrantes y Mujererío.",
+    bioTeaserBtn: "Conocer su Trayectoria & Discografía",
+    bioLead: "Mishka Adams es una galardonada cantante, multiinstrumentista, arregladora vocal y directora de ensambles vocales filipino-británica, radicada actualmente en Buenos Aires, Argentina. Participa en diversos proyectos que se nutren de los ritmos y estilos de Latinoamérica, principalmente de Brasil, Argentina y Uruguay. A su vez, se presenta como solista y cantautora, con influencias ligadas a sus raíces en el jazz y el folk. Hasta la fecha ha grabado 9 discos, y tiene un nuevo álbum y un EP en camino.",
+    bioP1_duo: "Entre sus proyectos colaborativos más recientes se destacan su dúo junto a su esposo Beto Caletti, reconocido cantante, guitarrista y compositor por su trayectoria en la música brasileña;",
+    bioP1_collaborations: "Canciones Migrantes junto a Florencia Dávalos y Georgina Hassan, un trío vocal que reúne canciones sobre la inmigración de todo el mundo; Cantoras del Sur, un octeto vocal con percusión y acordeón; y Mujererío Voces y Cuerpo, un noneto a capela.",
+    bioP2: "En 2004, antes de radicarse en Buenos Aires, firmó un contrato discográfico de cuatro álbumes con Candid Records y en 2006 se mudó a Londres para estudiar jazz. Vivió allí durante muchos años, consolidando una fuerte presencia en la escena del jazz y la música brasileña a través de su proyecto solista y diversas colaboraciones. En 2007 cofundó el London Vocal Project junto a su amigo y maestro Pete Churchill, además de desempeñarse como cantante y percusionista en el reconocido grupo de samba Rhythms of the City.",
+    bioP3: "Se ha presentado en numerosos escenarios y giras internacionales, combinando su actividad artística con una profunda pasión por la docencia: cuenta con 20 años de experiencia pedagógica, dirige dos coros femeninos y dicta clases particulares de canto y percusión para cantantes.",
+    bioCtaTeaching: "Explorar Propuesta Educativa",
+    bioCtaContact: "Contactar & Booking",
     
-    // Music Cards
-    soloTag: "Proyecto Solista",
-    soloTitle: "Mishka Adams (Solista)",
-    soloMeta: "Jazz, Folk & Canción de Autor • 9 Discos",
-    soloDesc: "Composiciones originales y arreglos íntimos que reflejan sus raíces musicales en el jazz y el folk británico-filipino, con una fuerte presencia en la escena europea y latinoamericana.",
-
+    // Discography Showcase
+    discoTag: "Lanzamientos & Discografía",
+    discoTitle: "Música Destacada",
     duoTag: "Dúo Internacional",
     duoTitle: "Mishka Adams & Beto Caletti",
     duoMeta: "Trilogía de Álbumes • Bossa Nova & Ritmos del Sur",
     duoDesc: "Un diálogo acústico virtuoso junto al reconocido cantante y guitarrista Beto Caletti, recorriendo las ricas tradiciones rítmicas de Brasil, Argentina y Uruguay.",
 
-    collabTag: "Colaboración Especial",
-    collabTitle: "Stories to Tell",
-    collabMeta: "Mishka Adams & Pete Churchill • Bandcamp",
-    collabDesc: "Álbum aclamado por la crítica británica junto al maestro y profesor de la Royal Academy of Music, Pete Churchill.",
-
-    // Bio Section
-    bioTag: "Trayectoria & Raíces",
-    bioTitle: "Sobre Mishka Adams",
-    bioLead: "Mishka Adams es una galardonada cantante, multiinstrumentista, arregladora vocal y pedagoga filipino-británica radicada en Buenos Aires, Argentina.",
-    bioP1: "Firmó contrato discográfico a temprana edad con Candid Records en 2004 y se formó en la escena del jazz londinense. En 2007 cofundó el prestigioso London Vocal Project junto a Pete Churchill y fue vocalista y percusionista del ensamble de samba Rhythms of the City.",
-    bioP2: "Ha girado internacionalmente por los principales festivales de Europa, Asia y América, combinando su actividad en vivo con su profunda vocación docente, dictando cursos de Percusión para Cantantes y dirigiendo agrupaciones corales.",
-
-    // Press Section (Carousel)
+    // Press & Home Quotes (Janis Joplin Bold Typographic Aesthetic)
+    homeQuoteText: "UNE LA MÚSICA ARGENTINA Y BRASILEÑA CON LA IMPRONTA PERSONAL DE UNA CANTAUTORA Y UNA MUSICALIDAD SUBLIME.",
+    homeQuoteAuthor: "ALISON BENTLEY · LONDON JAZZ NEWS",
+    bioOpeningQuoteText: "REFRESCANTEMENTE SIN PRETENSIONES Y SENCILLAMENTE TALENTOSA.",
+    bioOpeningQuoteAuthor: "TIME OUT LONDON",
     pressTag: "Crítica & Prensa Internacional",
     pressTitle: "Prensa",
+    pressQuoteMain: "EL SUEÑO DE TODO COMPOSITOR: UNA COMPRENSIÓN PROFUNDA DEL TEXTO Y, SENCILLAMENTE, UNA DE LAS VOCES MÁS HERMOSAS QUE HE ESCUCHADO.",
+    pressAuthorMain: "PETE CHURCHILL · ROYAL ACADEMY OF MUSIC, LONDRES",
+    pressQuote2: "Refrescantemente sin pretensiones y sencillamente talentosa.",
+    pressQuote3: "Une la música argentina y brasileña con la impronta personal de una cantautora y una musicalidad sublime.",
+    pressQuote4: "La voz de Mishka Adams es hoy un instrumento cautivador: liviano, suave y sutil.",
 
     // Newsletter Section
     newsletterTitle: "Conectemos a través de la música",
@@ -70,6 +75,8 @@ const i18nData = {
     newsletterPlaceholder: "Tu correo electrónico...",
     newsletterBtn: "Suscribirme",
     newsletterSuccess: "¡Gracias por suscribirte! Te contactaremos pronto.",
+    footerNewsletterTitle: "Newsletter",
+    footerNewsletterDesc: "Novedades de conciertos, talleres y lanzamientos exclusivos.",
 
     // Contact Section
     contactTag: "Contacto & Booking",
@@ -86,25 +93,26 @@ const i18nData = {
     contactSubject2: "Taller Percusión para Cantantes",
     contactSubject3: "Ensambles Vocales (Rayuela / Agronomía Canta)",
     contactSubject4: "Contratación Artística & Conciertos",
-    contactSubject5: "Prensa & Otros",
-    contactFormMessage: "Mensaje o consulta...",
+    contactSubject5: "Prensa & General",
+    contactFormMessage: "Tu mensaje...",
     contactFormBtn: "Enviar Mensaje",
     contactFormSuccess: "¡Mensaje enviado con éxito! Te responderemos a la brevedad.",
 
     // Footer
-    footerBrandDesc: "Cantante, multiinstrumentista y docente vocal. Buenos Aires, Argentina.",
+    footerBrandDesc: "Cantante, multiinstrumentista y pedagoga vocal. Buenos Aires, Argentina.",
     footerNavTitle: "Navegación",
     footerLegalTitle: "Enlaces",
     footerConnectTitle: "Plataformas",
     footerRights: "Todos los derechos reservados.",
-    footerCredits: "Diseñado por Metaflow | Julián Baravino"
+    footerCredits: 'Diseñado por <a href="https://metaflow.com.ar" target="_blank" rel="noopener noreferrer">Metaflow</a> | <a href="https://julianbarabino.com.ar" target="_blank" rel="noopener noreferrer">Julián Barabino</a>'
   },
 
   en: {
     // Navigation
-    navTeaching: "Workshops & Classes",
+    navHome: "Home",
+    navTeaching: "Teaching & Workshops",
     navMusic: "Music & Discography",
-    navBio: "About",
+    navBio: "Journey & Discography",
     navPress: "Press",
     navContact: "Contact",
 
@@ -114,7 +122,7 @@ const i18nData = {
     heroTitleSuffix: "Adams",
     heroTagline: "Singer, multi-instrumentalist, songwriter and vocal pedagogue based in Buenos Aires. Exploring the rhythmic universe of jazz, bossa nova and Latin American music.",
     heroCtaTeaching: "Workshops & Classes",
-    heroCtaMusic: "Listen to Music",
+    heroCtaMusic: "Journey & Discography",
 
     // Teaching Section
     teachingTag: "Vocal Pedagogy & Rhythm",
@@ -123,37 +131,41 @@ const i18nData = {
     teachingQuote: "“Connecting to groove and time while we sing can elevate a vocal performance and unites us with the music and the musicians we are playing with.”",
     teachingQuoteAuthor: "— Mishka Adams",
 
-    // Music Section
-    musicTag: "Discography Archive",
-    musicTitle: "Music & Projects",
-    musicSubtitle: "9 albums recorded to date and an ongoing exploration across original songwriting, acoustic jazz, bossa nova and vocal ensembles.",
+    // Bio & Discography Section
+    bioHeroTitle: "JOURNEY & ROOTS",
+    bioTag: "Journey, Roots & Discography",
+    bioTitle: "About Mishka Adams",
+    bioTeaserTitle: "About Mishka Adams",
+    bioTeaserText: "Filipino-British singer, multi-instrumentalist, vocal arranger and vocal pedagogue based in Buenos Aires. With 9 recorded albums and an acclaimed international journey from London to South America, she leads solo works, her duo with Beto Caletti, and vocal ensembles such as Canciones Migrantes and Mujererío.",
+    bioTeaserBtn: "Explore Journey & Discography",
+    bioLead: "Mishka Adams is an award-winning Filipino-British singer, multi-instrumentalist, vocal arranger and vocal ensemble director, currently based in Buenos Aires, Argentina. She participates in diverse projects rooted in the rhythms and styles of Latin America, mainly Brazil, Argentina and Uruguay. At the same time, she performs as a soloist and singer-songwriter, with influences tied to her roots in jazz and folk. To date, she has recorded 9 albums, with a new album and an EP currently in the works.",
+    bioP1_duo: "Among her most recent collaborative projects, highlights include her duo with her husband Beto Caletti, a renowned singer, guitarist and composer celebrated for his extensive career in Brazilian music;",
+    bioP1_collaborations: "Canciones Migrantes alongside Florencia Dávalos and Georgina Hassan, a vocal trio bringing together immigration songs from across the globe; Cantoras del Sur, a vocal octet with percussion and accordion; and Mujererío Voces y Cuerpo, an a cappella nonet.",
+    bioP2: "In 2004, prior to settling in Buenos Aires, she signed a four-album recording contract with Candid Records and moved to London in 2006 to study jazz. She lived there for many years, building a strong presence in the jazz and Brazilian music scenes through her solo project and diverse collaborations. In 2007, she co-founded the London Vocal Project alongside her mentor and friend Pete Churchill, and performed as a singer and percussionist with the acclaimed samba ensemble Rhythms of the City.",
+    bioP3: "She has performed on numerous international stages and tours, blending her artistic journey with a deep passion for education: she brings 20 years of pedagogical experience, directs two women's choirs, and offers private vocal lessons and signature Percussion for Singers workshops.",
+    bioCtaTeaching: "Explore Workshops & Classes",
+    bioCtaContact: "Contact & Booking",
 
-    // Music Cards
-    soloTag: "Solo Project",
-    soloTitle: "Mishka Adams (Solo)",
-    soloMeta: "Jazz, Folk & Original Songs • 9 Albums",
-    soloDesc: "Original songwriting and intimate arrangements reflecting her Filipino-British roots in jazz and folk, with an established presence across the UK, Europe and South America.",
-
+    // Discography Showcase
+    discoTag: "Releases & Discography",
+    discoTitle: "Featured Music",
     duoTag: "International Duo",
     duoTitle: "Mishka Adams & Beto Caletti",
     duoMeta: "Album Trilogy • Bossa Nova & Southern Rhythms",
     duoDesc: "A virtuosic acoustic dialogue with renowned singer and guitarist Beto Caletti, celebrating the rich musical traditions of Brazil, Argentina and Uruguay.",
 
-    collabTag: "Special Collaboration",
-    collabTitle: "Stories to Tell",
-    collabMeta: "Mishka Adams & Pete Churchill • Bandcamp",
-    collabDesc: "Acclaimed studio album created alongside Royal Academy of Music Professor and long-time mentor Pete Churchill.",
-
-    // Bio Section
-    bioTag: "Roots & Journey",
-    bioTitle: "About Mishka Adams",
-    bioLead: "Mishka Adams is a Filipina/English award-winning singer, multi-instrumentalist, vocal arranger and ensemble leader based in Buenos Aires, Argentina.",
-    bioP1: "She signed a four-album record deal with Candid Records in 2004 and honed her craft within London's vibrant jazz scene. In 2007, she co-founded the London Vocal Project with Pete Churchill and performed as vocalist/percussionist with the renowned samba ensemble Rhythms of the City.",
-    bioP2: "She has toured extensively worldwide while dedicating herself to vocal pedagogy, leading her signature 'Percussion for Singers' workshops and directing female vocal ensembles.",
-
-    // Press Section (Carousel)
+    // Press & Home Quotes (Janis Joplin Bold Typographic Aesthetic)
+    homeQuoteText: "BRINGING TOGETHER ARGENTINIAN AND BRAZILIAN MUSIC WITH A SINGER-SONGWRITER’S PERSONAL TOUCH AND SUPERB MUSICIANSHIP.",
+    homeQuoteAuthor: "ALISON BENTLEY · LONDON JAZZ NEWS",
+    bioOpeningQuoteText: "REFRESHINGLY UNPRETENTIOUS AND JUST PLAIN TALENTED.",
+    bioOpeningQuoteAuthor: "TIME OUT LONDON",
     pressTag: "International Reviews & Press",
     pressTitle: "Press",
+    pressQuoteMain: "SHE IS A SONGWRITER’S DREAM – A GREAT UNDERSTANDING OF TEXT, AND, QUITE SIMPLY, ONE OF THE MOST BEAUTIFUL VOICES I’VE EVER HEARD.",
+    pressAuthorMain: "PETE CHURCHILL · ROYAL ACADEMY OF MUSIC, LONDON",
+    pressQuote2: "Refreshingly unpretentious and just plain talented.",
+    pressQuote3: "Bringing together Argentinian and Brazilian music with a singer-songwriter’s personal touch and superb musicianship.",
+    pressQuote4: "Mishka Adams' voice right now is an appealing light, soft, gentle instrument.",
 
     // Newsletter Section
     newsletterTitle: "Stay Connected",
@@ -161,6 +173,8 @@ const i18nData = {
     newsletterPlaceholder: "Your email address...",
     newsletterBtn: "Subscribe",
     newsletterSuccess: "Thank you for subscribing! We will be in touch soon.",
+    footerNewsletterTitle: "Newsletter",
+    footerNewsletterDesc: "Updates on upcoming concerts, workshops and exclusive releases.",
 
     // Contact Section
     contactTag: "Contact & Booking",
@@ -188,7 +202,7 @@ const i18nData = {
     footerLegalTitle: "Links",
     footerConnectTitle: "Platforms",
     footerRights: "All rights reserved.",
-    footerCredits: "Designed by Metaflow | Julián Baravino"
+    footerCredits: 'Designed by <a href="https://metaflow.com.ar" target="_blank" rel="noopener noreferrer">Metaflow</a> | <a href="https://julianbarabino.com.ar" target="_blank" rel="noopener noreferrer">Julián Barabino</a>'
   }
 };
 
@@ -325,42 +339,74 @@ const teachingCardsEN = [
 ];
 
 
-// Press Quotes Data for Carousel
+// Press Quotes Data (Curated International Press & Critical Acclaim)
 const pressQuotes = {
   es: [
     {
-      quote: "Refrescantemente sin pretensiones y sencillamente talentosa.",
-      source: "Time Out London"
-    },
-    {
+      id: "pete-churchill",
       quote: "El sueño de todo compositor: una comprensión profunda del texto y, sencillamente, una de las voces más hermosas que he escuchado.",
-      source: "Pete Churchill (Profesor de Jazz en la Royal Academy of Music, Londres)"
+      author: "Pete Churchill",
+      role: "Profesor de Jazz en la Royal Academy of Music, Londres",
+      publication: "Royal Academy of Music",
+      featured: true
     },
     {
+      id: "time-out",
+      quote: "Refrescantemente sin pretensiones y sencillamente talentosa.",
+      author: "Time Out London",
+      role: "Crítica Cultural & Espectáculos · Reino Unido",
+      publication: "Time Out London",
+      featured: false
+    },
+    {
+      id: "london-jazz-news",
       quote: "Une la música argentina y brasileña con la impronta personal de una cantautora y una musicalidad sublime.",
-      source: "Alison Bentley, London Jazz News"
+      author: "Alison Bentley",
+      role: "Crítica Musical · London Jazz News",
+      publication: "London Jazz News",
+      featured: false
     },
     {
+      id: "uk-jazz-news",
       quote: "La voz de Mishka Adams es hoy un instrumento cautivador: liviano, suave y sutil.",
-      source: "Sebastian Scotney, UK Jazz News"
+      author: "Sebastian Scotney",
+      role: "Editor & Periodista · UK Jazz News",
+      publication: "UK Jazz News",
+      featured: false
     }
   ],
   en: [
     {
+      id: "pete-churchill",
+      quote: "She is a songwriter’s dream – a great understanding of text, and, quite simply, one of the most beautiful voices I’ve ever heard.",
+      author: "Pete Churchill",
+      role: "Professor of Jazz, Royal Academy of Music, London",
+      publication: "Royal Academy of Music",
+      featured: true
+    },
+    {
+      id: "time-out",
       quote: "Refreshingly unpretentious and just plain talented.",
-      source: "Time Out London"
+      author: "Time Out London",
+      role: "Cultural Review & Arts · United Kingdom",
+      publication: "Time Out London",
+      featured: false
     },
     {
-      quote: "The composer’s dream: a deep understanding of lyrics and, quite simply, one of the most beautiful voices I have ever heard.",
-      source: "Pete Churchill (Professor of Jazz, Royal Academy of Music, London)"
+      id: "london-jazz-news",
+      quote: "Bringing together Argentinian and Brazilian music with a singer-songwriter’s personal touch and superb musicianship.",
+      author: "Alison Bentley",
+      role: "Music Critic · London Jazz News",
+      publication: "London Jazz News",
+      featured: false
     },
     {
-      quote: "Brings together Argentine and Brazilian music with the personal stamp of a singer-songwriter and exquisite musicianship.",
-      source: "Alison Bentley, London Jazz News"
-    },
-    {
-      quote: "Mishka Adams' voice is today a captivating instrument: light, smooth, and subtle.",
-      source: "Sebastian Scotney, UK Jazz News"
+      id: "uk-jazz-news",
+      quote: "Mishka Adams' voice right now is an appealing light, soft, gentle instrument.",
+      author: "Sebastian Scotney",
+      role: "Editor & Journalist · UK Jazz News",
+      publication: "UK Jazz News",
+      featured: false
     }
   ]
 };
@@ -368,9 +414,7 @@ const pressQuotes = {
 // --------------------------------------------------------------------------
 // 3. CORE STATE & CONTROLLER
 // --------------------------------------------------------------------------
-let currentLanguage = localStorage.getItem('mishka_site_lang') || 'es';
-let currentPressIndex = 0;
-let pressAutoSlideTimer = null;
+let currentLanguage = new URLSearchParams(window.location.search).get('lang') || localStorage.getItem('mishka_site_lang') || 'es';
 
 document.addEventListener('DOMContentLoaded', () => {
   initLanguageSwitcher();
@@ -426,6 +470,14 @@ function setLanguage(lang) {
     }
   });
 
+  // 3b. Update all HTML-enabled text nodes with data-i18n-html
+  document.querySelectorAll('[data-i18n-html]').forEach(el => {
+    const key = el.getAttribute('data-i18n-html');
+    if (dict[key]) {
+      el.innerHTML = dict[key];
+    }
+  });
+
   // 4. Update input placeholders
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
     const key = el.getAttribute('data-i18n-placeholder');
@@ -437,9 +489,8 @@ function setLanguage(lang) {
   // 5. Render dynamic Teaching & Workshops cards
   renderTeachingCards(lang);
 
-  // 6. Render and Initialize Press Carousel
-  currentPressIndex = 0;
-  renderPressCarousel(lang);
+  // 6. Render Press Editorial Matrix
+  renderPressGrid(lang);
 }
 
 /**
@@ -612,80 +663,36 @@ window.toggleEduDetails = function(courseId) {
 
 
 // --------------------------------------------------------------------------
-// 5. PRESS CAROUSEL (SLIDER) CONTROLLER
+// 5. PRESS EDITORIAL MATRIX CONTROLLER
 // --------------------------------------------------------------------------
-function renderPressCarousel(lang) {
-  const track = document.getElementById('press-track');
-  const dotsContainer = document.getElementById('press-dots');
-  if (!track || !dotsContainer) return;
+function renderPressGrid(lang) {
+  const container = document.getElementById('press-grid');
+  if (!container) return;
 
   const quotes = pressQuotes[lang] || pressQuotes.es;
 
-  // Render Slides
-  track.innerHTML = quotes.map((q, idx) => `
-    <div class="press-slide" data-slide-index="${idx}">
-      <p class="press-slide-quote">“${q.quote}”</p>
-      <div class="press-slide-source">${q.source}</div>
-    </div>
-  `).join('');
-
-  // Render Dots
-  dotsContainer.innerHTML = quotes.map((_, idx) => `
-    <button class="press-dot ${idx === 0 ? 'active' : ''}" data-index="${idx}" aria-label="Slide ${idx + 1}"></button>
-  `).join('');
-
-  // Add click events to dots
-  dotsContainer.querySelectorAll('.press-dot').forEach(dot => {
-    dot.addEventListener('click', (e) => {
-      const idx = parseInt(e.target.getAttribute('data-index'), 10);
-      goToPressSlide(idx, quotes.length);
-    });
-  });
-
-  // Init Carousel Buttons
-  const prevBtn = document.getElementById('press-prev');
-  const nextBtn = document.getElementById('press-next');
-
-  if (prevBtn && nextBtn) {
-    prevBtn.onclick = () => {
-      const newIndex = (currentPressIndex - 1 + quotes.length) % quotes.length;
-      goToPressSlide(newIndex, quotes.length);
-    };
-
-    nextBtn.onclick = () => {
-      const newIndex = (currentPressIndex + 1) % quotes.length;
-      goToPressSlide(newIndex, quotes.length);
-    };
-  }
-
-  goToPressSlide(0, quotes.length);
-  startAutoSlide(quotes.length);
-}
-
-function goToPressSlide(index, total) {
-  currentPressIndex = index;
-  const track = document.getElementById('press-track');
-  const dots = document.querySelectorAll('.press-dot');
-
-  if (track) {
-    track.style.transform = `translateX(-${index * 100}%)`;
-  }
-
-  dots.forEach((dot, idx) => {
-    if (idx === index) {
-      dot.classList.add('active');
-    } else {
-      dot.classList.remove('active');
-    }
-  });
-}
-
-function startAutoSlide(total) {
-  if (pressAutoSlideTimer) clearInterval(pressAutoSlideTimer);
-  pressAutoSlideTimer = setInterval(() => {
-    const nextIdx = (currentPressIndex + 1) % total;
-    goToPressSlide(nextIdx, total);
-  }, 7000);
+  container.innerHTML = quotes.map((item, idx) => {
+    const isFeatured = item.featured ? 'press-card-featured' : '';
+    return `
+      <article class="press-card ${isFeatured}" id="press-item-${item.id}">
+        <div class="press-card-header">
+          <span class="press-badge">${item.publication}</span>
+          <div class="press-quote-icon-wrap" aria-hidden="true">
+            <svg class="press-quote-icon" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+            </svg>
+          </div>
+        </div>
+        <blockquote class="press-quote-body">
+          <p class="press-quote-text">“${item.quote}”</p>
+        </blockquote>
+        <footer class="press-card-footer">
+          <div class="press-author-name">${item.author}</div>
+          ${item.role ? `<div class="press-author-role">${item.role}</div>` : ''}
+        </footer>
+      </article>
+    `;
+  }).join('');
 }
 
 // --------------------------------------------------------------------------
@@ -744,33 +751,31 @@ function initMobileMenu() {
 // 7. NEWSLETTER & CONTACT FORMS
 // --------------------------------------------------------------------------
 function initNewsletterForm() {
-  const form = document.getElementById('newsletter-form');
-  const feedback = document.getElementById('newsletter-feedback');
+  const forms = document.querySelectorAll('.footer-newsletter-form, #newsletter-form');
 
-  if (!form) return;
+  forms.forEach(form => {
+    const feedback = form.querySelector('.newsletter-feedback') || document.getElementById('footer-newsletter-feedback') || document.getElementById('newsletter-feedback');
 
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const emailInput = form.querySelector('.newsletter-input');
-    if (!emailInput || !emailInput.value) return;
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const emailInput = form.querySelector('.footer-input, .newsletter-input');
+      if (!emailInput || !emailInput.value) return;
 
-    const submitBtn = form.querySelector('.newsletter-submit');
-    const originalText = submitBtn.textContent;
-    submitBtn.textContent = '...';
-    submitBtn.disabled = true;
+      const submitBtn = form.querySelector('.footer-submit-btn, .newsletter-submit');
+      if (submitBtn) submitBtn.disabled = true;
 
-    setTimeout(() => {
-      submitBtn.textContent = originalText;
-      submitBtn.disabled = false;
-      emailInput.value = '';
-      if (feedback) {
-        feedback.classList.add('success');
-        feedback.textContent = i18nData[currentLanguage].newsletterSuccess;
-        setTimeout(() => {
-          feedback.classList.remove('success');
-        }, 5000);
-      }
-    }, 600);
+      setTimeout(() => {
+        if (submitBtn) submitBtn.disabled = false;
+        emailInput.value = '';
+        if (feedback) {
+          feedback.classList.add('success');
+          feedback.textContent = i18nData[currentLanguage].newsletterSuccess;
+          setTimeout(() => {
+            feedback.classList.remove('success');
+          }, 5000);
+        }
+      }, 600);
+    });
   });
 }
 
