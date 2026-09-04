@@ -18,3 +18,8 @@ Thumbs.db
 # Node (para futuras integraciones)
 node_modules/
 dist/
+
+# Assets de diseño & referencias locales
+moodboard/
+Campañas/
+
