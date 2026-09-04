@@ -193,98 +193,103 @@ const i18nData = {
 };
 
 // --------------------------------------------------------------------------
-// 2. TEACHING CARDS DATA (WITH DYNAMIC ORDERING PER LANGUAGE & ZERO EMOJIS)
+// 2. TEACHING & WORKSHOPS DATA (Ordered by language requirements)
 // --------------------------------------------------------------------------
-
 const teachingCardsES = [
+
   {
     id: "percussion",
-    badge: "Taller Principal — Online y Presencial",
-    title: "Percusión para Cantantes (Percussion for Singers)",
-    subtitle: "Talleres grupales y clases individuales 1 a 1",
-    desc: "Mishka siempre ha sentido una profunda pasión y curiosidad por la percusión, convencida de que el ritmo es fundamental para cantar, toquemos o no un instrumento. Conectar con el groove y el tiempo mientras cantamos eleva la interpretación vocal y nos une orgánicamente con la música y con los músicos con quienes compartimos. Es parte de lo que convierte a una cantante en música integral. En sus presentaciones en vivo, Mishka casi siempre acompaña sus canciones con percusión, y ha sido sesionista de percusión y coros en innumerables proyectos.",
-    featuresTitle: "En las clases y cursos trabajamos:",
+    badge: "Taller Especializado",
+    title: "Percussion for Singers",
+    subtitle: "Talleres grupales & clases particulares",
+    summary: "Conectar con el groove, la clave y el ritmo corporal como fundamento para cantar con soltura, tocar percusión y conectar orgánicamente con la música.",
+    desc: "Mishka siempre ha sentido una profunda pasión y curiosidad por la percusión, convencida de que el ritmo es fundamental para cantar, toquemos o no un instrumento. Conectar con el groove y el tiempo mientras cantamos eleva la interpretación vocal y nos une con los músicos con quienes compartimos. Es parte de lo que convierte a una cantante en música integral. En sus presentaciones en vivo, Mishka casi siempre acompaña sus canciones con percusión menor y corporal.",
+    featuresTitle: "En los talleres y clases exploramos:",
     features: [
-      "Aprender y tocar una gran variedad de grooves y estilos",
-      "Coordinación y movimiento en el tiempo mientras cantás y tocás",
-      "Comprender y sentir los distintos tipos de 'swing' y subdivisiones rítmicas",
-      "Aprovechar al máximo la percusión de mano (¡y objetos cotidianos!) para acompañar tus canciones",
-      "Experimentar con canciones de tu propio repertorio dentro del grupo"
+      "Aprender y tocar una gran variedad de grooves, claves y estilos",
+      "Coordinación e independencia corporal mientras cantás y tocás",
+      "Comprender y sentir los distintos tipos de 'swing' y subdivisiones",
+      "Aprovechar la percusión de mano (¡y objetos cotidianos!) para acompañar canciones",
+      "Experimentar con temas de tu propio repertorio en grupo"
     ],
-    ctaText: "Consultar Fechas / Reservar",
+    ctaText: "Consultar Fechas & Cupos",
     ctaLink: "#contact",
     youtubeText: "Ver Tutoriales en YouTube",
     youtubeLink: "https://www.youtube.com/@PercussionforSingers",
     image: "FOTOS WEBSITE/Percussion for Singers/DSC02010.JPG",
-    featured: true
+    theme: "terracotta"
   },
   {
     id: "ensembles",
-    badge: "Presencial en Buenos Aires",
-    title: "Ensambles Vocales (Rayuela & Agronomía Canta)",
-    subtitle: "Grupos corales femeninos y comunidad musical en Agronomía",
-    desc: "Actualmente Mishka dirige dos ensambles vocales femeninos desde su espacio en Agronomía, Buenos Aires: Ensamble Rayuela (nivel intermedio/avanzado) y Agronomía Canta (inicial/intermedio). Ambos grupos abordan un amplio abanico de estilos e idiomas, con arreglos vocales creados a medida por Mishka. El repertorio transita la música brasileña, el folklore argentino, gospel, candombe uruguayo, canciones tradicionales de Europa del Este y mucho más. Se vive un fuerte sentido de comunidad donde los lazos humanos son tan enriquecedores como la música compartida. Realizan conciertos regulares y encuentros con otras agrupaciones vocales.",
+    badge: "Presencial en Agronomía",
+    title: "Ensambles Vocales",
+    subtitle: "Rayuela & Agronomía Canta",
+    summary: "Dos agrupaciones corales femeninas en Agronomía. Arreglos a medida creados por Mishka que transitan la bossa nova, folklore argentino y canciones del mundo.",
+    desc: "Actualmente Mishka dirige dos ensambles vocales femeninos desde su espacio en Agronomía, Buenos Aires: Ensamble Rayuela (intermedio/avanzado) y Agronomía Canta (inicial/intermedio). Ambos grupos abordan un amplio abanico de estilos e idiomas con arreglos a medida. Se vive un fuerte sentido de comunidad donde los lazos humanos son tan enriquecedores como la música. Realizan conciertos regulares y encuentros con otras agrupaciones.",
     featuresTitle: "Características del espacio:",
     features: [
       "Arreglos vocales exclusivos hechos a medida para cada grupo",
-      "Repertorio multicultural: Bossa, folklore argentino, candombe y Europa del Este",
+      "Repertorio multicultural: Bossa nova, folklore argentino, candombe y música balcánica",
       "Desarrollo del empaste vocal, dinámica grupal y escucha armónica",
       "Conciertos periódicos y presentaciones conjuntas"
     ],
-    ctaText: "Consultar por Cupos e Integración",
+    ctaText: "Consultar por Integración",
     ctaLink: "#contact",
-    image: "FOTOS WEBSITE/Berlin/6 (1 of 1).jpg",
-    featured: false
+    image: "FOTOS WEBSITE/Percussion for Singers/DSC02056.JPG",
+    theme: "sand"
   },
   {
     id: "voice-1to1",
-    badge: "Presencial y Online Internacional",
-    title: "Clases Particulares de Canto (1 a 1)",
-    subtitle: "Acompañamiento y coaching personalizado para todos los niveles",
-    desc: "El camino de cada cantante es único: todos tenemos necesidades, metas y habilidades distintas. Mishka trabaja con vocalistas de todos los niveles: desde principiantes que buscan descubrir su voz o instrumentistas que desean empezar a cantar, hasta cantantes profesionales en busca de coaching técnico, interpretativo y acompañamiento artístico.",
+    badge: "Presencial & Online",
+    title: "Clases Particulares 1 a 1",
+    subtitle: "Coaching y técnica personalizada",
+    summary: "Acompañamiento individual a medida para descubrir tu voz, potenciar tu afinación y profundizar en técnica, ritmo y repertorio desde nivel inicial hasta profesional.",
+    desc: "El camino de cada cantante es único: todos tenemos necesidades, metas y habilidades distintas. Mishka trabaja con vocalistas de todos los niveles: desde principiantes que buscan descubrir su voz o instrumentistas que desean cantar, hasta cantantes profesionales en busca de coaching técnico, interpretativo y asesoramiento artístico.",
     featuresTitle: "Ejes de trabajo personalizados:",
     features: [
-      "Técnica vocal y salud de la voz",
-      "Trabajo corporal y conciencia postural",
-      "Ritmo y groove en la voz y el cuerpo",
-      "Desarrollo y elección de repertorio",
+      "Técnica vocal, salud y emisión fisiológica",
+      "Trabajo corporal y alineación postural",
+      "Ritmo, groove e independencia en la voz",
+      "Elección, desarrollo y arreglo de repertorio",
       "Interpretación, presencia y expresión escénica"
     ],
     ctaText: "Reservar Clase Individual",
     ctaLink: "#contact",
-    image: "FOTOS WEBSITE/Berlin/36 (1 of 1).jpg",
-    featured: false
+    image: "FOTOS WEBSITE/Berlin/6 (1 of 1).jpg",
+    theme: "warm-dark"
   }
 ];
 
 const teachingCardsEN = [
   {
     id: "percussion",
-    badge: "Signature Workshop — Online & In Person",
+    badge: "Signature Workshop",
     title: "Percussion for Singers",
-    subtitle: "Group workshops & 1:1 private lessons",
-    desc: "Mishka has always been passionate and curious about percussion and feels that rhythm is essential to singing, whether we play a percussive instrument or not. Connecting to groove and time while we sing can elevate a vocal performance and unites us with the music and the musicians we are playing with. It is part of what makes a singer a musician. In her shows she almost always plays percussion to accompany her songs, and has also many times been a side-woman on percussion and backing vocals.",
-    featuresTitle: "What you'll explore in the classes & workshops:",
+    subtitle: "Group workshops & 1:1 lessons",
+    summary: "Connecting to groove, pulse, and body percussion as the foundation for expressive singing, instrumental independence, and holistic musicianship.",
+    desc: "Mishka has always been passionate and curious about percussion and feels that rhythm is essential to singing, whether we play a percussive instrument or not. Connecting to groove and time while we sing can elevate a vocal performance and unites us with the music and the musicians we are playing with. In her live shows she almost always plays percussion to accompany her songs.",
+    featuresTitle: "What you'll explore in the workshops:",
     features: [
       "Learning and playing a variety of grooves and styles",
       "Moving in time while singing and playing",
-      "Understanding and feeling different types of 'swing' and rhythmic subdivisions",
-      "Making the most of handheld percussion (and household objects!) to accompany your songs",
-      "Trying out songs from your own repertoire within the group"
+      "Understanding and feeling different types of 'swing' and subdivisions",
+      "Making the most of handheld percussion to accompany your songs",
+      "Trying out songs from your own repertoire in the group"
     ],
     ctaText: "Inquire Dates / Book Class",
     ctaLink: "#contact",
     youtubeText: "Watch YouTube Tutorials",
     youtubeLink: "https://www.youtube.com/@PercussionforSingers",
     image: "FOTOS WEBSITE/Percussion for Singers/DSC02010.JPG",
-    featured: true
+    theme: "terracotta"
   },
   {
     id: "voice-1to1",
-    badge: "Online & In Person (International)",
-    title: "Voice Lessons 1:1 (Private Coaching)",
-    subtitle: "Tailored one-on-one mentorship for all levels",
-    desc: "No two journeys are the same for any singer, we all have specific needs and interests, different goals and different abilities. Mishka works with singers of all levels, from helping beginners find their voice, musicians who want to start singing, to professional singers looking for coaching and accompaniment in their career.",
+    badge: "In Person & Online Worldwide",
+    title: "Voice Lessons 1:1",
+    subtitle: "Private coaching & mentorship",
+    summary: "Tailored one-on-one vocal technique and mentorship for all levels (beginner to professional), focusing on vocal freedom, rhythm, and artistic identity.",
+    desc: "No two journeys are the same for any singer: we all have specific needs, goals and abilities. Mishka works with singers of all levels, from helping beginners find their voice, to instrumentalists who want to start singing, to professional vocalists looking for advanced technique and artistic coaching.",
     featuresTitle: "Personalized focus areas:",
     features: [
       "Vocal technique & vocal health",
@@ -295,28 +300,30 @@ const teachingCardsEN = [
     ],
     ctaText: "Book a 1:1 Lesson",
     ctaLink: "#contact",
-    image: "FOTOS WEBSITE/Berlin/36 (1 of 1).jpg",
-    featured: false
+    image: "FOTOS WEBSITE/Berlin/6 (1 of 1).jpg",
+    theme: "warm-dark"
   },
   {
     id: "ensembles",
     badge: "In-Person in Buenos Aires",
-    title: "Vocal Ensembles (Rayuela & Agronomía Canta)",
-    subtitle: "Female vocal ensembles & community in Agronomía, Buenos Aires",
-    desc: "Mishka currently runs two female vocal ensembles from her home in Agronomía, Buenos Aires – Ensamble Rayuela (Intermediate/advanced) and Agronomía Canta (beginner/intermediate). Both ensembles sing a wide variety of styles and in different languages, with arrangements tailor-made for each group by Mishka. The repertoire includes Brazilian music, Argentinian folklore, gospel, folk, Uruguayan candombe, Eastern European folk songs and much more. There is a strong sense of community in each ensemble and the bonds formed between the members are as important as the music they make together. The ensembles regularly join together for concerts and also come together with other groups to sing together and share songs and performances.",
+    title: "Vocal Ensembles",
+    subtitle: "Rayuela & Agronomía Canta",
+    summary: "Two female vocal ensembles in Agronomía, Buenos Aires, singing custom vocal arrangements in Brazilian music, Argentine folk, and world polyphony.",
+    desc: "Mishka currently runs two female vocal ensembles from her home in Agronomía, Buenos Aires – Ensamble Rayuela and Agronomía Canta. Both ensembles sing a wide variety of styles with tailor-made arrangements by Mishka. There is a strong sense of community and regular concerts and joint performances.",
     featuresTitle: "Ensemble features:",
     features: [
       "Tailor-made vocal arrangements crafted by Mishka",
-      "Rich repertoire: Brazilian, Argentine folk, gospel, candombe, Eastern Europe",
+      "Rich repertoire: Brazilian, Argentine folk, candombe, Eastern European folk",
       "Vocal blending, group dynamics and ear training",
-      "Regular concerts and collaborative performances"
+      "Regular concerts and community gatherings"
     ],
-    ctaText: "Send a Message for Ensembles",
+    ctaText: "Inquire for Ensembles",
     ctaLink: "#contact",
-    image: "FOTOS WEBSITE/Berlin/6 (1 of 1).jpg",
-    featured: false
+    image: "FOTOS WEBSITE/Percussion for Singers/DSC02056.JPG",
+    theme: "sand"
   }
 ];
+
 
 // Press Quotes Data for Carousel
 const pressQuotes = {
@@ -436,7 +443,7 @@ function setLanguage(lang) {
 }
 
 /**
- * Renders teaching cards dynamically according to language priorities
+ * Renders the 3 educational boxes dynamically with side-by-side photo/text layout and expandable ficha
  */
 function renderTeachingCards(lang) {
   const container = document.getElementById('teaching-cards-container');
@@ -444,53 +451,187 @@ function renderTeachingCards(lang) {
 
   const cards = (lang === 'en') ? teachingCardsEN : teachingCardsES;
 
-  container.innerHTML = cards.map(card => `
-    <article class="teaching-card ${card.featured ? 'featured-card' : ''}" id="course-${card.id}">
-      <div class="teaching-card-content">
-        <div class="card-headline-group">
-          <span class="teaching-badge">${card.badge}</span>
-          <h3 class="teaching-title">${card.title}</h3>
-          <p class="card-meta font-serif" style="font-size: 1.15rem; color: var(--text-secondary); margin-top: 0.35rem;">
-            ${card.subtitle}
-          </p>
+  container.innerHTML = cards.map((card, index) => `
+    <article class="edu-card theme-${card.theme}" id="course-${card.id}">
+      <div class="edu-card-grid">
+        
+        <!-- Photo Container Alongside -->
+        <div class="edu-card-media">
+          <img src="${card.image}" alt="${card.title}" loading="lazy" class="edu-card-img" />
         </div>
 
-        <p class="teaching-desc">${card.desc}</p>
+        <!-- Content & Summary Alongside -->
+        <div class="edu-card-content">
+          <div class="edu-card-header">
+            <span class="edu-card-badge">${card.badge}</span>
+            <h3 class="edu-card-title">${card.title}</h3>
+            <p class="edu-card-subtitle font-serif">${card.subtitle}</p>
+          </div>
 
-        <h4 class="teaching-features-title">${card.featuresTitle}</h4>
-        <ul class="feature-list">
-          ${card.features.map(f => `
-            <li class="feature-item">
-              <span class="feature-bullet">✦</span>
-              <span>${f}</span>
-            </li>
-          `).join('')}
-        </ul>
+          <p class="edu-card-summary">${card.summary}</p>
 
-        <div class="teaching-actions">
-          <a href="${card.ctaLink}" class="btn btn-primary">
-            <span>${card.ctaText}</span>
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </a>
-          ${card.youtubeLink ? `
-            <a href="${card.youtubeLink}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="color: #FF0000;">
-                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          <div class="edu-card-trigger-wrap">
+            <button 
+              type="button"
+              class="edu-toggle-btn" 
+              id="btn-toggle-${card.id}" 
+              aria-expanded="false" 
+              aria-controls="drawer-${card.id}"
+              onclick="toggleEduDetails('${card.id}')"
+            >
+              <span class="btn-text-open">${lang === 'es' ? 'Ver ficha completa' : 'Discover details'}</span>
+              <span class="btn-text-close">${lang === 'es' ? 'Ocultar ficha' : 'Close details'}</span>
+              <svg class="toggle-icon" viewBox="0 0 24 24" width="16" height="16">
+                <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              <span>${card.youtubeText}</span>
-            </a>
-          ` : ''}
+            </button>
+          </div>
         </div>
+
       </div>
 
-      <div class="teaching-media-frame">
-        <img src="${card.image}" alt="${card.title}" loading="lazy" />
+      <!-- Expandable Ficha Drawer -->
+      <div class="edu-card-drawer" id="drawer-${card.id}" aria-hidden="true">
+        <div class="edu-drawer-content">
+          
+          <div class="edu-drawer-narrative">
+            <p>${card.desc}</p>
+          </div>
+
+          <div class="edu-drawer-features-block">
+            <h4 class="edu-drawer-features-title">${card.featuresTitle}</h4>
+            <ul class="edu-features-list">
+              ${card.features.map(f => `
+                <li class="edu-feature-item">
+                  <span class="feature-bullet">✦</span>
+                  <span>${f}</span>
+                </li>
+              `).join('')}
+            </ul>
+          </div>
+
+          <div class="edu-drawer-actions">
+            <a href="${card.ctaLink}" class="btn btn-primary">
+              <span>${card.ctaText}</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            ${card.youtubeLink ? `
+              <a href="${card.youtubeLink}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary youtube-btn">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="color: #E63946;">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                <span>${card.youtubeText}</span>
+              </a>
+            ` : ''}
+          </div>
+
+        </div>
       </div>
     </article>
   `).join('');
+
+  // Initialize Slider Controller
+  setTimeout(initEduSlider, 50);
 }
+
+/**
+ * Slide Carousel Controller for Educational Cards
+ */
+function initEduSlider() {
+  const track = document.getElementById('teaching-cards-container');
+  const prevBtn = document.getElementById('edu-slide-prev');
+  const nextBtn = document.getElementById('edu-slide-next');
+  const dotsContainer = document.getElementById('edu-dots');
+
+  if (!track) return;
+
+  const cards = track.querySelectorAll('.edu-card');
+  if (!cards.length) return;
+
+  // Render Dots
+  if (dotsContainer) {
+    dotsContainer.innerHTML = Array.from(cards).map((_, idx) => `
+      <button class="edu-dot ${idx === 0 ? 'active' : ''}" data-index="${idx}" aria-label="Tarjeta ${idx + 1}"></button>
+    `).join('');
+
+    dotsContainer.querySelectorAll('.edu-dot').forEach(dot => {
+      dot.addEventListener('click', (e) => {
+        const idx = parseInt(e.currentTarget.getAttribute('data-index'), 10);
+        const targetCard = cards[idx];
+        if (targetCard) {
+          track.scrollTo({
+            left: targetCard.offsetLeft - track.offsetLeft,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  }
+
+  // Arrow Navigation
+  if (prevBtn) {
+    prevBtn.onclick = () => {
+      const cardWidth = cards[0] ? cards[0].offsetWidth + 24 : 360;
+      track.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+    };
+  }
+
+  if (nextBtn) {
+    nextBtn.onclick = () => {
+      const cardWidth = cards[0] ? cards[0].offsetWidth + 24 : 360;
+      track.scrollBy({ left: cardWidth, behavior: 'smooth' });
+    };
+  }
+
+  // Update dots on scroll
+  track.onscroll = () => {
+    const scrollLeft = track.scrollLeft;
+    let closestIndex = 0;
+    let minDiff = Infinity;
+
+    cards.forEach((card, idx) => {
+      const diff = Math.abs((card.offsetLeft - track.offsetLeft) - scrollLeft);
+      if (diff < minDiff) {
+        minDiff = diff;
+        closestIndex = idx;
+      }
+    });
+
+    if (dotsContainer) {
+      dotsContainer.querySelectorAll('.edu-dot').forEach((dot, idx) => {
+        dot.classList.toggle('active', idx === closestIndex);
+      });
+    }
+  };
+}
+
+/**
+ * Toggle Expandable Educational Drawer
+ */
+window.toggleEduDetails = function(courseId) {
+  const card = document.getElementById(`course-${courseId}`);
+  const drawer = document.getElementById(`drawer-${courseId}`);
+  const btn = document.getElementById(`btn-toggle-${courseId}`);
+
+  if (!card || !drawer) return;
+
+  const isExpanded = card.classList.contains('is-expanded');
+
+  if (isExpanded) {
+    card.classList.remove('is-expanded');
+    drawer.style.maxHeight = '0px';
+    drawer.setAttribute('aria-hidden', 'true');
+    if (btn) btn.setAttribute('aria-expanded', 'false');
+  } else {
+    card.classList.add('is-expanded');
+    drawer.style.maxHeight = drawer.scrollHeight + 60 + 'px';
+    drawer.setAttribute('aria-hidden', 'false');
+    if (btn) btn.setAttribute('aria-expanded', 'true');
+  }
+};
+
 
 // --------------------------------------------------------------------------
 // 5. PRESS CAROUSEL (SLIDER) CONTROLLER
