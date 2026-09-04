@@ -75,9 +75,11 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
 }
+
 
 body {
   background-color: var(--bg-canvas);
@@ -118,9 +120,23 @@ ul, ol {
   color: var(--text-primary);
 }
 
+/* Vertical Scroll Snap Section Targets */
+.hero-section,
+.section-teaching,
+.section-music,
+.section-bio,
+.section-press,
+.section-newsletter,
+.section-contact,
+.site-footer {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
 /* --------------------------------------------------------------------------
    3. TYPOGRAPHY UTILITIES
    -------------------------------------------------------------------------- */
+
 h1, h2, h3, h4 {
   font-family: var(--font-display);
   font-weight: 600;
@@ -210,16 +226,18 @@ h1, h2, h3, h4 {
   z-index: 1000;
   background-color: transparent;
   border: none;
-  transition: background-color var(--transition-medium), height var(--transition-medium), backdrop-filter var(--transition-medium);
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+  transition: transform var(--transition-medium), opacity var(--transition-medium);
 }
 
-.site-header.scrolled {
-  background-color: rgba(12, 12, 14, 0.88);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  height: 74px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+.site-header.header-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
 }
+
 
 .header-container {
   width: 100%;
@@ -504,13 +522,19 @@ h1, h2, h3, h4 {
    7. TEACHING & WORKSHOPS SECTION (Horizontal Slide Carousel)
    -------------------------------------------------------------------------- */
 .section-teaching {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: clamp(2.5rem, 5vh, 4rem);
+  padding-bottom: clamp(2.5rem, 5vh, 4rem);
   background-color: var(--bg-canvas);
   border-top: 1px solid var(--border-subtle);
   border-bottom: 1px solid var(--border-subtle);
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .teaching-header-flex {
@@ -518,8 +542,9 @@ h1, h2, h3, h4 {
   justify-content: space-between;
   align-items: flex-end;
   gap: 2rem;
-  margin-bottom: clamp(2rem, 4vw, 3rem);
+  margin-bottom: clamp(1.5rem, 3vh, 2.5rem);
 }
+
 
 .teaching-header-flex .section-header {
   margin-bottom: 0;
@@ -591,6 +616,7 @@ h1, h2, h3, h4 {
 
 .edu-slider-track {
   display: flex;
+  align-items: flex-start;
   gap: clamp(1.5rem, 3vw, 2.5rem);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -608,6 +634,7 @@ h1, h2, h3, h4 {
 .edu-card {
   flex: 0 0 clamp(320px, 86vw, 760px);
   scroll-snap-align: start;
+  align-self: flex-start;
   background-color: var(--bg-surface);
   border: 1px solid var(--border-medium);
   border-radius: var(--radius-lg);
@@ -615,6 +642,7 @@ h1, h2, h3, h4 {
   box-shadow: var(--shadow-sm);
   transition: box-shadow var(--transition-medium), border-color var(--transition-medium);
 }
+
 
 .edu-card:hover {
   box-shadow: var(--shadow-md);
@@ -704,109 +732,49 @@ h1, h2, h3, h4 {
   margin-bottom: 1.25rem;
 }
 
-/* Interactive Outline Trigger Button */
-.edu-card-trigger-wrap {
-  margin-top: auto;
-}
-
-.edu-toggle-btn {
-  background: transparent;
-  border: 1.5px solid var(--text-primary);
-  color: var(--text-primary);
-  border-radius: var(--radius-pill);
-  padding: 0.5rem 1.25rem;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: all var(--transition-fast);
-  line-height: 1;
-}
-
-.edu-toggle-btn .btn-text-close {
-  display: none;
-}
-
-.edu-toggle-btn .btn-text-open {
-  display: inline;
-}
-
-.edu-toggle-btn .toggle-icon {
-  transition: transform var(--transition-fast);
-}
-
-.edu-toggle-btn:hover {
-  background-color: var(--text-primary);
-  color: var(--text-on-dark);
-}
-
-.edu-card.is-expanded .edu-toggle-btn {
-  background-color: var(--text-primary);
-  color: var(--text-on-dark);
-}
-
-.edu-card.is-expanded .edu-toggle-btn .btn-text-open {
-  display: none;
-}
-
-.edu-card.is-expanded .edu-toggle-btn .btn-text-close {
-  display: inline;
-}
-
-.edu-card.is-expanded .edu-toggle-btn .toggle-icon {
-  transform: rotate(180deg);
-}
-
-/* Expandable Ficha Drawer (Accordion) */
-.edu-card-drawer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+/* Integrated Full Ficha / Details (Always Visible) */
+.edu-card-details {
   background-color: var(--bg-canvas-alt);
-  border-top: 0px solid transparent;
-}
-
-.edu-card.is-expanded .edu-card-drawer {
   border-top: 1px solid var(--border-subtle);
+  padding: clamp(1.25rem, 3vw, 2.25rem);
 }
 
-.edu-drawer-content {
-  padding: clamp(1.5rem, 3.5vw, 2.75rem);
+.edu-details-inner {
   display: flex;
   flex-direction: column;
-  gap: 1.75rem;
+  gap: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.edu-drawer-narrative p {
-  font-size: 1rem;
+.edu-details-desc {
+  font-size: clamp(0.875rem, 1.1vw, 0.975rem);
   color: var(--text-secondary);
-  line-height: 1.7;
+  line-height: 1.65;
 }
 
-.edu-drawer-features-title {
-  font-size: 0.875rem;
+.edu-features-heading {
+  font-size: 0.8125rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-primary);
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.65rem;
 }
 
 .edu-features-list {
   display: flex;
   flex-direction: column;
-  gap: 0.65rem;
+  gap: 0.5rem;
 }
 
 .edu-feature-item {
   display: flex;
   align-items: flex-start;
   gap: 0.65rem;
-  font-size: 0.9375rem;
+  font-size: clamp(0.825rem, 1.05vw, 0.9rem);
   color: var(--text-secondary);
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
 .edu-feature-item .feature-bullet {
@@ -815,12 +783,12 @@ h1, h2, h3, h4 {
   line-height: 1.2;
 }
 
-.edu-drawer-actions {
+.edu-card-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.85rem;
   align-items: center;
-  padding-top: 0.5rem;
+  padding-top: 0.35rem;
 }
 
 .youtube-btn {
@@ -829,20 +797,28 @@ h1, h2, h3, h4 {
   gap: 0.5rem;
 }
 
+
 /* --------------------------------------------------------------------------
    8. MUSIC & DISCOGRAPHY SECTION
    -------------------------------------------------------------------------- */
 
 .section-music {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: clamp(2.5rem, 5vh, 4.5rem);
+  padding-bottom: clamp(2.5rem, 5vh, 4.5rem);
   background-color: var(--bg-canvas);
   position: relative;
+  box-sizing: border-box;
 }
 
 .section-header {
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.5rem;
 }
+
 
 .music-grid {
   display: grid;
@@ -1528,9 +1504,15 @@ h1, h2, h3, h4 {
   }
 
   /* Educational Modular Slide Carousel in Mobile */
+  .section-teaching {
+    min-height: auto;
+    padding-top: clamp(2rem, 4vh, 3rem);
+    padding-bottom: clamp(2.5rem, 4vh, 3.5rem);
+  }
+
   .teaching-header-flex {
     display: block;
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.25rem;
   }
 
   .edu-slider-arrows {
@@ -1546,52 +1528,72 @@ h1, h2, h3, h4 {
     min-width: 290px;
   }
 
-
   .edu-card-grid {
-    grid-template-columns: 135px 1fr;
-    gap: 1.15rem;
+    grid-template-columns: 120px 1fr;
+    gap: 1rem;
     padding: 1.15rem;
-    align-items: start;
+    align-items: center;
   }
 
   .edu-card-media {
-    min-height: 140px;
+    min-height: 135px;
     height: 100%;
     aspect-ratio: 1/1;
   }
 
-
   .edu-card-badge {
     font-size: 0.6875rem;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.2rem;
   }
 
   .edu-card-title {
-    font-size: 1.15rem;
+    font-size: 1.18rem;
     line-height: 1.2;
     margin-bottom: 0.2rem;
   }
 
   .edu-card-subtitle {
-    font-size: 0.8125rem;
-    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.35rem;
   }
 
   .edu-card-summary {
-    font-size: 0.8125rem;
+    font-size: 0.8rem;
     line-height: 1.45;
-    margin-bottom: 0.75rem;
   }
 
-  .edu-toggle-btn {
-    padding: 0.4rem 0.95rem;
-    font-size: 0.75rem;
+  .edu-card-details {
+    padding: 1.15rem;
   }
 
-  .edu-drawer-content {
-    padding: 1.25rem;
-    gap: 1.25rem;
+  .edu-details-desc {
+    font-size: 0.825rem;
+    line-height: 1.5;
   }
+
+  .edu-features-heading {
+    font-size: 0.775rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .edu-feature-item {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .edu-card-actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.6rem;
+  }
+
+  .edu-card-actions .btn {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 0.85rem;
+    justify-content: center;
+  }
+
 
   .newsletter-form {
     flex-direction: column;

@@ -443,7 +443,7 @@ function setLanguage(lang) {
 }
 
 /**
- * Renders the 3 educational boxes dynamically with side-by-side photo/text layout and expandable ficha
+ * Renders the 3 educational boxes dynamically with fully visible content filling the viewport
  */
 function renderTeachingCards(lang) {
   const container = document.getElementById('teaching-cards-container');
@@ -453,53 +453,30 @@ function renderTeachingCards(lang) {
 
   container.innerHTML = cards.map((card, index) => `
     <article class="edu-card theme-${card.theme}" id="course-${card.id}">
+      
+      <!-- Top Grid: Photo and Title/Category Alongside -->
       <div class="edu-card-grid">
-        
-        <!-- Photo Container Alongside -->
         <div class="edu-card-media">
           <img src="${card.image}" alt="${card.title}" loading="lazy" class="edu-card-img" />
         </div>
 
-        <!-- Content & Summary Alongside -->
         <div class="edu-card-content">
           <div class="edu-card-header">
             <span class="edu-card-badge">${card.badge}</span>
             <h3 class="edu-card-title">${card.title}</h3>
             <p class="edu-card-subtitle font-serif">${card.subtitle}</p>
           </div>
-
           <p class="edu-card-summary">${card.summary}</p>
-
-          <div class="edu-card-trigger-wrap">
-            <button 
-              type="button"
-              class="edu-toggle-btn" 
-              id="btn-toggle-${card.id}" 
-              aria-expanded="false" 
-              aria-controls="drawer-${card.id}"
-              onclick="toggleEduDetails('${card.id}')"
-            >
-              <span class="btn-text-open">${lang === 'es' ? 'Ver ficha completa' : 'Discover details'}</span>
-              <span class="btn-text-close">${lang === 'es' ? 'Ocultar ficha' : 'Close details'}</span>
-              <svg class="toggle-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </button>
-          </div>
         </div>
-
       </div>
 
-      <!-- Expandable Ficha Drawer -->
-      <div class="edu-card-drawer" id="drawer-${card.id}" aria-hidden="true">
-        <div class="edu-drawer-content">
-          
-          <div class="edu-drawer-narrative">
-            <p>${card.desc}</p>
-          </div>
+      <!-- Integrated Full Ficha / Details (Always Visible) -->
+      <div class="edu-card-details">
+        <div class="edu-details-inner">
+          <p class="edu-details-desc">${card.desc}</p>
 
-          <div class="edu-drawer-features-block">
-            <h4 class="edu-drawer-features-title">${card.featuresTitle}</h4>
+          <div class="edu-features-block">
+            <h4 class="edu-features-heading">${card.featuresTitle}</h4>
             <ul class="edu-features-list">
               ${card.features.map(f => `
                 <li class="edu-feature-item">
@@ -510,7 +487,7 @@ function renderTeachingCards(lang) {
             </ul>
           </div>
 
-          <div class="edu-drawer-actions">
+          <div class="edu-card-actions">
             <a href="${card.ctaLink}" class="btn btn-primary">
               <span>${card.ctaText}</span>
               <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
@@ -526,15 +503,16 @@ function renderTeachingCards(lang) {
               </a>
             ` : ''}
           </div>
-
         </div>
       </div>
+
     </article>
   `).join('');
 
   // Initialize Slider Controller
   setTimeout(initEduSlider, 50);
 }
+
 
 /**
  * Slide Carousel Controller for Educational Cards
@@ -715,16 +693,32 @@ function startAutoSlide(total) {
 // --------------------------------------------------------------------------
 function initHeaderScroll() {
   const header = document.querySelector('.site-header');
+  const hero = document.getElementById('hero');
   if (!header) return;
 
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 40) {
-      header.classList.add('scrolled');
-    } else {
-      header.classList.remove('scrolled');
+  function updateHeaderVisibility() {
+    // Only show navbar when user is within the Hero section
+    const heroHeight = hero ? hero.offsetHeight : window.innerHeight;
+    const threshold = heroHeight * 0.4;
+
+    // Do not hide if mobile menu drawer is currently open
+    const isMenuOpen = document.querySelector('.nav-menu')?.classList.contains('open');
+    if (isMenuOpen) {
+      header.classList.remove('header-hidden');
+      return;
     }
-  });
+
+    if (window.scrollY > threshold) {
+      header.classList.add('header-hidden');
+    } else {
+      header.classList.remove('header-hidden');
+    }
+  }
+
+  window.addEventListener('scroll', updateHeaderVisibility, { passive: true });
+  updateHeaderVisibility();
 }
+
 
 function initMobileMenu() {
   const toggle = document.querySelector('.mobile-toggle');
