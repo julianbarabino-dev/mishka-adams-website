@@ -35,6 +35,10 @@ const i18nData = {
     teachingSubtitle: "20 años de experiencia pedagógica guiando a cantantes, músicos y grupos vocales en el descubrimiento del ritmo, la afinación y el cuerpo.",
     teachingQuote: "“Conectar con el groove y el tiempo mientras cantamos eleva la interpretación vocal y nos une orgánicamente con la música y los músicos con quienes compartimos.”",
     teachingQuoteAuthor: "— Mishka Adams",
+    teachingTeaserTag: "Pedagogía Vocal, Ritmo & Ensambles",
+    teachingTeaserTitle: "Propuesta Educativa",
+    teachingTeaserText: "20 años de experiencia pedagógica guiando a cantantes, músicos y grupos vocales en el descubrimiento del ritmo, la afinación y el cuerpo. Talleres de Percussion for Singers, Ensambles Vocales (Rayuela y Agronomía Canta) y clases particulares individuales.",
+    teachingTeaserBtn: "Explorar Clases & Talleres",
 
     // Bio & Discography Section
     bioHeroTitle: "Trayectoria & Raíces",
@@ -138,6 +142,10 @@ const i18nData = {
     teachingSubtitle: "20 years of pedagogical experience guiding singers, musicians and vocal ensembles in unlocking rhythm, groove, vocal technique and the body.",
     teachingQuote: "“Connecting to groove and time while we sing can elevate a vocal performance and unites us with the music and the musicians we are playing with.”",
     teachingQuoteAuthor: "— Mishka Adams",
+    teachingTeaserTag: "Vocal Pedagogy, Rhythm & Ensembles",
+    teachingTeaserTitle: "Teaching & Workshops",
+    teachingTeaserText: "20 years of pedagogical experience guiding singers, musicians and vocal ensembles in unlocking rhythm, groove, vocal technique and the body. Workshops in Percussion for Singers, Vocal Ensembles and 1-on-1 private lessons.",
+    teachingTeaserBtn: "Explore Teaching & Workshops",
 
     // Bio & Discography Section
     bioHeroTitle: "JOURNEY & ROOTS",
