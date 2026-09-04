@@ -25,6 +25,9 @@ const i18nData = {
     heroTagline: "Cantante, multiinstrumentista, compositora y pedagoga vocal radicada en Buenos Aires. Explorando el universo rítmico del jazz, la bossa nova y la música latinoamericana.",
     heroCtaTeaching: "Clases & Talleres",
     heroCtaMusic: "Trayectoria & Discografía",
+    heroCtaTag: "Vocal Coach & Pedagogía Vocal",
+    heroCtaTitle: "Explorá tu voz, el ritmo y el cuerpo",
+    heroCtaBtn: "Sumate a los Talleres",
 
     // Teaching Section (Positioned 1st after Hero)
     teachingTag: "Pedagogía Vocal & Ritmo",
@@ -57,6 +60,8 @@ const i18nData = {
     duoDesc: "Un diálogo acústico virtuoso junto al reconocido cantante y guitarrista Beto Caletti, recorriendo las ricas tradiciones rítmicas de Brasil, Argentina y Uruguay.",
 
     // Press & Home Quotes (Janis Joplin Bold Typographic Aesthetic)
+    homeQuoteBioText: "LA VOZ DE MISHKA ADAMS ES HOY UN INSTRUMENTO CAUTIVADOR: LIVIANO, SUAVE Y SUTIL.",
+    homeQuoteBioAuthor: "SEBASTIAN SCOTNEY · UK JAZZ NEWS",
     homeQuoteText: "UNE LA MÚSICA ARGENTINA Y BRASILEÑA CON LA IMPRONTA PERSONAL DE UNA CANTAUTORA Y UNA MUSICALIDAD SUBLIME.",
     homeQuoteAuthor: "ALISON BENTLEY · LONDON JAZZ NEWS",
     bioOpeningQuoteText: "REFRESCANTEMENTE SIN PRETENSIONES Y SENCILLAMENTE TALENTOSA.",
@@ -123,6 +128,9 @@ const i18nData = {
     heroTagline: "Singer, multi-instrumentalist, songwriter and vocal pedagogue based in Buenos Aires. Exploring the rhythmic universe of jazz, bossa nova and Latin American music.",
     heroCtaTeaching: "Workshops & Classes",
     heroCtaMusic: "Journey & Discography",
+    heroCtaTag: "Vocal Coach & Vocal Pedagogy",
+    heroCtaTitle: "Unlock your voice, rhythm & body",
+    heroCtaBtn: "Join the Workshops",
 
     // Teaching Section
     teachingTag: "Vocal Pedagogy & Rhythm",
@@ -155,6 +163,8 @@ const i18nData = {
     duoDesc: "A virtuosic acoustic dialogue with renowned singer and guitarist Beto Caletti, celebrating the rich musical traditions of Brazil, Argentina and Uruguay.",
 
     // Press & Home Quotes (Janis Joplin Bold Typographic Aesthetic)
+    homeQuoteBioText: "MISHKA ADAMS' VOICE RIGHT NOW IS AN APPEALING LIGHT, SOFT, GENTLE INSTRUMENT.",
+    homeQuoteBioAuthor: "SEBASTIAN SCOTNEY · UK JAZZ NEWS",
     homeQuoteText: "BRINGING TOGETHER ARGENTINIAN AND BRAZILIAN MUSIC WITH A SINGER-SONGWRITER’S PERSONAL TOUCH AND SUPERB MUSICIANSHIP.",
     homeQuoteAuthor: "ALISON BENTLEY · LONDON JAZZ NEWS",
     bioOpeningQuoteText: "REFRESHINGLY UNPRETENTIOUS AND JUST PLAIN TALENTED.",

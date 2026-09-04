@@ -8,21 +8,21 @@
    1. DESIGN TOKENS & CSS VARIABLES
    -------------------------------------------------------------------------- */
 :root {
-  /* Color Palette: Warm Organic Canvas & Editorial Tones */
-  --bg-canvas: #FAF8F5;
-  --bg-canvas-alt: #F4EFEA;
+  /* Color Palette: Clean Editorial White Canvas (Matching Bio Page) */
+  --bg-canvas: #FFFFFF;
+  --bg-canvas-alt: #FFFFFF;
   --bg-surface: #FFFFFF;
   --bg-surface-elevated: #FFFFFF;
   --bg-card: #FFFFFF;
-  --bg-card-hover: #FCFAF8;
-  --bg-overlay: rgba(31, 29, 26, 0.4);
+  --bg-card-hover: #F8F8F8;
+  --bg-overlay: rgba(18, 18, 18, 0.4);
 
   /* Typography Colors */
-  --text-primary: #1F1D1A;
-  --text-secondary: #5C564E;
-  --text-muted: #8C847A;
-  --text-on-dark: #FAF8F5;
-  --text-on-dark-muted: #D1CAC0;
+  --text-primary: #121212;
+  --text-secondary: #4A4A4A;
+  --text-muted: #767676;
+  --text-on-dark: #FFFFFF;
+  --text-on-dark-muted: #C8C8C8;
 
   /* Accent Tones */
   --accent-rose: #C2657E;
@@ -33,15 +33,15 @@
   --accent-gold-soft: rgba(184, 142, 82, 0.12);
 
   /* Borders & Lines */
-  --border-subtle: #EDE7DD;
-  --border-medium: #DDD5C7;
+  --border-subtle: #EAEAEA;
+  --border-medium: #DDDDDD;
   --border-focus: #C2657E;
 
   /* Shadows */
-  --shadow-sm: 0 2px 8px rgba(31, 29, 26, 0.04);
-  --shadow-md: 0 8px 24px rgba(31, 29, 26, 0.06);
-  --shadow-lg: 0 16px 40px rgba(31, 29, 26, 0.08);
-  --shadow-card: 0 4px 20px rgba(31, 29, 26, 0.05);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.08);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.04);
 
   /* Typography Stacks (Karla Full-Site Standard) */
   --font-primary: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -476,6 +476,63 @@ h1, h2, h3, h4, h5, h6 {
     linear-gradient(to top, rgba(12, 12, 14, 0.95) 0%, rgba(12, 12, 14, 0.1) 40%, rgba(12, 12, 14, 0.4) 100%);
 }
 
+/* Editorial Hero Call to Action (Floating Minimalist CTA — No Box) */
+.hero-cta-box {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: clamp(1.25rem, 2.5vh, 2rem);
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.hero-cta-tag {
+  display: inline-block;
+  font-family: var(--font-karla);
+  font-size: clamp(0.75rem, 0.9vw, 0.85rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 0.75rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 2.25rem;
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #FFFFFF;
+  font-family: var(--font-karla);
+  font-size: clamp(0.82rem, 0.9vw, 0.92rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  border-radius: 2px;
+  border: 1.5px solid rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+.hero-cta-btn:hover {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #121212;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55);
+}
+
 /* Centered Bottom Scroll Down Indicator (Refined SVG Arrow Button) */
 .hero-scroll-btn {
   position: relative;
@@ -592,8 +649,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: clamp(2.5rem, 5vh, 4rem);
   padding-bottom: clamp(2.5rem, 5vh, 4rem);
   background-color: var(--bg-canvas);
-  border-top: 1px solid var(--border-subtle);
-  border-bottom: 1px solid var(--border-subtle);
+  border-top: none;
+  border-bottom: none;
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
@@ -990,9 +1047,9 @@ h1, h2, h3, h4, h5, h6 {
    -------------------------------------------------------------------------- */
 .section-bio-teaser {
   padding: 0;
-  background-color: var(--bg-canvas-alt);
-  border-top: 1px solid var(--border-subtle);
-  border-bottom: 1px solid var(--border-subtle);
+  background-color: #FFFFFF;
+  border-top: none;
+  border-bottom: none;
   overflow: hidden;
   position: relative;
 }
@@ -1032,7 +1089,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: flex-start;
   padding: clamp(3rem, 6vw, 6.5rem) clamp(2.5rem, 5.5vw, 5.5rem);
-  background-color: var(--bg-canvas-alt);
+  background-color: #FFFFFF;
 }
 
 .bio-split-inner {
@@ -1274,6 +1331,33 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
 }
 
+/* Home Page Inverted Full-Width Editorial Review Strips */
+.home-press-minimal {
+  background-color: var(--text-primary);
+  color: var(--text-on-dark);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: clamp(4rem, 6.5vw, 5.5rem) 1.5rem;
+  border: none;
+}
+
+.home-press-minimal .bio-quote-statement {
+  max-width: 860px;
+}
+
+.home-press-minimal .bio-quote-text {
+  color: #FFFFFF;
+}
+
+.home-press-minimal .bio-quote-glyph {
+  color: var(--accent-terracotta);
+}
+
+.home-press-minimal .bio-quote-author {
+  color: var(--accent-terracotta);
+  opacity: 1;
+}
+
 /* --------------------------------------------------------------------------
    11. COMPACT FOOTER NEWSLETTER CARD
    -------------------------------------------------------------------------- */
@@ -1365,7 +1449,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: clamp(4.5rem, 8vw, 7.5rem);
   padding-bottom: clamp(5rem, 9vw, 8rem);
   background-color: var(--bg-canvas);
-  border-top: 1px solid var(--border-subtle);
+  border-top: none;
 }
 
 .contact-section-header {
