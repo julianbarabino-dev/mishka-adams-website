@@ -19,13 +19,13 @@ const i18nData = {
     navContact: "Contacto",
 
     // Hero
-    heroBadge: "Música & Docente Vocal",
+    heroBadge: "Cantante, Multiinstrumentista & Vocal Coach",
     heroTitlePrefix: "Mishka",
     heroTitleSuffix: "Adams",
     heroTagline: "Cantante, multiinstrumentista, compositora y pedagoga vocal radicada en Buenos Aires. Explorando el universo rítmico del jazz, la bossa nova y la música latinoamericana.",
     heroCtaTeaching: "Clases & Talleres",
     heroCtaMusic: "Trayectoria & Discografía",
-    heroCtaTag: "Vocal Coach & Pedagogía Vocal",
+    heroCtaTag: "Cantante, Multiinstrumentista & Vocal Coach",
     heroCtaTitle: "Explorá tu voz, el ritmo y el cuerpo",
     heroCtaBtn: "Sumate a los Talleres",
 
@@ -126,13 +126,13 @@ const i18nData = {
     navContact: "Contact",
 
     // Hero
-    heroBadge: "Musician & Vocal Coach",
+    heroBadge: "Singer, Multi-instrumentalist & Vocal Coach",
     heroTitlePrefix: "Mishka",
     heroTitleSuffix: "Adams",
     heroTagline: "Singer, multi-instrumentalist, songwriter and vocal pedagogue based in Buenos Aires. Exploring the rhythmic universe of jazz, bossa nova and Latin American music.",
     heroCtaTeaching: "Workshops & Classes",
     heroCtaMusic: "Journey & Discography",
-    heroCtaTag: "Vocal Coach & Vocal Pedagogy",
+    heroCtaTag: "Singer, Multi-instrumentalist & Vocal Coach",
     heroCtaTitle: "Unlock your voice, rhythm & body",
     heroCtaBtn: "Join the Workshops",
 
