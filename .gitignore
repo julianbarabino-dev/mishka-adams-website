@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor & OS files
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment & Logs
+*.log
+.env
+.env.local
+
+# Node (para futuras integraciones)
+node_modules/
+dist/
