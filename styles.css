@@ -43,13 +43,14 @@
   --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.08);
   --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.04);
 
-  /* Typography Stacks (Karla Full-Site Standard) */
-  --font-primary: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-sans: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-display: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-serif-subtle: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-karla: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-logo: 'Alex Brush', cursive, sans-serif;
+  /* Typography Stacks (Anek Latin Full-Site Unified Standard) */
+  --font-primary: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif-subtle: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-karla: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-anek: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-logo: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   /* Layout & Spacing */
   --container-max: 1240px;
@@ -89,6 +90,7 @@ body {
   color: var(--text-primary);
   font-family: var(--font-primary);
   font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
   line-height: 1.65;
   font-weight: 400;
   overflow-x: hidden;
@@ -276,11 +278,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .brand-name {
-  font-family: var(--font-logo);
-  font-size: clamp(2.4rem, 3.5vw, 3.2rem);
-  font-weight: 400;
+  font-family: var(--font-primary);
+  font-size: clamp(1.2rem, 1.8vw, 1.55rem);
+  font-weight: 700;
   color: #ffffff;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   text-shadow: 0 2px 14px rgba(0, 0, 0, 0.75);
   line-height: 1;
 }
@@ -1741,11 +1744,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .mobile-nav-logo .brand-name {
-    font-family: var(--font-logo);
-    font-size: clamp(2rem, 6vw, 2.5rem);
-    font-weight: 400;
+    font-family: var(--font-primary);
+    font-size: clamp(1.35rem, 5vw, 1.7rem);
+    font-weight: 700;
     color: #ffffff;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     text-shadow: none;
     line-height: 1;
     transition: color var(--transition-fast);
