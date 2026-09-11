@@ -22,7 +22,7 @@
   <!-- Google Fonts Preconnect & Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet" />
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
@@ -92,9 +92,12 @@
 
         <!-- Main Nav Links -->
         <div class="nav-links-wrap">
-          <a href="#bio" class="nav-link" data-i18n="navBio">Trayectoria & Discografía</a>
-          <a href="talleres.html" class="nav-link" data-i18n="navTeaching">Clases & Talleres</a>
-          <a href="#contact" class="nav-link" data-i18n="navContact">Contacto</a>
+          <a href="#bio" class="nav-link" data-i18n="navBio">Bio</a>
+          <a href="#discografia" class="nav-link" data-i18n="navDisco">Discografía</a>
+          <a href="talleres.html" class="nav-link" data-i18n="navTeaching">Talleres</a>
+          <a href="#videos" class="nav-link" data-i18n="navVideos">Videos</a>
+          <a href="#recitales" class="nav-link" data-i18n="navShows">Recitales</a>
+          <a href="contacto.html" class="nav-link" data-i18n="navContact">Contacto</a>
         </div>
 
         <!-- Mobile Drawer Footer: Socials & Credits (No Newsletter) -->
@@ -224,167 +227,491 @@
   <!-- =========================================================================
        1. EDITORIAL NARRATIVE & MULTIMEDIA STORY (Trayectoria & Discografía)
        ========================================================================= -->
-  <section class="section-bio-story" id="bio" style="padding-top: clamp(4rem, 7vw, 6.5rem); padding-bottom: clamp(4rem, 7vw, 6.5rem);">
-    <div class="container container-narrow">
-
-      <div class="bio-narrative-story">
+  <!-- =========================================================================
+       1. BIO STRIPE (Zócalo Editorial — No Title, Direct Hook & Placeholder)
+       ========================================================================= -->
+  <section class="bio-stripe-section" id="bio">
+    <div class="container">
+      <div class="bio-stripe-grid">
         
-        <!-- Section Tag & Title -->
-        <div style="text-align: center; margin-bottom: clamp(2rem, 4vw, 3rem);">
-          <span class="section-tag" data-i18n="bioTag">Trayectoria, Raíces & Discografía</span>
-          <h2 class="section-title" data-i18n="bioTitle" style="margin-top: 0.5rem;">Sobre Mishka Adams</h2>
+        <!-- Portrait Image -->
+        <div class="bio-stripe-media">
+          <img 
+            src="FOTOS WEBSITE/Berlin/6 (1 of 1).jpg" 
+            alt="Mishka Adams" 
+            class="bio-stripe-img" 
+            loading="lazy" 
+          />
         </div>
 
-        <!-- 1. Opening Lead Hook -->
-        <p class="lead" data-i18n="bioLead">
-          Mishka Adams es una galardonada cantante, multiinstrumentista, arregladora vocal y directora de ensambles vocales filipino-británica, radicada actualmente en Buenos Aires, Argentina. Participa en diversos proyectos que se nutren de los ritmos y estilos de Latinoamérica, principalmente de Brasil, Argentina y Uruguay. A su vez, se presenta como solista y cantautora, con influencias ligadas a sus raíces en el jazz y el folk. Hasta la fecha ha grabado 9 discos, y tiene un nuevo álbum y un EP en camino.
-        </p>
-
-        <!-- 2. Duo with Beto Caletti -->
-        <p data-i18n="bioP1_duo">
-          Entre sus proyectos colaborativos más recientes se destacan su dúo junto a su esposo Beto Caletti, reconocido cantante, guitarrista y compositor por su trayectoria en la música brasileña;
-        </p>
-
-        <!-- Spotify Player -->
-        <div class="bio-spotify-wrapper">
-          <iframe 
-            data-testid="embed-iframe" 
-            style="border-radius:12px" 
-            src="https://open.spotify.com/embed/album/0hYOZdnYE6uOcHZCHz37UT?utm_source=generator&si=dca9566634c24bab" 
-            width="100%" 
-            height="352" 
-            frameBorder="0" 
-            allowfullscreen="" 
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-            loading="lazy">
-          </iframe>
-        </div>
-
-        <!-- 3. Collaborative Projects -->
-        <p data-i18n="bioP1_collaborations">
-          Canciones Migrantes junto a Florencia Dávalos y Georgina Hassan, un trío vocal que reúne canciones sobre la inmigración de todo el mundo; Cantoras del Sur, un octeto vocal con percusión y acordeón; y Mujererío Voces y Cuerpo, un noneto a capela.
-        </p>
-
-        <div class="bio-spotify-wrapper">
-          <iframe 
-            data-testid="embed-iframe" 
-            style="border-radius:12px" 
-            src="https://open.spotify.com/embed/artist/3adnhhAqUsqmU3rOOBCPC1?utm_source=generator&si=c0168e578d4548fc" 
-            width="100%" 
-            height="352" 
-            frameBorder="0" 
-            allowfullscreen="" 
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-            loading="lazy">
-          </iframe>
-        </div>
-
-        <!-- 4. London Scene & Pete Churchill -->
-        <p data-i18n="bioP2">
-          En 2004, antes de radicarse en Buenos Aires, firmó un contrato discográfico de cuatro álbumes con Candid Records y en 2006 se mudó a Londres para estudiar jazz. Vivió allí durante muchos años, consolidando una fuerte presencia en la escena del jazz y la música brasileña a través de su proyecto solista y diversas colaboraciones. En 2007 cofundó el London Vocal Project junto a su amigo y maestro Pete Churchill, además de desempeñarse como cantante y percusionista en el reconocido grupo de samba Rhythms of the City.
-        </p>
-
-        <!-- 5. Solo Albums Artwork Diptych (1:1 Aspect Ratio) -->
-        <div class="bio-diptych">
-          <div class="bio-diptych-frame">
-            <img src="albumes/MishkaAdams_solista.png" alt="Mishka Adams — Álbum Solista" class="bio-diptych-img" loading="lazy" />
-          </div>
-          <div class="bio-diptych-frame">
-            <img src="albumes/MishkaAdams_solista_2.png" alt="Mishka Adams — Álbum Solista" class="bio-diptych-img" loading="lazy" />
+        <!-- Bio Content & Read More CTA -->
+        <div class="bio-stripe-content">
+          <p class="bio-stripe-lead" data-i18n="bioStripeLead">
+            Mishka Adams es una galardonada cantante, multiinstrumentista, arregladora vocal y directora de ensambles vocales filipino-británica, radicada actualmente en Buenos Aires, Argentina. Participa en diversos proyectos que se nutren de los ritmos y estilos de Latinoamérica, principalmente de Brasil, Argentina y Uruguay. A su vez, se presenta como solista y cantautora, con influencias ligadas a sus raíces en el jazz y el folk. Hasta la fecha ha grabado 9 discos, y tiene un nuevo álbum y un EP en camino.
+          </p>
+          <p class="bio-stripe-placeholder" data-i18n="bioStripePlaceholder">
+            Una propuesta artística donde conviven la soltura del jazz, las polifonías de raíz sudamericana y un profundo compromiso con la pedagogía vocal.
+          </p>
+          <div class="bio-stripe-actions">
+            <button type="button" class="btn btn-primary bio-expand-btn" id="bio-expand-btn" aria-expanded="false" aria-controls="bio-extended-drawer">
+              <span class="bio-btn-label" data-i18n="bioStripeBtn">Conocer más</span>
+              <svg class="bio-expand-chevron" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
           </div>
         </div>
 
-        <!-- 6. Review / Crítica Destacada (Estilo Bold Tipográfico) -->
-        <section class="bio-press-minimal" id="press" style="margin: clamp(2.5rem, 5vw, 4rem) 0;">
-          <div class="bio-quote-statement">
-            <span class="bio-quote-glyph start" aria-hidden="true">❝</span>
-            <blockquote class="bio-quote-text" data-i18n="pressQuoteMain">EL SUEÑO DE TODO COMPOSITOR: UNA COMPRENSIÓN PROFUNDA DEL TEXTO Y, SENCILLAMENTE, UNA DE LAS VOCES MÁS HERMOSAS QUE HE ESCUCHADO.</blockquote>
-            <span class="bio-quote-glyph end" aria-hidden="true">❞</span>
-          </div>
-          <div class="bio-quote-author" data-i18n="pressAuthorMain">
-            PETE CHURCHILL · ROYAL ACADEMY OF MUSIC, LONDRES
-          </div>
-        </section>
+      </div>
 
-        <!-- Bandcamp Player: Stories to Tell -->
-        <div class="bio-bandcamp-wrapper">
-          <iframe 
-            style="border: 0; width: 100%; height: 120px;" 
-            src="https://bandcamp.com/EmbeddedPlayer/album=976803219/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" 
-            seamless 
-            loading="lazy"
-            title="Stories to tell de Pete Churchill and Mishka Adams">
-            <a href="https://petechurchillandmishkaadams.bandcamp.com/album/stories-to-tell">Stories to tell de Pete Churchill and Mishka Adams</a>
-          </iframe>
+      <!-- Expandable In-Place Bio Drawer -->
+      <div class="bio-extended-drawer" id="bio-extended-drawer" aria-hidden="true">
+        <div class="bio-extended-wrapper">
+          <div class="bio-extended-inner" data-i18n-html="bioExtendedHtml">
+            <p>Nací en Filipinas, hija de una escultora filipina y de un empresario inglés (y poeta ocasional). Gracias al arte de mi madre, crecí rodeada por la comunidad bohemia de Manila. En el hogar familiar y en la galería de arte de mis padres había reuniones que se extendían hasta altas horas de la noche, y en las primeras horas de la madrugada siempre aparecía una guitarra. A los 12 años, mi madre me enseñó las canciones que solía cantar con su difunta hermana en los años sesenta —Joni Mitchell, James Taylor, Crosby, Stills &amp; Nash— y me enseñó la primera canción que toqué en la guitarra: <em>The Circle Game</em> de Joni Mitchell. Cantábamos juntas en armonía a dos voces y ella me transmitió las melodías que cantaba en aquel dúo. La familia de mi madre también estaba llena de músicos y amantes de la música; cada vez que nos reuníamos en la casa de mi tío, venía un pianista (siempre el mismo). Un tío cantaba Elvis, otro Frank Sinatra, y mi tío preferido tocaba la flauta traversa en sol y cantaba temas de Jobim: esa fue mi primera conexión con la música brasileña. Cantábamos hasta tarde y mi tío mayor, cabeza de familia, tenía una lista de temas entrañables que siempre me pedía cantar, ¡y no me dejaba volver a casa hasta que lo hiciera! Su preferido indiscutido era <em>Cry Me a River</em> de Arthur Hamilton.</p>
+
+            <p>Para ese entonces ya me interesaba el jazz, y me fui a un internado en el Reino Unido, al otro lado del planeta de mi enorme familia y de la tormentosa relación de mis padres. Había probado muchísimos instrumentos: guitarra, piano, batería, y finalmente descubrí y adopté durante algunos años el saxofón tenor, impulsada por mi amor al jazz nacido en aquellas cenas familiares. No era muy versada en teoría pero sabía leer música; toqué en la orquesta y con el tiempo empecé a cantar en la big band de jazz. Cuando canté en público por primera vez a los 14 años, me temblaban tanto las rodillas que tuve que cantar descalza.</p>
+
+            <p>A los 18 decidí quedarme en Manila tras 9 años de sentirme desgarrada lejos de mi país natal; pero cuatro años después sentí que ya no pertenecía allí y me mudé definitivamente a Londres para estudiar jazz y vivir como música profesional. Antes de partir, estudié saxofón en la universidad local durante dos años (¡en esa época no había carreras de jazz para cantantes y el saxo era lo más cercano!) y a los 19 ya era cantante de jazz a tiempo completo. Tuve la gran fortuna de ser invitada a cantar en un concierto durante una gira del gran saxofonista británico Courtney Pine; entre el público se encontraba la esposa del presidente de Candid Records. Poco tiempo después firmé un contrato por cuatro álbumes y partí hacia Londres tras grabar mi primer disco en Manila.</p>
+
+            <p>Cursé una maestría en jazz en la Guildhall School of Music, donde conocí a dos profesores maravillosos que se volvieron entrañables amigos y pilares de mi vida en Londres: Nikki Iles y Pete Churchill. Pete me acompañó en mis estudios con una generosidad inmensa y, al graduarme, cofundamos el London Vocal Project, un ensamble vocal contemporáneo de jazz que sigue activo tras casi 20 años. Pete y yo también grabamos juntos un álbum con sus hermosas canciones, una vez concluida amigablemente mi etapa con Candid Records. Durante mis años en Londres participé en numerosos proyectos fascinantes como cantante principal, integrante de coros y sesionista en segundas voces y percusión (habiendo dejado ya el saxofón tras partir de Filipinas).</p>
+
+            <p>Descubrí la música de Brasil a través del jazz y al sumarme a un gran grupo de samba llamado Rhythms of the City: entré como percusionista para trabajar mi métrica y sentido del tiempo, y con el tiempo me convertí en una de sus cantantes. Toqué con ellos durante cinco o seis años girando por todo el Reino Unido y parte de Europa. Viajé a Brasil, aprendí portugués y viví un breve tiempo en Berlín. En el medio recorrí el mundo, conociendo lugares increíbles y personas entrañables. Hacia el final de mi estadía en Londres, mi gran amigo, compañero de banda y maestro Guillermo Rozenthuler —quien me introdujo por primera vez a la música argentina— me hizo escuchar las canciones de su amigo de toda la vida, Beto Caletti. Una cosa llevó a la otra: Beto y yo nos enamoramos y aquí estoy en Buenos Aires, sintiendo que finalmente encontré mi lugar en el mundo. Con Beto giramos por el mundo entero como dúo musical, nuestra hija nació aquí y siento que estoy donde siempre debí estar.</p>
+
+            <p>Este hermoso país y su maravillosa gente me abrieron infinitas puertas y tengo la suerte de compartir música con artistas extraordinarios. Junto a nuestro dúo con Beto, también canto en tres ensambles femeninos:</p>
+
+            <div class="bio-projects-list">
+              <div class="bio-project-item">
+                <span class="bio-project-title">Canciones Migrantes</span>
+                <span class="bio-project-desc">Trío junto a Georgina Hassan y Florencia Dávalos, que reúne canciones inspiradas en las historias de inmigrantes, sus diversas culturas y lenguas. Actualmente tenemos un EP en camino.</span>
+              </div>
+              <div class="bio-project-item">
+                <span class="bio-project-title">Cantoras del Sur</span>
+                <span class="bio-project-desc">Siete cantantes y un percusionista con un repertorio diverso enraizado en la música del mundo, los estilos latinoamericanos y composiciones originales (con el placer de realizar varios arreglos vocales para este proyecto y para Canciones Migrantes).</span>
+              </div>
+              <div class="bio-project-item">
+                <span class="bio-project-title">Mujererío Voces y Cuerpo</span>
+                <span class="bio-project-desc">Noneto a capela y bailarina bajo la dirección y arreglos de Violeta Manoukian sobre repertorio latinoamericano.</span>
+              </div>
+            </div>
+
+            <p>En medio de todo esto, desarrollo un proyecto solista con canciones propias que recuperan mis raíces en el folk que mi madre me enseñó en la infancia, dirijo dos ensambles vocales de alumnas y continúo con mis clases particulares de canto y los talleres de <em>Percussion for Singers</em>.</p>
+
+            <p class="bio-closing-note">Ha sido una maravillosa aventura hasta aquí y no podría estar más agradecida. ¡Espero con entusiasmo las sorpresas que la vida me depare! Gracias por acompañarme en este camino si leíste hasta acá, y no dudes en ponerte en contacto si alguno de estos proyectos o clases te interesa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       2. DISCOGRAFÍA (Dedicated Releases & Music Archive Showcase)
+       ========================================================================= -->
+  <section class="section-discography" id="discografia">
+    <div class="container">
+      
+      <!-- Section Header -->
+      <div style="text-align: center; max-width: 760px; margin: 0 auto;">
+        <span class="section-tag" data-i18n="discoTag">Lanzamientos & Discografía</span>
+        <h2 class="section-title" data-i18n="discoTitle" style="margin-top: 0.5rem;">Discografía</h2>
+        <p class="section-subtitle" data-i18n="discoSubtitle">
+          9 álbumes editados entre Londres y Buenos Aires, recorriendo el jazz vocal, la bossa nova y ricas polifonías de raíz sudamericana.
+        </p>
+      </div>
+
+      <!-- 3 Central Players Grid -->
+      <div class="disco-players-central">
+        
+        <!-- Player 1: Stranger On The Shore -->
+        <div class="disco-player-col">
+          <div class="disco-player-header">
+            <span class="disco-player-badge" data-i18n="discoPlayer1Badge">Solista · Candid Records</span>
+            <h3 class="disco-player-album-title">Stranger On The Shore</h3>
+          </div>
+          <div class="disco-player-frame">
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/2JzKhUcsrw5Oju2WTPt5nD?utm_source=generator&si=7dba7aaaf0de4387" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
         </div>
 
-        <!-- 7. Tours & Vocal Pedagogy -->
-        <p data-i18n="bioP3">
-          Se ha presentado en numerosos escenarios y giras internacionales, combinando su actividad artística con una profunda pasión por la docencia: cuenta con 20 años de experiencia pedagógica, dirige dos coros femeninos y dicta clases particulares de canto y percusión para cantantes.
-        </p>
-
-        <!-- 8. Closing Press Review Highlight -->
-        <section class="bio-press-minimal bio-ending-quote" style="margin-top: clamp(2.5rem, 5vw, 4rem); margin-bottom: 0;">
-          <div class="bio-quote-statement">
-            <span class="bio-quote-glyph start" aria-hidden="true">❝</span>
-            <blockquote class="bio-quote-text" data-i18n="bioOpeningQuoteText">
-              REFRESCANTEMENTE SIN PRETENSIONES Y SENCILLAMENTE TALENTOSA.
-            </blockquote>
-            <span class="bio-quote-glyph end" aria-hidden="true">❞</span>
+        <!-- Player 2: Mishka Adams & Beto Caletti en Vivo -->
+        <div class="disco-player-col">
+          <div class="disco-player-header">
+            <span class="disco-player-badge" data-i18n="discoPlayer2Badge">Dúo · Grabación en Vivo</span>
+            <h3 class="disco-player-album-title">Adams & Caletti en Vivo</h3>
           </div>
-          <div class="bio-quote-author" data-i18n="bioOpeningQuoteAuthor">
-            TIME OUT LONDON
+          <div class="disco-player-frame">
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/61mvtOMODBCeVPecemGDYH?utm_source=generator&si=525c9fe797e74742" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </div>
-        </section>
+        </div>
 
+        <!-- Player 3: Space -->
+        <div class="disco-player-col">
+          <div class="disco-player-header">
+            <span class="disco-player-badge" data-i18n="discoPlayer3Badge">Solista · Jazz & Folk</span>
+            <h3 class="disco-player-album-title">Space</h3>
+          </div>
+          <div class="disco-player-frame">
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/6ONBgDDEntuobFz9LXT5im?utm_source=generator&si=6b6ff1dfc786425d" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Expandable Discography Catalog (Directly underneath players) -->
+      <div class="disco-covers-section">
+        <div class="disco-catalog-grid">
+          
+          <!-- 1. Stranger On The Shore -->
+          <article class="disco-catalog-card" data-album="stranger">
+            <div class="disco-catalog-media">
+              <img src="albumes/Stranger_On_The_Shore.jpg" alt="Stranger On The Shore — Mishka Adams" class="disco-catalog-img" loading="lazy" />
+            </div>
+            <div class="disco-catalog-header">
+              <div class="disco-catalog-title-wrap">
+                <span class="disco-catalog-year">2009</span>
+                <h3 class="disco-catalog-title">Stranger On The Shore</h3>
+              </div>
+              <button class="disco-catalog-toggle" aria-expanded="false" aria-label="Desplegar información de Stranger On The Shore">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+            </div>
+            <div class="disco-catalog-drawer">
+              <div class="disco-catalog-drawer-inner">
+                <div class="disco-catalog-meta">
+                  <span class="disco-catalog-genre" data-i18n="discoStyle1">Vocal Jazz & Acoustic Soul</span>
+                  <span class="disco-catalog-label" data-i18n="discoLabel1">Candid Records · Londres</span>
+                </div>
+                <p class="disco-catalog-desc" data-i18n="discoDesc1">
+                  Álbum solista grabado en Londres junto a una selecta formación acústica, revisitando estándares de jazz y composiciones originales con una calidez vocal cautivadora.
+                </p>
+                <div class="disco-catalog-actions">
+                  <span class="disco-catalog-listen-label" data-i18n="discoListenLabel">Escuchar en:</span>
+                  <div class="disco-catalog-platform-links">
+                    <a href="https://open.spotify.com/album/2JzKhUcsrw5Oju2WTPt5nD" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar Stranger On The Shore en Spotify">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.494 17.305a.754.754 0 0 1-1.036.25c-2.833-1.732-6.4-2.124-10.603-1.163a.755.755 0 0 1-.34-1.472c4.604-1.05 8.56-.607 11.729 1.349a.755.755 0 0 1 .25 1.036zm1.467-3.262a.945.945 0 0 1-1.298.312c-3.243-1.993-8.188-2.568-12.025-1.402a.945.945 0 0 1-.557-1.805c4.385-1.332 9.83-.69 13.568 1.597a.945.945 0 0 1 .312 1.298zm.126-3.398c-3.889-2.31-10.3-2.524-14.032-1.391a1.134 1.134 0 1 1-.659-2.171c4.29-1.303 11.37-1.05 15.82 1.592a1.134 1.134 0 1 1-1.129 1.97z"/></svg>
+                      <span data-i18n="discoListenSpotify">Spotify</span>
+                    </a>
+                    <a href="https://mishkaadams.bandcamp.com" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar Stranger On The Shore en Bandcamp">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M0 18.75l7.437-13.5h16.563l-7.438 13.5z"/></svg>
+                      <span data-i18n="discoListenBandcamp">Bandcamp</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Space -->
+          <article class="disco-catalog-card" data-album="space">
+            <div class="disco-catalog-media">
+              <img src="albumes/MishkaAdams_solista_2.png" alt="Space — Mishka Adams" class="disco-catalog-img" loading="lazy" />
+            </div>
+            <div class="disco-catalog-header">
+              <div class="disco-catalog-title-wrap">
+                <span class="disco-catalog-year">2007</span>
+                <h3 class="disco-catalog-title">Space</h3>
+              </div>
+              <button class="disco-catalog-toggle" aria-expanded="false" aria-label="Desplegar información de Space">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+            </div>
+            <div class="disco-catalog-drawer">
+              <div class="disco-catalog-drawer-inner">
+                <div class="disco-catalog-meta">
+                  <span class="disco-catalog-genre" data-i18n="discoStyle2">Contemporary Jazz & Folk</span>
+                  <span class="disco-catalog-label" data-i18n="discoLabel2">Candid Records · Londres</span>
+                </div>
+                <p class="disco-catalog-desc" data-i18n="discoDesc2">
+                  Segundo disco solista para Candid Records, elogiado en el Reino Unido por su frescura melódica, soltura vocal y arreglos modernos.
+                </p>
+                <div class="disco-catalog-actions">
+                  <span class="disco-catalog-listen-label" data-i18n="discoListenLabel">Escuchar en:</span>
+                  <div class="disco-catalog-platform-links">
+                    <a href="https://open.spotify.com/album/6ONBgDDEntuobFz9LXT5im" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar Space en Spotify">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.494 17.305a.754.754 0 0 1-1.036.25c-2.833-1.732-6.4-2.124-10.603-1.163a.755.755 0 0 1-.34-1.472c4.604-1.05 8.56-.607 11.729 1.349a.755.755 0 0 1 .25 1.036zm1.467-3.262a.945.945 0 0 1-1.298.312c-3.243-1.993-8.188-2.568-12.025-1.402a.945.945 0 0 1-.557-1.805c4.385-1.332 9.83-.69 13.568 1.597a.945.945 0 0 1 .312 1.298zm.126-3.398c-3.889-2.31-10.3-2.524-14.032-1.391a1.134 1.134 0 1 1-.659-2.171c4.29-1.303 11.37-1.05 15.82 1.592a1.134 1.134 0 1 1-1.129 1.97z"/></svg>
+                      <span data-i18n="discoListenSpotify">Spotify</span>
+                    </a>
+                    <a href="https://mishkaadams.bandcamp.com" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar Space en Bandcamp">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M0 18.75l7.437-13.5h16.563l-7.438 13.5z"/></svg>
+                      <span data-i18n="discoListenBandcamp">Bandcamp</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. God Walked on the Water -->
+          <article class="disco-catalog-card" data-album="god-walked">
+            <div class="disco-catalog-media">
+              <img src="albumes/MishkaAdams_solista.png" alt="God Walked on the Water — Mishka Adams" class="disco-catalog-img" loading="lazy" />
+            </div>
+            <div class="disco-catalog-header">
+              <div class="disco-catalog-title-wrap">
+                <span class="disco-catalog-year">2005</span>
+                <h3 class="disco-catalog-title">God Walked on the Water</h3>
+              </div>
+              <button class="disco-catalog-toggle" aria-expanded="false" aria-label="Desplegar información de God Walked on the Water">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+            </div>
+            <div class="disco-catalog-drawer">
+              <div class="disco-catalog-drawer-inner">
+                <div class="disco-catalog-meta">
+                  <span class="disco-catalog-genre" data-i18n="discoStyle3">Vocal Jazz & Bossa Nova</span>
+                  <span class="disco-catalog-label" data-i18n="discoLabel3">Candid Records · Debut</span>
+                </div>
+                <p class="disco-catalog-desc" data-i18n="discoDesc3">
+                  Álbum debut en Londres que inauguró su trayectoria internacional, fusionando la tradición del jazz vocal con sutiles aires de bossa.
+                </p>
+                <div class="disco-catalog-actions">
+                  <span class="disco-catalog-listen-label" data-i18n="discoListenLabel">Escuchar en:</span>
+                  <div class="disco-catalog-platform-links">
+                    <a href="https://open.spotify.com/artist/4WUkYLHYNs9JQYHuPIRHXj" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar God Walked on the Water en Spotify">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.494 17.305a.754.754 0 0 1-1.036.25c-2.833-1.732-6.4-2.124-10.603-1.163a.755.755 0 0 1-.34-1.472c4.604-1.05 8.56-.607 11.729 1.349a.755.755 0 0 1 .25 1.036zm1.467-3.262a.945.945 0 0 1-1.298.312c-3.243-1.993-8.188-2.568-12.025-1.402a.945.945 0 0 1-.557-1.805c4.385-1.332 9.83-.69 13.568 1.597a.945.945 0 0 1 .312 1.298zm.126-3.398c-3.889-2.31-10.3-2.524-14.032-1.391a1.134 1.134 0 1 1-.659-2.171c4.29-1.303 11.37-1.05 15.82 1.592a1.134 1.134 0 1 1-1.129 1.97z"/></svg>
+                      <span data-i18n="discoListenSpotify">Spotify</span>
+                    </a>
+                    <a href="https://mishkaadams.bandcamp.com" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar en Bandcamp">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M0 18.75l7.437-13.5h16.563l-7.438 13.5z"/></svg>
+                      <span data-i18n="discoListenBandcamp">Bandcamp</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Adams & Caletti en Vivo -->
+          <article class="disco-catalog-card" data-album="vivo">
+            <div class="disco-catalog-media">
+              <img src="albumes/MishkaAdams_BetoCaletti_EnVivo.jpg" alt="Mishka Adams & Beto Caletti en Vivo" class="disco-catalog-img" loading="lazy" />
+            </div>
+            <div class="disco-catalog-header">
+              <div class="disco-catalog-title-wrap">
+                <span class="disco-catalog-year">2023</span>
+                <h3 class="disco-catalog-title">Adams & Caletti en Vivo</h3>
+              </div>
+              <button class="disco-catalog-toggle" aria-expanded="false" aria-label="Desplegar información de Adams & Caletti en Vivo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+            </div>
+            <div class="disco-catalog-drawer">
+              <div class="disco-catalog-drawer-inner">
+                <div class="disco-catalog-meta">
+                  <span class="disco-catalog-genre" data-i18n="discoStyle4">Música Brasileña & Raíz</span>
+                  <span class="disco-catalog-label" data-i18n="discoLabel4">Grabación en Vivo</span>
+                </div>
+                <p class="disco-catalog-desc" data-i18n="discoDesc4">
+                  Registro en directo en Buenos Aires junto a Beto Caletti: guitarras, percusión y armonías en un vibrante diálogo con el público.
+                </p>
+                <div class="disco-catalog-actions">
+                  <span class="disco-catalog-listen-label" data-i18n="discoListenLabel">Escuchar en:</span>
+                  <div class="disco-catalog-platform-links">
+                    <a href="https://open.spotify.com/album/61mvtOMODBCeVPecemGDYH" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar Adams & Caletti en Vivo en Spotify">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.494 17.305a.754.754 0 0 1-1.036.25c-2.833-1.732-6.4-2.124-10.603-1.163a.755.755 0 0 1-.34-1.472c4.604-1.05 8.56-.607 11.729 1.349a.755.755 0 0 1 .25 1.036zm1.467-3.262a.945.945 0 0 1-1.298.312c-3.243-1.993-8.188-2.568-12.025-1.402a.945.945 0 0 1-.557-1.805c4.385-1.332 9.83-.69 13.568 1.597a.945.945 0 0 1 .312 1.298zm.126-3.398c-3.889-2.31-10.3-2.524-14.032-1.391a1.134 1.134 0 1 1-.659-2.171c4.29-1.303 11.37-1.05 15.82 1.592a1.134 1.134 0 1 1-1.129 1.97z"/></svg>
+                      <span data-i18n="discoListenSpotify">Spotify</span>
+                    </a>
+                    <a href="https://mishkaadams.bandcamp.com" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar en Bandcamp">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M0 18.75l7.437-13.5h16.563l-7.438 13.5z"/></svg>
+                      <span data-i18n="discoListenBandcamp">Bandcamp</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Adams & Caletti (Trilogía de Estudio) -->
+          <article class="disco-catalog-card" data-album="caletti-trilogy">
+            <div class="disco-catalog-media">
+              <img src="albumes/mishkaAdamas_betoCaletti.png" alt="Mishka Adams & Beto Caletti — Trilogía" class="disco-catalog-img" loading="lazy" />
+            </div>
+            <div class="disco-catalog-header">
+              <div class="disco-catalog-title-wrap">
+                <span class="disco-catalog-year">2017</span>
+                <h3 class="disco-catalog-title">Adams & Caletti</h3>
+              </div>
+              <button class="disco-catalog-toggle" aria-expanded="false" aria-label="Desplegar información de Adams & Caletti Trilogía">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+            </div>
+            <div class="disco-catalog-drawer">
+              <div class="disco-catalog-drawer-inner">
+                <div class="disco-catalog-meta">
+                  <span class="disco-catalog-genre" data-i18n="discoStyle5">Candombe, Bossa & World Folk</span>
+                  <span class="disco-catalog-label" data-i18n="discoLabel5">Dúo Acústico · Trilogía</span>
+                </div>
+                <p class="disco-catalog-desc" data-i18n="discoDesc5">
+                  Parte de la trilogía discográfica del dúo internacional, tejiendo canciones rioplatenses, ritmos afrobrasileños y poética acústica.
+                </p>
+                <div class="disco-catalog-actions">
+                  <span class="disco-catalog-listen-label" data-i18n="discoListenLabel">Escuchar en:</span>
+                  <div class="disco-catalog-platform-links">
+                    <a href="https://open.spotify.com/album/0hYOZdnYE6uOcHZCHz37UT" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar Adams & Caletti en Spotify">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.494 17.305a.754.754 0 0 1-1.036.25c-2.833-1.732-6.4-2.124-10.603-1.163a.755.755 0 0 1-.34-1.472c4.604-1.05 8.56-.607 11.729 1.349a.755.755 0 0 1 .25 1.036zm1.467-3.262a.945.945 0 0 1-1.298.312c-3.243-1.993-8.188-2.568-12.025-1.402a.945.945 0 0 1-.557-1.805c4.385-1.332 9.83-.69 13.568 1.597a.945.945 0 0 1 .312 1.298zm.126-3.398c-3.889-2.31-10.3-2.524-14.032-1.391a1.134 1.134 0 1 1-.659-2.171c4.29-1.303 11.37-1.05 15.82 1.592a1.134 1.134 0 1 1-1.129 1.97z"/></svg>
+                      <span data-i18n="discoListenSpotify">Spotify</span>
+                    </a>
+                    <a href="https://mishkaadams.bandcamp.com" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar en Bandcamp">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M0 18.75l7.437-13.5h16.563l-7.438 13.5z"/></svg>
+                      <span data-i18n="discoListenBandcamp">Bandcamp</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Pete Churchill & Mishka Adams — Stories to Tell -->
+          <article class="disco-catalog-card" data-album="stories">
+            <div class="disco-catalog-media">
+              <img src="albumes/mishkaAdams_peterChurchill_stories_to_tell.jpg" alt="Stories to Tell — Pete Churchill & Mishka Adams" class="disco-catalog-img" loading="lazy" />
+            </div>
+            <div class="disco-catalog-header">
+              <div class="disco-catalog-title-wrap">
+                <span class="disco-catalog-year">2015</span>
+                <h3 class="disco-catalog-title">Stories to Tell</h3>
+              </div>
+              <button class="disco-catalog-toggle" aria-expanded="false" aria-label="Desplegar información de Stories to Tell">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+            </div>
+            <div class="disco-catalog-drawer">
+              <div class="disco-catalog-drawer-inner">
+                <div class="disco-catalog-meta">
+                  <span class="disco-catalog-genre" data-i18n="discoStyle6">Jazz Poético & Piano Voz</span>
+                  <span class="disco-catalog-label" data-i18n="discoLabel6">Royal Academy · Bandcamp</span>
+                </div>
+                <p class="disco-catalog-desc" data-i18n="discoDesc6">
+                  Grabación a dúo con el maestro Pete Churchill (Royal Academy of Music), celebrando la canción como relato poético íntimo.
+                </p>
+                <div class="disco-catalog-actions">
+                  <span class="disco-catalog-listen-label" data-i18n="discoListenLabel">Escuchar en:</span>
+                  <div class="disco-catalog-platform-links">
+                    <a href="https://open.spotify.com/artist/4WUkYLHYNs9JQYHuPIRHXj" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar Stories to Tell en Spotify">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.494 17.305a.754.754 0 0 1-1.036.25c-2.833-1.732-6.4-2.124-10.603-1.163a.755.755 0 0 1-.34-1.472c4.604-1.05 8.56-.607 11.729 1.349a.755.755 0 0 1 .25 1.036zm1.467-3.262a.945.945 0 0 1-1.298.312c-3.243-1.993-8.188-2.568-12.025-1.402a.945.945 0 0 1-.557-1.805c4.385-1.332 9.83-.69 13.568 1.597a.945.945 0 0 1 .312 1.298zm.126-3.398c-3.889-2.31-10.3-2.524-14.032-1.391a1.134 1.134 0 1 1-.659-2.171c4.29-1.303 11.37-1.05 15.82 1.592a1.134 1.134 0 1 1-1.129 1.97z"/></svg>
+                      <span data-i18n="discoListenSpotify">Spotify</span>
+                    </a>
+                    <a href="https://petechurchillandmishkaadams.bandcamp.com/album/stories-to-tell" target="_blank" rel="noopener noreferrer" class="platform-icon-btn" aria-label="Escuchar Stories to Tell en Bandcamp">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M0 18.75l7.437-13.5h16.563l-7.438 13.5z"/></svg>
+                      <span data-i18n="discoListenBandcamp">Bandcamp</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
       </div>
 
     </div>
   </section>
 
   <!-- =========================================================================
-       3. TEACHING & WORKSHOPS SPLIT TEASER (50/50 Full-Width Split-Screen)
+       3. CLASES & TALLERES (Zócalo / Teaser hacia talleres.html)
        ========================================================================= -->
-  <section class="section-bio-teaser" id="teaching-teaser">
-    <div class="bio-split-grid">
-      
-      <!-- Left 50% Full-Bleed Workshop Portrait -->
-      <div class="bio-split-media">
-        <img 
-          src="FOTOS WEBSITE/Percussion for Singers/DSC02010.JPG" 
-          alt="Mishka Adams — Talleres & Pedagogía Vocal" 
-          class="bio-split-img" 
-          loading="lazy" 
-        />
-      </div>
+  <section class="section-workshops-teaser" id="talleres">
+    <div class="container">
+      <div class="workshops-teaser-grid">
+        
+        <!-- Media Visual -->
+        <div class="workshops-teaser-media">
+          <img 
+            src="FOTOS WEBSITE/Percussion for Singers/DSC02010.JPG" 
+            alt="Mishka Adams — Talleres de Percusión & Canto" 
+            class="workshops-teaser-img" 
+            loading="lazy" 
+          />
+        </div>
 
-      <!-- Right 50% Editorial Content -->
-      <div class="bio-split-content">
-        <div class="bio-split-inner">
+        <!-- Pillars & Content -->
+        <div class="workshops-teaser-content">
           <span class="section-tag" data-i18n="teachingTeaserTag">Pedagogía Vocal, Ritmo & Ensambles</span>
-          <h2 class="bio-split-title" data-i18n="teachingTeaserTitle">Propuesta Educativa</h2>
-          <p class="bio-split-text" data-i18n="teachingTeaserText">
-            20 años de experiencia pedagógica guiando a cantantes, músicos y grupos vocales en el descubrimiento del ritmo, la afinación y el cuerpo. Talleres de Percussion for Singers, Ensambles Vocales (Rayuela y Agronomía Canta) y clases particulares individuales.
+          <h2 class="section-title" data-i18n="teachingTeaserTitle" style="margin-top: 0.5rem;">Clases & Talleres</h2>
+          <p class="section-subtitle" data-i18n="teachingTeaserSubtitle">
+            20 años de experiencia pedagógica guiando a cantantes, músicos y grupos en el descubrimiento del ritmo, la afinación y el cuerpo.
           </p>
-          <div class="bio-split-actions">
+
+          <!-- 3 Pillars List -->
+          <div class="workshops-pillars-list">
+            
+            <div class="pillar-item">
+              <div class="pillar-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </div>
+              <div class="pillar-info">
+                <h4 data-i18n="teachingPillar1Title">Percussion for Singers</h4>
+                <p data-i18n="teachingPillar1Desc">Talleres grupales y clases 1 a 1 de ritmo, swing, subdivisiones y percusión corporal aplicados al canto.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                  <line x1="12" y1="19" x2="12" y2="23"></line>
+                  <line x1="8" y1="23" x2="16" y2="23"></line>
+                </svg>
+              </div>
+              <div class="pillar-info">
+                <h4 data-i18n="teachingPillar2Title">Clases Particulares de Canto</h4>
+                <p data-i18n="teachingPillar2Desc">Técnica vocal, repertorio, soltura corporal e interpretación individual (online y presencial en CABA).</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div class="pillar-info">
+                <h4 data-i18n="teachingPillar3Title">Ensambles Vocales</h4>
+                <p data-i18n="teachingPillar3Desc">Ensamble Rayuela y Agronomía Canta: comunidad vocal femenina, polifonías del mundo y conciertos.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="workshops-teaser-actions">
             <a href="talleres.html" class="btn btn-primary" data-i18n="teachingTeaserBtn">
               <span>Explorar Clases & Talleres</span>
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
             </a>
           </div>
-        </div>
-      </div>
 
+        </div>
+
+      </div>
     </div>
   </section>
 
   <!-- =========================================================================
-       4. EDITORIAL PRESS REVIEW (Bold Typographic Highlight — Light Editorial Aesthetic)
+       EDITORIAL PRESS HIGHLIGHT
        ========================================================================= -->
-  <section class="bio-press-minimal" id="home-quote" style="margin-top: clamp(3.5rem, 6vw, 5.5rem); margin-bottom: clamp(3.5rem, 6vw, 5.5rem);">
+  <section class="bio-press-minimal" id="home-quote" style="margin-top: clamp(3rem, 5vw, 4.5rem); margin-bottom: clamp(3rem, 5vw, 4.5rem);">
     <div class="container container-narrow">
       <div class="bio-quote-statement">
         <span class="bio-quote-glyph start" aria-hidden="true">❝</span>
@@ -400,62 +727,195 @@
   </section>
 
   <!-- =========================================================================
-       6. CONTACT & BOOKING SECTION (Zero Emojis, Clean SVGs)
+       4. VIDEOS SECTION (Curated Live Performances & YouTube Channels)
        ========================================================================= -->
-  <section class="section-contact" id="contact">
-    <div class="container container-narrow">
+  <section class="section-videos" id="videos">
+    <div class="container">
       
-      <div class="contact-section-header">
-        <span class="section-tag" data-i18n="contactTag">Contacto & Booking</span>
-        <h2 class="section-title" data-i18n="contactTitle">Conversemos</h2>
-        <p class="section-subtitle" data-i18n="contactSubtitle">
-          Escribinos para coordinar clases particulares, sumarte a los talleres y ensambles, o para contrataciones y conciertos.
+      <!-- Section Header -->
+      <div style="text-align: center; max-width: 760px; margin: 0 auto;">
+        <span class="section-tag" data-i18n="videosTag">Registro Audiovisual</span>
+        <h2 class="section-title" data-i18n="videosTitle" style="margin-top: 0.5rem;">Videos & En Vivo</h2>
+        <p class="section-subtitle" data-i18n="videosSubtitle">
+          Conciertos en vivo, colaboraciones acústicas y dinámicas de percusión para cantantes.
         </p>
       </div>
 
-      <div class="contact-form-wrapper">
-        <!-- Contact Form -->
-        <div class="contact-form-card">
-          <form id="contact-form">
-            
-            <div class="form-group">
-              <label class="form-label" for="form-name" data-i18n="contactFormName">Nombre completo</label>
-              <input type="text" id="form-name" class="form-input" required placeholder="Tu nombre" />
-            </div>
-
-            <div class="form-group">
-              <label class="form-label" for="form-email" data-i18n="contactFormEmail">Correo electrónico</label>
-              <input type="email" id="form-email" class="form-input" required placeholder="tu@email.com" />
-            </div>
-
-            <div class="form-group">
-              <label class="form-label" for="form-subject" data-i18n="contactFormSubject">Motivo de consulta</label>
-              <select id="form-subject" class="form-select">
-                <option value="voice" data-i18n="contactSubject1">Clases Particulares de Canto (1 a 1)</option>
-                <option value="percussion" data-i18n="contactSubject2">Taller Percusión para Cantantes</option>
-                <option value="ensembles" data-i18n="contactSubject3">Ensambles Vocales (Rayuela / Agronomía Canta)</option>
-                <option value="booking" data-i18n="contactSubject4">Contratación Artística & Conciertos</option>
-                <option value="press" data-i18n="contactSubject5">Prensa & Otros</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label class="form-label" for="form-message" data-i18n="contactFormMessage">Mensaje o consulta</label>
-              <textarea id="form-message" class="form-textarea" required placeholder="Contanos sobre vos o tu consulta..."></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary" style="width: 100%;">
-              <span data-i18n="contactFormBtn">Enviar Mensaje</span>
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-              </svg>
-            </button>
-
-            <div class="newsletter-feedback" id="contact-feedback"></div>
-          </form>
+      <!-- Videos Grid -->
+      <div class="videos-grid">
+        
+        <!-- Video 1: De Repente (Mishka Adams & Beto Caletti) -->
+        <div class="video-card">
+          <div class="video-frame-container">
+            <iframe 
+              src="https://www.youtube-nocookie.com/embed/28lg_ip8phk" 
+              title="De Repente — Mishka Adams &amp; Beto Caletti" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen 
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="video-card-body">
+            <h4 class="video-card-title" data-i18n="video1Title">De Repente — Mishka Adams &amp; Beto Caletti</h4>
+            <p class="video-card-desc" data-i18n="video1Desc">Dúo en vivo: canción acústica, arreglos de guitarra y voz entrelazando la música brasileña y sudamericana.</p>
+          </div>
         </div>
+
+        <!-- Video 2: Razão de Ser (The Basement Sessions) -->
+        <div class="video-card">
+          <div class="video-frame-container">
+            <iframe 
+              src="https://www.youtube-nocookie.com/embed/237yVbEUC40" 
+              title="Razão de Ser — The Basement Sessions" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen 
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="video-card-body">
+            <h4 class="video-card-title" data-i18n="video2Title">Razão de Ser — The Basement Sessions</h4>
+            <p class="video-card-desc" data-i18n="video2Desc">Sesión acústica íntima en Londres: bossa nova, delicadeza vocal y sensibilidad interpretativa.</p>
+          </div>
+        </div>
+
+        <!-- Video 3: People Will Come, People Will Go (Pete Churchill & Mishka Adams) -->
+        <div class="video-card">
+          <div class="video-frame-container">
+            <iframe 
+              src="https://www.youtube-nocookie.com/embed/QwtAi7BP_Ew" 
+              title="People Will Come, People Will Go — Pete Churchill &amp; Mishka Adams" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen 
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="video-card-body">
+            <h4 class="video-card-title" data-i18n="video3Title">People Will Come, People Will Go — Pete Churchill &amp; Mishka Adams</h4>
+            <p class="video-card-desc" data-i18n="video3Desc">Piano y voz a dúo con el maestro británico Pete Churchill: jazz poético y emoción pura.</p>
+          </div>
+        </div>
+
       </div>
 
+      <!-- Video Action Links -->
+      <div class="videos-footer-actions">
+        <a href="https://www.youtube.com/channel/UC6MEJPJrqSQyWl6XbNT9J2w" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          <span data-i18n="videosMoreBtn">Canal Oficial de YouTube</span>
+        </a>
+        <a href="https://www.youtube.com/@PercussionforSingers" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          <span data-i18n="videosTeachingBtn">Canal Percussion for Singers</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. RECITALES & GIGS (Nick Cave Minimalist Live Tour Dates)
+       ========================================================================= -->
+  <section class="section-gigs" id="recitales">
+    <div class="container container-narrow">
+      
+      <!-- Section Header -->
+      <div style="text-align: center;">
+        <span class="section-tag" data-i18n="showsTag">Conciertos & Fechas</span>
+        <h2 class="section-title" data-i18n="showsTitle" style="margin-top: 0.5rem;">Recitales & Shows</h2>
+        <p class="section-subtitle" data-i18n="showsSubtitle">
+          Presentaciones en vivo, fechas de ensambles y conciertos en Buenos Aires y giras internacionales.
+        </p>
+      </div>
+
+      <!-- Live Dates List -->
+      <div class="gigs-list">
+        
+        <div class="gig-item">
+          <div class="gig-date" data-i18n="show1Date">OCT 2026</div>
+          <div class="gig-location">
+            <span class="gig-city" data-i18n="show1City">Buenos Aires, Argentina</span>
+            <span class="gig-venue" data-i18n="show1Venue">Café Vinilo</span>
+          </div>
+          <div class="gig-project" data-i18n="show1Project">Mishka Adams & Beto Caletti (Dúo)</div>
+          <div class="gig-action">
+            <a href="contacto.html" class="gig-status-btn" data-i18n="show1Status">Próximamente</a>
+          </div>
+        </div>
+
+        <div class="gig-item">
+          <div class="gig-date" data-i18n="show2Date">NOV 2026</div>
+          <div class="gig-location">
+            <span class="gig-city" data-i18n="show2City">Buenos Aires, Argentina</span>
+            <span class="gig-venue" data-i18n="show2Venue">Centro Cultural Kirchner (CCK)</span>
+          </div>
+          <div class="gig-project" data-i18n="show2Project">Canciones Migrantes (Trío Vocal)</div>
+          <div class="gig-action">
+            <a href="contacto.html" class="gig-status-btn" data-i18n="show2Status">Próximamente</a>
+          </div>
+        </div>
+
+        <div class="gig-item">
+          <div class="gig-date" data-i18n="show3Date">DIC 2026</div>
+          <div class="gig-location">
+            <span class="gig-city" data-i18n="show3City">Agronomía, CABA</span>
+            <span class="gig-venue" data-i18n="show3Venue">Concierto de Cierre de Año</span>
+          </div>
+          <div class="gig-project" data-i18n="show3Project">Ensamble Rayuela & Agronomía Canta</div>
+          <div class="gig-action">
+            <a href="contacto.html" class="gig-status-btn" data-i18n="show3Status">Entradas en breve</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Booking Callout Box -->
+      <div class="gigs-booking-callout">
+        <div class="gigs-booking-text">
+          <h4 data-i18n="showBookingTitle">¿Querés programar un concierto o festival?</h4>
+          <p data-i18n="showBookingDesc">Escribinos directamente para disponibilidad de fechas, giras y proyectos artísticos.</p>
+        </div>
+        <a href="contacto.html" class="btn btn-primary" data-i18n="showBookingBtn">
+          <span>Consultar Booking</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. CONTACTO (Zócalo / Teaser de Enlace hacia contacto.html)
+       ========================================================================= -->
+  <section class="section-contact-teaser" id="contacto">
+    <div class="container">
+      <div class="contact-teaser-card">
+        <span class="section-tag" data-i18n="contactTeaserTag">Contacto & Booking</span>
+        <h2 class="section-title" data-i18n="contactTeaserTitle" style="margin-top: 0.5rem;">Conversemos</h2>
+        <p class="section-subtitle" data-i18n="contactTeaserDesc" style="margin-left: auto; margin-right: auto; max-width: 620px;">
+          ¿Te interesa sumarte a los talleres de percusión, tomar clases particulares de canto o coordinar una presentación artística? Estamos a un mensaje de distancia.
+        </p>
+        
+        <div class="contact-teaser-actions">
+          <a href="contacto.html" class="btn btn-primary" data-i18n="contactTeaserBtn">
+            <span>Ir a la Página de Contacto</span>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="mailto:contact@mishkaadams.com" class="btn btn-secondary">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span data-i18n="contactDirectEmail">Enviar un Correo</span>
+          </a>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -481,9 +941,12 @@
           <h4 class="footer-col-title" data-i18n="footerNavTitle">Navegación</h4>
           <ul class="footer-links">
             <li><a href="index.html" class="footer-link" data-i18n="navHome">Inicio</a></li>
-            <li><a href="#bio" class="footer-link" data-i18n="navBio">Trayectoria & Discografía</a></li>
-            <li><a href="talleres.html" class="footer-link" data-i18n="navTeaching">Clases & Talleres</a></li>
-            <li><a href="#contact" class="footer-link" data-i18n="navContact">Contacto</a></li>
+            <li><a href="#bio" class="footer-link" data-i18n="navBio">Bio</a></li>
+            <li><a href="#discografia" class="footer-link" data-i18n="navDisco">Discografía</a></li>
+            <li><a href="talleres.html" class="footer-link" data-i18n="navTeaching">Talleres</a></li>
+            <li><a href="#videos" class="footer-link" data-i18n="navVideos">Videos</a></li>
+            <li><a href="#recitales" class="footer-link" data-i18n="navShows">Recitales</a></li>
+            <li><a href="contacto.html" class="footer-link" data-i18n="navContact">Contacto</a></li>
           </ul>
         </div>
 

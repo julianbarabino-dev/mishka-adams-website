@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 /* ==========================================================================
    MISHKA ADAMS — OFFICIAL WEBSITE
    Design System: Warm Editorial / Organic Bossa Nova & World Jazz
@@ -43,14 +45,14 @@
   --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.08);
   --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.04);
 
-  /* Typography Stacks (Anek Latin Full-Site Unified Standard) */
+  /* Typography Stacks (Anek Latin Full-Site Unified Standard & Josefin Sans Brand) */
   --font-primary: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-sans: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-display: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-serif-subtle: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-karla: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-anek: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-logo: 'Anek Latin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-logo: "Josefin Sans", sans-serif;
 
   /* Layout & Spacing */
   --container-max: 1240px;
@@ -278,11 +280,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .brand-name {
-  font-family: var(--font-primary);
+  font-family: var(--font-logo);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
   font-size: clamp(1.2rem, 1.8vw, 1.55rem);
-  font-weight: 700;
   color: #ffffff;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   text-shadow: 0 2px 14px rgba(0, 0, 0, 0.75);
   line-height: 1;
@@ -973,18 +977,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-bio-outline-title {
-  font-family: var(--font-primary);
-  font-size: clamp(2.4rem, 6.5vw, 5.5rem);
-  font-weight: 800;
+  font-family: "Josefin Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
   text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.95);
-  text-stroke: 1.5px rgba(255, 255, 255, 0.95);
-  letter-spacing: 0.04em;
-  line-height: 1.05;
+  color: #FFFFFF !important;
+  -webkit-text-stroke: 0 !important;
+  text-stroke: 0 !important;
+  letter-spacing: 0.08em;
+  line-height: 1.15;
   text-align: center;
-  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.75), 0 1px 4px rgba(0, 0, 0, 0.9);
   margin: 0;
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
+}
+
+.section-teaching .section-title,
+.section-teaching-teaser .section-title {
+  font-family: var(--font-logo);
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .section-bio-story {
@@ -1243,8 +1256,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
 
   .hero-bio-outline-title {
-    font-size: clamp(2rem, 9vw, 3.2rem);
-    -webkit-text-stroke: 1.2px rgba(255, 255, 255, 0.92);
+    font-size: clamp(1.8rem, 7.5vw, 2.8rem);
+    -webkit-text-stroke: 0 !important;
+    color: #FFFFFF !important;
   }
 
   .bio-diptych {
@@ -1744,11 +1758,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .mobile-nav-logo .brand-name {
-    font-family: var(--font-primary);
+    font-family: var(--font-logo);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
     font-size: clamp(1.35rem, 5vw, 1.7rem);
-    font-weight: 700;
     color: #ffffff;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     text-shadow: none;
     line-height: 1;
@@ -2006,3 +2022,1045 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* ==========================================================================
+   REVISION 2 MODULAR SECTIONS (Bio Stripe, Discografía, Videos, Recitales, Contact)
+   ========================================================================== */
+
+/* 1. Bio Stripe Section (Compact Editorial Layout) */
+.bio-stripe-section {
+  padding: clamp(3.5rem, 6vw, 5.5rem) 0;
+  background-color: var(--bg-canvas);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.bio-stripe-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 380px) 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.bio-stripe-media {
+  position: relative;
+}
+
+.bio-stripe-img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  filter: contrast(1.02);
+  display: block;
+}
+
+.bio-stripe-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.bio-stripe-lead {
+  font-size: clamp(1.05rem, 1.4vw, 1.22rem);
+  line-height: 1.75;
+  color: var(--text-primary);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.bio-stripe-placeholder {
+  font-size: clamp(0.92rem, 1.1vw, 1.02rem);
+  line-height: 1.65;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--accent-rose);
+}
+
+.bio-stripe-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.bio-expand-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  transition: all var(--transition-medium);
+}
+
+.bio-expand-chevron {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  stroke-width: 2.25;
+}
+
+.bio-expand-btn.is-expanded .bio-expand-chevron {
+  transform: rotate(180deg);
+}
+
+/* In-Place Extended Bio Accordion Drawer */
+.bio-extended-drawer {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  margin-top: 0;
+  transition: grid-template-rows 0.5s cubic-bezier(0.16, 1, 0.3, 1), 
+              opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), 
+              margin-top 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  width: 100%;
+}
+
+.bio-extended-drawer.is-expanded {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+}
+
+.bio-extended-wrapper {
+  overflow: hidden;
+}
+
+.bio-extended-inner {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: clamp(2rem, 4vw, 3.25rem);
+  background: #FFFFFF;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.bio-extended-inner p {
+  font-size: clamp(1rem, 1.2vw, 1.12rem);
+  line-height: 1.85;
+  color: var(--text-secondary);
+  font-family: var(--font-primary);
+  margin: 0;
+}
+
+.bio-extended-inner p em {
+  font-style: italic;
+  color: var(--text-primary);
+}
+
+.bio-extended-inner p:first-of-type {
+  color: var(--text-primary);
+  font-size: clamp(1.05rem, 1.3vw, 1.18rem);
+  font-weight: 400;
+}
+
+.bio-projects-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 0.5rem 0;
+  padding: 1.5rem clamp(1.25rem, 3vw, 2rem);
+  background: var(--bg-surface);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--accent-rose);
+}
+
+.bio-project-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.bio-project-title {
+  font-family: var(--font-logo);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.bio-project-desc {
+  font-size: clamp(0.92rem, 1.1vw, 1.02rem);
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.bio-closing-note {
+  font-style: italic;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+}
+
+/* 2. Discography Section (3 Central Players & Album Covers Archive) */
+.section-discography {
+  padding: clamp(4.5rem, 7vw, 6.5rem) 0;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+/* Central 3-Player Grid */
+.disco-players-central {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.2rem, 2vw, 1.75rem);
+  margin-top: clamp(2.5rem, 3.8vw, 3.25rem);
+  margin-bottom: clamp(3.5rem, 5vw, 4.5rem);
+  width: 100%;
+}
+
+.disco-player-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  padding: 1.15rem;
+  box-shadow: var(--shadow-card);
+  transition: transform var(--transition-medium), box-shadow var(--transition-medium), border-color var(--transition-medium);
+}
+
+.disco-player-col:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(212, 165, 165, 0.4);
+}
+
+.disco-player-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.2rem 0.25rem 0;
+}
+
+.disco-player-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-rose);
+}
+
+.disco-player-album-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.disco-player-frame {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.disco-player-frame iframe {
+  width: 100% !important;
+  display: block;
+  border-radius: 12px;
+}
+
+@media (max-width: 1080px) {
+  .disco-players-central {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1.75rem;
+  }
+}
+
+/* Album Archive Catalog (Immediately below central players - Seamless flow) */
+.disco-covers-section {
+  border-top: 1px solid var(--border-subtle);
+  padding-top: clamp(2.5rem, 4vw, 3.5rem);
+}
+
+.disco-catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+@media (max-width: 960px) {
+  .disco-catalog-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .disco-catalog-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.disco-catalog-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-medium), box-shadow var(--transition-medium), border-color var(--transition-medium);
+}
+
+.disco-catalog-card:hover {
+  box-shadow: var(--shadow-card);
+  border-color: rgba(212, 165, 165, 0.45);
+}
+
+.disco-catalog-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #111111;
+  cursor: pointer;
+}
+
+.disco-catalog-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.disco-catalog-card:hover .disco-catalog-img {
+  transform: scale(1.04);
+}
+
+/* Card Header with Title and Chevron Toggle */
+.disco-catalog-header {
+  padding: 1rem 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  cursor: pointer;
+  user-select: none;
+  background: var(--bg-surface);
+  transition: background-color var(--transition-fast);
+}
+
+.disco-catalog-header:hover {
+  background: rgba(212, 165, 165, 0.05);
+}
+
+.disco-catalog-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.disco-catalog-year {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--accent-rose);
+  text-transform: uppercase;
+}
+
+.disco-catalog-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.disco-catalog-toggle {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-canvas);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.disco-catalog-card.is-expanded .disco-catalog-toggle {
+  transform: rotate(180deg);
+  background-color: var(--accent-rose);
+  color: #1a1a1a;
+  border-color: var(--accent-rose);
+}
+
+/* Smooth Drawer Expand Animation using CSS Grid */
+.disco-catalog-drawer {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  background: var(--bg-surface);
+  border-top: 1px solid transparent;
+}
+
+.disco-catalog-card.is-expanded .disco-catalog-drawer {
+  grid-template-rows: 1fr;
+  border-top-color: var(--border-subtle);
+}
+
+.disco-catalog-drawer-inner {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 0 1.15rem;
+  transition: padding 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.disco-catalog-card.is-expanded .disco-catalog-drawer-inner {
+  padding: 1rem 1.15rem 1.25rem;
+}
+
+.disco-catalog-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.85rem;
+  font-size: 0.78rem;
+}
+
+.disco-catalog-genre {
+  font-weight: 600;
+  color: var(--text-primary);
+  background: rgba(212, 165, 165, 0.12);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+
+.disco-catalog-label {
+  color: var(--text-muted);
+}
+
+.disco-catalog-desc {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.disco-catalog-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.disco-catalog-listen-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.disco-catalog-platform-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.platform-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.38rem 0.75rem;
+  border-radius: 20px;
+  background: var(--bg-canvas);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.platform-icon-btn:hover {
+  background: #111111;
+  color: #FFFFFF;
+  border-color: #111111;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+.platform-icon-btn svg {
+  flex-shrink: 0;
+}
+
+/* 3. Workshops & Classes Teaser (Landing Zócalo) */
+.section-workshops-teaser {
+  padding: clamp(4.5rem, 7vw, 6.5rem) 0;
+  background-color: var(--bg-canvas);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.workshops-teaser-grid {
+  display: grid;
+  grid-template-columns: minmax(320px, 440px) 1fr;
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+
+.workshops-teaser-img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  display: block;
+}
+
+.workshops-pillars-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.pillar-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem 1.25rem;
+  background: #FAFAFA;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  transition: border-color var(--transition-fast);
+}
+
+.pillar-item:hover {
+  border-color: var(--accent-rose);
+}
+
+.pillar-icon-box {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  border-radius: 50%;
+  background: var(--accent-rose-soft);
+  color: var(--accent-rose);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pillar-icon-box svg {
+  width: 18px;
+  height: 18px;
+}
+
+.pillar-info h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.pillar-info p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* 4. Videos Section */
+.section-videos {
+  padding: clamp(4.5rem, 7vw, 6.5rem) 0;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.25rem, 2.5vw, 2rem);
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+.video-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition-medium), box-shadow var(--transition-medium);
+}
+
+.video-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.video-frame-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.video-frame-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-card-body {
+  padding: 1.25rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex-grow: 1;
+}
+
+.video-card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.35;
+}
+
+.video-card-desc {
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.videos-footer-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: clamp(2.5rem, 4vw, 3.5rem);
+}
+
+/* 5. Recitales / Gigs Section (Nick Cave Tour Dates Aesthetic) */
+.section-gigs {
+  padding: clamp(4.5rem, 7vw, 6.5rem) 0;
+  background-color: var(--bg-canvas);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.gigs-list {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  border-top: 1px solid var(--border-medium);
+}
+
+.gig-item {
+  display: grid;
+  grid-template-columns: 140px 1fr 1fr 160px;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 0.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+  transition: background-color var(--transition-fast), padding var(--transition-fast);
+}
+
+.gig-item:hover {
+  background-color: #FAFAFA;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.gig-date {
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-rose);
+}
+
+.gig-location {
+  display: flex;
+  flex-direction: column;
+}
+
+.gig-city {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.gig-venue {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.gig-project {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.gig-action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gig-status-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border-medium);
+  background: transparent;
+  color: var(--text-primary);
+  text-decoration: none;
+  text-align: center;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.gig-status-btn:hover {
+  background: var(--text-primary);
+  color: var(--bg-surface);
+  border-color: var(--text-primary);
+}
+
+.gigs-booking-callout {
+  margin-top: clamp(2.5rem, 4vw, 3.5rem);
+  padding: clamp(1.8rem, 3vw, 2.5rem);
+  background: #FAFAFA;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.gigs-booking-text h4 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.35rem;
+}
+
+.gigs-booking-text p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* 6. Contact Teaser Section (Landing) */
+.section-contact-teaser {
+  padding: clamp(4rem, 6vw, 6rem) 0;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.contact-teaser-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: clamp(2.5rem, 5vw, 4rem);
+  text-align: center;
+  box-shadow: var(--shadow-card);
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.contact-teaser-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* 7. Dedicated Contact Page Styles (contacto.html) */
+.contact-page-hero {
+  padding-top: calc(var(--header-height) + clamp(3rem, 6vw, 5rem));
+  padding-bottom: clamp(3rem, 5vw, 4.5rem);
+  background: #FAFAFA;
+  border-bottom: 1px solid var(--border-subtle);
+  text-align: center;
+}
+
+.contact-page-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 380px) 1fr;
+  gap: clamp(2.5rem, 5vw, 4.5rem);
+  padding: clamp(3.5rem, 6vw, 6rem) 0;
+  align-items: flex-start;
+}
+
+.contact-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-channel-card {
+  background: #FAFAFA;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-channel-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.contact-channel-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent-rose-soft);
+  color: var(--accent-rose);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-channel-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-channel-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.contact-channel-desc {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.contact-channel-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--accent-rose);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.contact-channel-btn:hover {
+  color: var(--text-primary);
+}
+
+.contact-channel-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Contact Photo Card */
+.contact-photo-card {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-subtle);
+  background: #FFFFFF;
+}
+
+.contact-photo-img {
+  width: 100%;
+  aspect-ratio: 4 / 4.2;
+  object-fit: cover;
+  display: block;
+}
+
+.contact-photo-caption {
+  padding: 0.85rem 1rem;
+  background: #FFFFFF;
+  border-top: 1px solid var(--border-subtle);
+  text-align: center;
+}
+
+.contact-photo-title {
+  font-family: var(--font-logo);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* Press Kit Drive Card */
+.contact-press-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--accent-rose);
+}
+
+.btn-press-drive {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-medium);
+  background: #FFFFFF;
+  color: var(--text-primary);
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.btn-press-drive:hover {
+  background: var(--bg-surface);
+  border-color: var(--accent-rose);
+  color: var(--accent-rose);
+}
+
+/* Contact Form Card */
+.contact-form-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: clamp(2rem, 4vw, 3rem);
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-form-headline {
+  font-family: var(--font-logo);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 0.35rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Dedicated Newsletter Strip on Contact Page */
+.contact-newsletter-section {
+  padding: clamp(3.5rem, 6vw, 5rem) 0;
+  background: #F8F7F5;
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.contact-newsletter-card {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contact-newsletter-title {
+  font-family: var(--font-logo);
+  font-size: clamp(1.4rem, 2.2vw, 1.85rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 0.35rem;
+}
+
+.contact-newsletter-desc {
+  font-size: clamp(0.92rem, 1.1vw, 1.02rem);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.contact-newsletter-form {
+  margin-top: 0.5rem;
+}
+
+.contact-newsletter-input-wrap {
+  display: flex;
+  gap: 0.75rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .contact-newsletter-input-wrap {
+    flex-direction: column;
+  }
+}
+
+/* Responsive Overrides for New Sections */
+@media (max-width: 992px) {
+  .bio-stripe-grid,
+  .workshops-teaser-grid,
+  .contact-page-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .disco-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .videos-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gig-item {
+    grid-template-columns: 110px 1fr 1fr 130px;
+    gap: 1rem;
+  }
+
+  .gigs-booking-callout {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .videos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gig-item {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+    padding: 1.25rem 0;
+  }
+
+  .gig-action {
+    justify-content: flex-start;
+    margin-top: 0.25rem;
+  }
+
+  .disco-media-diptych {
+    grid-template-columns: 1fr;
+  }
+}
