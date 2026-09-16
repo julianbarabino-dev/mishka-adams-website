@@ -1,0 +1,344 @@
+################################################################################
+#                                                                              #
+#               MISHKA ADAMS — COMPILACIÓN EDITORIAL DEL SITIO WEB              #
+#                         Textos Principales & Contenidos                      #
+#                                                                              #
+################################################################################
+
+Este archivo contiene los textos esenciales y de contenido del sitio web oficial:
+  1. Portada / Hero (título, presentación y concepto)
+  2. Biografía y trayectoria (resumen, citas, bio oficial completa y relato personal)
+  3. Discografía (los 6 álbumes con año, estilo, sello y descripción)
+  4. Talleres y pedagogía (Percussion for Singers, Ensambles Vocales, Clases 1 a 1)
+  5. Prensa y críticas internacionales (citas de medios y figuras del jazz)
+  6. Contacto y booking (propuesta de clases y presentaciones)
+
+Nota: Se omitieron códigos de programación, etiquetas HTML y botones técnicos
+de navegación para que la lectura sea 100% limpia y editorial.
+
+================================================================================
+MISHKA ADAMS — TEXTOS DEL SITIO WEB (VERSIÓN EN ESPAÑOL)
+================================================================================
+
+--------------------------------------------------------------------------------
+1. PORTADA / HERO PRINCIPAL
+--------------------------------------------------------------------------------
+Nombre: Mishka Adams
+Especialidad: Cantante, Multiinstrumentista & Vocal Coach
+Presentación: Cantante, multiinstrumentista, compositora y pedagoga vocal radicada en Buenos Aires. Explorando el universo rítmico del jazz, la bossa nova y la música latinoamericana.
+Llamado a la acción: Explorá tu voz, el ritmo y el cuerpo
+
+--------------------------------------------------------------------------------
+2. BIOGRAFÍA & TRAYECTORIA ARTÍSTICA
+--------------------------------------------------------------------------------
+[A] Resumen Biográfico (Portada):
+Mishka Adams es una galardonada cantante, multiinstrumentista, arregladora vocal y directora de ensambles vocales filipino-británica, radicada actualmente en Buenos Aires, Argentina. Participa en diversos proyectos que se nutren de los ritmos y estilos de Latinoamérica, principalmente de Brasil, Argentina y Uruguay. A su vez, se presenta como solista y cantautora, con influencias ligadas a sus raíces en el jazz y el folk. Hasta la fecha ha grabado 9 discos, y tiene un nuevo álbum y un EP en camino.
+
+[B] Cita de Apertura:
+"REFRESCANTEMENTE SIN PRETENSIONES Y SENCILLAMENTE TALENTOSA." — TIME OUT LONDON
+
+[C] Biografía Oficial Completa:
+Mishka Adams es una galardonada cantante, multiinstrumentista, arregladora vocal y directora de ensambles vocales filipino-británica, radicada actualmente en Buenos Aires, Argentina. Participa en diversos proyectos que se nutren de los ritmos y estilos de Latinoamérica, principalmente de Brasil, Argentina y Uruguay. A su vez, se presenta como solista y cantautora, con influencias ligadas a sus raíces en el jazz y el folk. Hasta la fecha ha grabado 9 discos, y tiene un nuevo álbum y un EP en camino.
+
+Entre sus proyectos colaborativos más recientes se destacan su dúo junto a su esposo Beto Caletti, reconocido cantante, guitarrista y compositor por su trayectoria en la música brasileña;
+
+Canciones Migrantes junto a Florencia Dávalos y Georgina Hassan, un trío vocal que reúne canciones sobre la inmigración de todo el mundo; Cantoras del Sur, un octeto vocal con percusión y acordeón; y Mujererío Voces y Cuerpo, un noneto a capela.
+
+En 2004, antes de radicarse en Buenos Aires, firmó un contrato discográfico de cuatro álbumes con Candid Records y en 2006 se mudó a Londres para estudiar jazz. Vivió allí durante muchos años, consolidando una fuerte presencia en la escena del jazz y la música brasileña a través de su proyecto solista y diversas colaboraciones. En 2007 cofundó el London Vocal Project junto a su amigo y maestro Pete Churchill, además de desempeñarse como cantante y percusionista en el reconocido grupo de samba Rhythms of the City.
+
+Se ha presentado en numerosos escenarios y giras internacionales, combinando su actividad artística con una profunda pasión por la docencia: cuenta con 20 años de experiencia pedagógica, dirige dos coros femeninos y dicta clases particulares de canto y percusión para cantantes.
+
+[D] Historia Personal y Autobiográfica (Relato Completo):
+Nací en Filipinas, hija de una escultora filipina y de un empresario inglés (y poeta ocasional). Gracias al arte de mi madre, crecí rodeada por la comunidad bohemia de Manila. En el hogar familiar y en la galería de arte de mis padres había reuniones que se extendían hasta altas horas de la noche, y en las primeras horas de la madrugada siempre aparecía una guitarra. A los 12 años, mi madre me enseñó las canciones que solía cantar con su difunta hermana en los años sesenta —Joni Mitchell, James Taylor, Crosby, Stills & Nash— y me enseñó la primera canción que toqué en la guitarra: «The Circle Game» de Joni Mitchell. Cantábamos juntas en armonía a dos voces y ella me transmitió las melodías que cantaba en aquel dúo. La familia de mi madre también estaba llena de músicos y amantes de la música; cada vez que nos reuníamos en la casa de mi tío, venía un pianista (siempre el mismo). Un tío cantaba Elvis, otro Frank Sinatra, y mi tío preferido tocaba la flauta traversa en sol y cantaba temas de Jobim: esa fue mi primera conexión con la música brasileña. Cantábamos hasta tarde y mi tío mayor, cabeza de familia, tenía una lista de temas entrañables que siempre me pedía cantar, ¡y no me dejaba volver a casa hasta que lo hiciera! Su preferido indiscutido era «Cry Me a River» de Arthur Hamilton.
+
+Para ese entonces ya me interesaba el jazz, y me fui a un internado en el Reino Unido, al otro lado del planeta de mi enorme familia y de la tormentosa relación de mis padres. Había probado muchísimos instrumentos: guitarra, piano, batería, y finalmente descubrí y adopté durante algunos años el saxofón tenor, impulsada por mi amor al jazz nacido en aquellas cenas familiares. No era muy versada en teoría pero sabía leer música; toqué en la orquesta y con el tiempo empecé a cantar en la big band de jazz. Cuando canté en público por primera vez a los 14 años, me temblaban tanto las rodillas que tuve que cantar descalza.
+
+A los 18 decidí quedarme en Manila tras 9 años de sentirme desgarrada lejos de mi país natal; pero cuatro años después sentí que ya no pertenecía allí y me mudé definitivamente a Londres para estudiar jazz y vivir como música profesional. Antes de partir, estudié saxofón en la universidad local durante dos años (¡en esa época no había carreras de jazz para cantantes y el saxo era lo más cercano!) y a los 19 ya era cantante de jazz a tiempo completo. Tuve la gran fortuna de ser invitada a cantar en un concierto durante una gira del gran saxofonista británico Courtney Pine; entre el público se encontraba la esposa del presidente de Candid Records. Poco tiempo después firmé un contrato por cuatro álbumes y partí hacia Londres tras grabar mi primer disco en Manila.
+
+Cursé una maestría en jazz en la Guildhall School of Music, donde conocí a dos profesores maravillosos que se volvieron entrañables amigos y pilares de mi vida en Londres: Nikki Iles y Pete Churchill. Pete me acompañó en mis estudios con una generosidad inmensa y, al graduarme, cofundamos el London Vocal Project, un ensamble vocal contemporáneo de jazz que sigue activo tras casi 20 años. Pete y yo también grabamos juntos un álbum con sus hermosas canciones, una vez concluida amigablemente mi etapa con Candid Records. Durante mis años en Londres participé en numerosos proyectos fascinantes como cantante principal, integrante de coros y sesionista en segundas voces y percusión (habiendo dejado ya el saxofón tras partir de Filipinas).
+
+Descubrí la música de Brasil a través del jazz y al sumarme a un gran grupo de samba llamado Rhythms of the City: entré como percusionista para trabajar mi métrica y sentido del tiempo, y con el tiempo me convertí en una de sus cantantes. Toqué con ellos durante cinco o seis años girando por todo el Reino Unido y parte de Europa. Viajé a Brasil, aprendí portugués y viví un breve tiempo en Berlín. En el medio recorrí el mundo, conociendo lugares increíbles y personas entrañables. Hacia el final de mi estadía en Londres, mi gran amigo, compañero de banda y maestro Guillermo Rozenthuler —quien me introdujo por primera vez a la música argentina— me hizo escuchar las canciones de su amigo de toda la vida, Beto Caletti. Una cosa llevó a la otra: Beto y yo nos enamoramos y aquí estoy en Buenos Aires, sintiendo que finalmente encontré mi lugar en el mundo. Con Beto giramos por el mundo entero como dúo musical, nuestra hija nació aquí y siento que estoy donde siempre debí estar.
+
+Este hermoso país y su maravillosa gente me abrieron infinitas puertas y tengo la suerte de compartir música con artistas extraordinarios. Junto a nuestro dúo con Beto, también canto en tres ensambles femeninos:
+
+
+• Canciones Migrantes — Trío junto a Georgina Hassan y Florencia Dávalos, que reúne canciones inspiradas en las historias de inmigrantes, sus diversas culturas y lenguas. Actualmente tenemos un EP en camino.
+
+
+• Cantoras del Sur — Siete cantantes y un percusionista con un repertorio diverso enraizado en la música del mundo, los estilos latinoamericanos y composiciones originales (con el placer de realizar varios arreglos vocales para este proyecto y para Canciones Migrantes).
+
+
+• Mujererío Voces y Cuerpo — Noneto a capela y bailarina bajo la dirección y arreglos de Violeta Manoukian sobre repertorio latinoamericano.
+
+En medio de todo esto, desarrollo un proyecto solista con canciones propias que recuperan mis raíces en el folk que mi madre me enseñó en la infancia, dirijo dos ensambles vocales de alumnas y continúo con mis clases particulares de canto y los talleres de «Percussion for Singers».
+
+Ha sido una maravillosa aventura hasta aquí y no podría estar más agradecida. ¡Espero con entusiasmo las sorpresas que la vida me depare! Gracias por acompañarme en este camino si leíste hasta acá, y no dudes en ponerte en contacto si alguno de estos proyectos o clases te interesa.
+
+--------------------------------------------------------------------------------
+3. DISCOGRAFÍA & ÁLBUMES
+--------------------------------------------------------------------------------
+Título: Discografía
+Concepto: 9 álbumes editados entre Londres y Buenos Aires, recorriendo el jazz vocal, la bossa nova y ricas polifonías de raíz sudamericana.
+
+• Stranger On The Shore (2009)
+  Género / Estilo: Vocal Jazz & Acoustic Soul
+  Sello / Formato: Candid Records · Londres
+  Descripción: Álbum solista grabado en Londres junto a una selecta formación acústica, revisitando estándares de jazz y composiciones originales con una calidez vocal cautivadora.
+
+• Space (2007)
+  Género / Estilo: Contemporary Jazz & Folk
+  Sello / Formato: Candid Records · Londres
+  Descripción: Segundo disco solista para Candid Records, elogiado en el Reino Unido por su frescura melódica, soltura vocal y arreglos modernos.
+
+• God Walked on the Water (2005)
+  Género / Estilo: Vocal Jazz & Bossa Nova
+  Sello / Formato: Candid Records · Debut
+  Descripción: Álbum debut en Londres que inauguró su trayectoria internacional, fusionando la tradición del jazz vocal con sutiles aires de bossa.
+
+• Adams & Caletti en Vivo (2023)
+  Género / Estilo: Música Brasileña & Raíz
+  Sello / Formato: Grabación en Vivo
+  Descripción: Registro en directo en Buenos Aires junto a Beto Caletti: guitarras, percusión y armonías en un vibrante diálogo con el público.
+
+• Adams & Caletti (Trilogía: Puentes Aéreos / Vergel) (2017 - 2021)
+  Género / Estilo: Candombe, Bossa & World Folk
+  Sello / Formato: Dúo Acústico · Trilogía
+  Descripción: Parte de la trilogía discográfica del dúo internacional, tejiendo canciones rioplatenses, ritmos afrobrasileños y poética acústica.
+
+• Stories to Tell (con Pete Churchill) (2015)
+  Género / Estilo: Jazz Poético & Piano Voz
+  Sello / Formato: Royal Academy · Bandcamp
+  Descripción: Grabación a dúo con el maestro Pete Churchill (Royal Academy of Music), celebrando la canción como relato poético íntimo.
+
+--------------------------------------------------------------------------------
+4. TALLERES, CLASES & PEDAGOGÍA VOCAL
+--------------------------------------------------------------------------------
+Enfoque: Clases & Talleres
+Bajada: 20 años de experiencia pedagógica guiando a cantantes, músicos y grupos en el descubrimiento del ritmo, la afinación y el cuerpo.
+
+Pilares pedagógicos:
+• Percussion for Singers: Talleres grupales y clases 1 a 1 de ritmo, swing, subdivisiones y percusión corporal aplicados al canto.
+• Clases Particulares de Canto: Técnica vocal, repertorio, soltura corporal e interpretación individual (online y presencial en CABA).
+• Ensambles Vocales: Ensamble Rayuela y Agronomía Canta: comunidad vocal femenina, polifonías del mundo y conciertos.
+
+Programas en detalle:
+
+■ PERCUSSION FOR SINGERS — Talleres grupales & clases particulares
+  Modalidad: Taller Especializado
+  Enfoque: Conectar con el groove, la clave y el ritmo corporal como fundamento para cantar con soltura, tocar percusión y conectar orgánicamente con la música.
+  Desarrollo: Mishka siempre ha sentido una profunda pasión y curiosidad por la percusión, convencida de que el ritmo es fundamental para cantar, toquemos o no un instrumento. Conectar con el groove y el tiempo mientras cantamos eleva la interpretación vocal y nos une con los músicos con quienes compartimos. Es parte de lo que convierte a una cantante en música integral. En sus presentaciones en vivo, Mishka casi siempre acompaña sus canciones con percusión menor y corporal.
+  En los talleres y clases exploramos:
+    - Aprender y tocar una gran variedad de grooves, claves y estilos
+    - Coordinación e independencia corporal mientras cantás y tocás
+    - Comprender y sentir los distintos tipos de 'swing' y subdivisiones
+    - Aprovechar la percusión de mano (¡y objetos cotidianos!) para acompañar canciones
+    - Experimentar con temas de tu propio repertorio en grupo
+
+■ ENSAMBLES VOCALES — Rayuela & Agronomía Canta
+  Modalidad: Presencial en Agronomía
+  Enfoque: Dos agrupaciones corales femeninas en Agronomía. Arreglos a medida creados por Mishka que transitan la bossa nova, folklore argentino y canciones del mundo.
+  Desarrollo: Actualmente Mishka dirige dos ensambles vocales femeninos desde su espacio en Agronomía, Buenos Aires: Ensamble Rayuela (intermedio/avanzado) y Agronomía Canta (inicial/intermedio). Ambos grupos abordan un amplio abanico de estilos e idiomas con arreglos a medida. Se vive un fuerte sentido de comunidad donde los lazos humanos son tan enriquecedores como la música. Realizan conciertos regulares y encuentros con otras agrupaciones.
+  Características del espacio:
+    - Arreglos vocales exclusivos hechos a medida para cada grupo
+    - Repertorio multicultural: Bossa nova, folklore argentino, candombe y música balcánica
+    - Desarrollo del empaste vocal, dinámica grupal y escucha armónica
+    - Conciertos periódicos y presentaciones conjuntas
+
+■ CLASES PARTICULARES 1 A 1 — Coaching y técnica personalizada
+  Modalidad: Presencial & Online
+  Enfoque: Acompañamiento individual a medida para descubrir tu voz, potenciar tu afinación y profundizar en técnica, ritmo y repertorio desde nivel inicial hasta profesional.
+  Desarrollo: El camino de cada cantante es único: todos tenemos necesidades, metas y habilidades distintas. Mishka trabaja con vocalistas de todos los niveles: desde principiantes que buscan descubrir su voz o instrumentistas que desean cantar, hasta cantantes profesionales en busca de coaching técnico, interpretativo y asesoramiento artístico.
+  Ejes de trabajo personalizados:
+    - Técnica vocal, salud y emisión fisiológica
+    - Trabajo corporal y alineación postural
+    - Ritmo, groove e independencia en la voz
+    - Elección, desarrollo y arreglo de repertorio
+    - Interpretación, presencia y expresión escénica
+
+--------------------------------------------------------------------------------
+5. PRENSA & CRÍTICAS DESTACADAS
+--------------------------------------------------------------------------------
+"El sueño de todo compositor: una comprensión profunda del texto y, sencillamente, una de las voces más hermosas que he escuchado."
+— Pete Churchill (Profesor de Jazz en la Royal Academy of Music, Londres · Royal Academy of Music)
+
+"Refrescantemente sin pretensiones y sencillamente talentosa."
+— Time Out London (Crítica Cultural & Espectáculos · Reino Unido · Time Out London)
+
+"Une la música argentina y brasileña con la impronta personal de una cantautora y una musicalidad sublime."
+— Alison Bentley (Crítica Musical · London Jazz News · London Jazz News)
+
+"La voz de Mishka Adams es hoy un instrumento cautivador: liviano, suave y sutil."
+— Sebastian Scotney (Editor & Periodista · UK Jazz News · UK Jazz News)
+
+--------------------------------------------------------------------------------
+6. CONTACTO, CLASES & BOOKING
+--------------------------------------------------------------------------------
+Título: Conversemos
+Mensaje: Escribinos para coordinar clases de canto particulares, consultar por talleres y ensambles vocales, o proponer proyectos artísticos y fechas de conciertos.
+Email oficial: contact@mishkaadams.com
+Ubicación y modalidad: Agronomía, Buenos Aires, Argentina (presencial) y clases / talleres online para todo el mundo.
+
+
+
+================================================================================
+MISHKA ADAMS — WEBSITE TEXTS (ENGLISH VERSION)
+================================================================================
+
+--------------------------------------------------------------------------------
+1. HOMEPAGE / HERO SECTION
+--------------------------------------------------------------------------------
+Name: Mishka Adams
+Role / Title: Singer, Multi-instrumentalist & Vocal Coach
+Tagline: Singer, multi-instrumentalist, songwriter and vocal pedagogue based in Buenos Aires. Exploring the rhythmic universe of jazz, bossa nova and Latin American music.
+Call to Action: Unlock your voice, rhythm & body
+
+--------------------------------------------------------------------------------
+2. BIOGRAPHY & ARTISTIC JOURNEY
+--------------------------------------------------------------------------------
+[A] Short Bio Summary (Homepage):
+Mishka Adams is an award-winning Filipino-British singer, multi-instrumentalist, vocal arranger and vocal ensemble director, currently based in Buenos Aires, Argentina. She participates in diverse projects rooted in the rhythms and styles of Latin America, mainly Brazil, Argentina and Uruguay. At the same time, she performs as a soloist and singer-songwriter, with influences tied to her roots in jazz and folk. To date, she has recorded 9 albums, with a new album and an EP currently in the works.
+
+[B] Opening Quote:
+"REFRESHINGLY UNPRETENTIOUS AND JUST PLAIN TALENTED." — TIME OUT LONDON
+
+[C] Full Official Biography:
+Mishka Adams is an award-winning Filipino-British singer, multi-instrumentalist, vocal arranger and vocal ensemble director, currently based in Buenos Aires, Argentina. She participates in diverse projects rooted in the rhythms and styles of Latin America, mainly Brazil, Argentina and Uruguay. At the same time, she performs as a soloist and singer-songwriter, with influences tied to her roots in jazz and folk. To date, she has recorded 9 albums, with a new album and an EP currently in the works.
+
+Among her most recent collaborative projects, highlights include her duo with her husband Beto Caletti, a renowned singer, guitarist and composer celebrated for his extensive career in Brazilian music;
+
+Canciones Migrantes alongside Florencia Dávalos and Georgina Hassan, a vocal trio bringing together immigration songs from across the globe; Cantoras del Sur, a vocal octet with percussion and accordion; and Mujererío Voces y Cuerpo, an a cappella nonet.
+
+In 2004, prior to settling in Buenos Aires, she signed a four-album recording contract with Candid Records and moved to London in 2006 to study jazz. She lived there for many years, building a strong presence in the jazz and Brazilian music scenes through her solo project and diverse collaborations. In 2007, she co-founded the London Vocal Project alongside her mentor and friend Pete Churchill, and performed as a singer and percussionist with the acclaimed samba ensemble Rhythms of the City.
+
+She has performed on numerous international stages and tours, blending her artistic journey with a deep passion for education: she brings 20 years of pedagogical experience, directs two women's choirs, and offers private vocal lessons and signature Percussion for Singers workshops.
+
+[D] Personal Autobiographical Narrative (Full Story):
+I was born in the Philippines to a Filipina sculptor and an English businessman (and occasional poet). Thanks to my mother’s art, I grew up surrounded by the bohemian community in Manila. In my family home and my parents’ art gallery there were many gatherings that lasted late into the night, and in the early hours of the morning a guitar always appeared. At the age of 12 my mother taught me the songs she had sung with her late sister in the sixties — Joni Mitchell, James Taylor, Crosby, Stills & Nash — and she taught me the first song I ever played on the guitar, «The Circle Game» by Joni Mitchell. We would sing together in two part harmony and she taught me the melodies her sister used to sing in their duo. My mother’s side of the family was also full of musicians and music lovers and every time we all gathered at my uncle’s house, a piano player would come (the same every time). One uncle sang Elvis, another Frank Sinatra, and my favourite uncle played alto flute and sang songs by Jobim – that was my first connection with Brazilian music. We would sing late into the night and my oldest uncle, the head of the family, had a list of beloved songs that he always wanted me to sing, and wouldn’t let me go home until I did so! His all-time favourite for me was «Cry Me a River» by Arthur Hamilton.
+
+At this point I was already interested in jazz, and going to boarding school in the UK, the other side of the planet from my enormous family and my parents’ very stormy relationship. I had tried loads of different instruments — guitar, piano, drums — and eventually discovered and stayed with for some years, the tenor saxophone, due to my love of jazz that had been born in my uncle’s family dinners. I was not well versed in music theory but I could read music, I played in the orchestra and eventually started singing in the jazz band – when I sang in public for the first time at 14 my knees trembled so badly that I had to go barefoot.
+
+At 18 I was determined to stay in Manila after 9 years of feeling torn from my home country – only to find 4 years later that I felt I no longer belonged there and moved to London full time to study jazz and live a musician’s life. Before I left, I studied saxophone at the local university for two years (there were no jazz courses for singers at that time and the sax was the closest I could get!) and was a full-time jazz singer by the age of 19. I had the great fortune of being invited to sing in a concert when the great British saxophonist Courtney Pine came over on tour and the CEO of Candid Records' wife was sitting in the audience. Shortly after I signed a four-album recording contract and left for London after recording my first album in Manila.
+
+I did a jazz masters at the Guildhall School of Music where I met two wonderful professors that became very good friends and central to my life in London, Nikki Iles and Pete Churchill. Pete got me through my studies with an enormous amount of help and after I left we co-founded the London Vocal Project, a wonderful jazz/contemporary choir that is still going almost 20 years on! Pete and I also recorded an album of his beautiful songs together, once my album deal with Candid Records came to an amicable close. During my time in London I played in lots of different amazing projects both as a lead singer, choir member and side woman on backing vocals and percussion (I had put down the sax after leaving the Philippines).
+
+I discovered Brazilian music through jazz and through joining a great samba group called Rhythms of the City – I joined as a percussionist because I wanted to work on my time keeping, and later on became one of the singers – I played with them for five or six years and we toured all over the UK and some of Europe. I travelled to Brazil, learned Portuguese, and lived in Berlin for a short time. I travelled all over the world in the middle of it all, to amazing places with wonderful people. Towards the end of my time living in London, my great friend, bandmate, and teacher Guillermo Rozenthuler, who first introduced me to Argentinian music, played me the music of his longtime friend Beto Caletti. One thing led to another, Beto and I fell in love and here I am in Buenos Aires – feeling like I finally found my place in the world. Beto and I toured all over the world as a musical duo, our daughter was born here, and I feel I am where I was always meant to be.
+
+This wonderful country and its amazing people have opened so many doors and I am lucky enough to be able to play with some incredible musicians. Alongside our duo with Beto, I also sing in three female groups:
+
+
+• Canciones Migrantes — A trio with Georgina Hassan and Florencia Dávalos that brings together songs inspired by immigrants and their many diverse cultures and languages. We have an EP in the making.
+
+
+• Cantoras del Sur — With seven singers and a percussionist and a diverse repertoire rooted in world music and Latin American styles and original compositions (I have the great pleasure of doing a number of vocal arrangements for this project and Canciones Migrantes).
+
+
+• Mujererío Voces y Cuerpo — An a cappella nonet and dancer under the direction of and with arrangements by Violeta Manoukian of Latin American repertoire.
+
+In the middle of all this, I have a solo project of my own songs that bring back some of my roots in the folk music my mum taught me in my childhood and two vocal ensembles of students that I direct, as well as my one to one teaching and percussion for singers workshops.
+
+It’s been a great adventure so far, and I couldn’t be more grateful. I’m looking forward to seeing what surprises life brings next! Thanks for coming on the journey with me if you’ve read this far, and do get in touch if these projects or classes are interesting to you.
+
+--------------------------------------------------------------------------------
+3. DISCOGRAPHY & ALBUMS
+--------------------------------------------------------------------------------
+Title: Discography
+Concept: 9 recorded albums across London and Buenos Aires, exploring vocal jazz, bossa nova and rich South American polyphony.
+
+• Stranger On The Shore (2009)
+  Genre / Style: Vocal Jazz & Acoustic Soul
+  Label / Format: Candid Records · London
+  Description: Solo album recorded for Candid Records in London, exploring classic jazz standards and original songs with an intimate acoustic ensemble.
+
+• Space (2007)
+  Genre / Style: Contemporary Jazz & Folk
+  Label / Format: Candid Records · London
+  Description: Second solo album for Candid Records, acclaimed across the UK for its melodic freshness, vocal agility, and modern arrangements.
+
+• God Walked on the Water (2005)
+  Genre / Style: Vocal Jazz & Bossa Nova
+  Label / Format: Candid Records · Debut
+  Description: Debut London album that launched her international career, blending classic vocal jazz tradition with subtle bossa nova nuances.
+
+• Adams & Caletti en Vivo (2023)
+  Genre / Style: Brazilian Roots & Live Folk
+  Label / Format: Live Recording
+  Description: Live concert recording in Buenos Aires with Beto Caletti: acoustic guitars, percussion, and rich vocal harmonies in full connection.
+
+• Adams & Caletti (Trilogía: Puentes Aéreos / Vergel) (2017 - 2021)
+  Genre / Style: Candombe, Bossa & World Folk
+  Label / Format: Acoustic Duo · Trilogy
+  Description: Part of the international duo's acclaimed trilogy, weaving Rioplatense songcraft, Afro-Brazilian rhythms, and acoustic poetics.
+
+• Stories to Tell (con Pete Churchill) (2015)
+  Genre / Style: Poetic Jazz & Voice-Piano
+  Label / Format: Royal Academy · Bandcamp
+  Description: Intimate duo project with master pianist Pete Churchill (Royal Academy of Music), celebrating song as narrative poetry.
+
+--------------------------------------------------------------------------------
+4. WORKSHOPS, CLASSES & VOCAL COACHING
+--------------------------------------------------------------------------------
+Overview: Workshops & Classes
+Tagline: 20 years of pedagogical experience guiding singers, musicians and vocal ensembles in unlocking rhythm, groove, vocal technique and the body.
+
+Pedagogical pillars:
+• Percussion for Singers: Group workshops and 1:1 sessions exploring groove, body percussion and rhythm applied to vocal expression.
+• 1:1 Private Voice Lessons: Vocal technique, repertoire, body awareness and tailored coaching (online and in-person in Buenos Aires).
+• Vocal Ensembles: Ensamble Rayuela and Agronomía Canta: women's vocal community, world polyphony and concerts.
+
+Programs in detail:
+
+■ PERCUSSION FOR SINGERS — Group workshops & 1:1 lessons
+  Format: Signature Workshop
+  Summary: Connecting to groove, pulse, and body percussion as the foundation for expressive singing, instrumental independence, and holistic musicianship.
+  Description: Mishka has always been passionate and curious about percussion and feels that rhythm is essential to singing, whether we play a percussive instrument or not. Connecting to groove and time while we sing can elevate a vocal performance and unites us with the music and the musicians we are playing with. In her live shows she almost always plays percussion to accompany her songs.
+  What you'll explore in the workshops:
+    - Learning and playing a variety of grooves and styles
+    - Moving in time while singing and playing
+    - Understanding and feeling different types of 'swing' and subdivisions
+    - Making the most of handheld percussion to accompany your songs
+    - Trying out songs from your own repertoire in the group
+
+■ VOICE LESSONS 1:1 — Private coaching & mentorship
+  Format: In Person & Online Worldwide
+  Summary: Tailored one-on-one vocal technique and mentorship for all levels (beginner to professional), focusing on vocal freedom, rhythm, and artistic identity.
+  Description: No two journeys are the same for any singer: we all have specific needs, goals and abilities. Mishka works with singers of all levels, from helping beginners find their voice, to instrumentalists who want to start singing, to professional vocalists looking for advanced technique and artistic coaching.
+  Personalized focus areas:
+    - Vocal technique & vocal health
+    - Body work and physical alignment
+    - Rhythm and groove in the voice and body
+    - Repertoire exploration and styling
+    - Interpretation, storytelling and expression
+
+■ VOCAL ENSEMBLES — Rayuela & Agronomía Canta
+  Format: In-Person in Buenos Aires
+  Summary: Two female vocal ensembles in Agronomía, Buenos Aires, singing custom vocal arrangements in Brazilian music, Argentine folk, and world polyphony.
+  Description: Mishka currently runs two female vocal ensembles from her home in Agronomía, Buenos Aires – Ensamble Rayuela and Agronomía Canta. Both ensembles sing a wide variety of styles with tailor-made arrangements by Mishka. There is a strong sense of community and regular concerts and joint performances.
+  Ensemble features:
+    - Tailor-made vocal arrangements crafted by Mishka
+    - Rich repertoire: Brazilian, Argentine folk, candombe, Eastern European folk
+    - Vocal blending, group dynamics and ear training
+    - Regular concerts and community gatherings
+
+--------------------------------------------------------------------------------
+5. PRESS & HIGHLIGHTED REVIEWS
+--------------------------------------------------------------------------------
+"She is a songwriter’s dream – a great understanding of text, and, quite simply, one of the most beautiful voices I’ve ever heard."
+— Pete Churchill (Professor of Jazz, Royal Academy of Music, London · Royal Academy of Music)
+
+"Refreshingly unpretentious and just plain talented."
+— Time Out London (Cultural Review & Arts · United Kingdom · Time Out London)
+
+"Bringing together Argentinian and Brazilian music with a singer-songwriter’s personal touch and superb musicianship."
+— Alison Bentley (Music Critic · London Jazz News · London Jazz News)
+
+"Mishka Adams' voice right now is an appealing light, soft, gentle instrument."
+— Sebastian Scotney (Editor & Journalist · UK Jazz News · UK Jazz News)
+
+--------------------------------------------------------------------------------
+6. CONTACT, CLASSES & BOOKING
+--------------------------------------------------------------------------------
+Title: Get in Touch
+Message: Reach out to schedule 1:1 voice coaching, inquire about upcoming workshops and vocal ensembles, or discuss concerts and artistic bookings.
+Official Email: contact@mishkaadams.com
+Location & Modality: Agronomía, Buenos Aires, Argentina (in-person) and online lessons / workshops worldwide.
+
