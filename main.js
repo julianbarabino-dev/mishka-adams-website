@@ -21,15 +21,15 @@ const i18nData = {
 
     // Hero
     // Hero
-    heroBadge: "Singer – multi instrumentalist – ensemble leader – voice coach – percussion for singers",
+    heroBadge: "Cantante – multiinstrumentista – coach vocal – percusión para cantantes",
     heroTitlePrefix: "Mishka",
     heroTitleSuffix: "Adams",
-    heroTagline: "Cantante, multiinstrumentista, compositora y pedagoga vocal radicada en Buenos Aires. Explorando el universo rítmico del jazz, la bossa nova y la música latinoamericana.",
+    heroTagline: "Cantante, multiinstrumentista, compositora y coach vocal radicada en Buenos Aires. Explorando el universo rítmico del jazz, la bossa nova y la música latinoamericana.",
     heroCtaTeaching: "Talleres & Clases",
     heroCtaMusic: "Bio & Discografía",
-    heroCtaTag: "Singer – multi instrumentalist – ensemble leader – voice coach – percussion for singers",
+    heroCtaTag: "Cantante – multiinstrumentista – coach vocal – percusión para cantantes",
     heroCtaTitle: "Explorá tu voz, el ritmo y el cuerpo",
-    heroCtaBtn: "1:1 lessons / Percussion for Singers workshops",
+    heroCtaBtn: "Clases 1:1 / Talleres de Percusión para Cantantes",
 
     // Quotes
     preBioQuoteText: "REFRESCANTEMENTE SIN PRETENSIONES Y SIMPLEMENTE TALENTOSA",
@@ -58,26 +58,30 @@ const i18nData = {
         <div class="bio-projects-list">
           <div class="bio-project-item">
             <span class="bio-project-title">Mishka Adams &amp; Beto Caletti</span>
-            <span class="bio-project-desc">Dúo acústico con giras por todo el mundo, uniendo música brasileña, canción rioplatense y raíz poética.</span>
+            <span class="bio-project-desc">Dúo de voces, guitarra de siete cuerdas y percusión que tiene sus raíces en la tradición de los ritmos afro latinos de Sudamérica. Sus canciones emergen de esta mezcla de estilos y embarcan a quien los escucha en un viaje en cuatro lenguajes: español, portugués, inglés y tagalog (filipino).</span>
           </div>
           <div class="bio-project-item">
             <span class="bio-project-title">Canciones Migrantes</span>
-            <span class="bio-project-desc">Trío junto a Florencia Dávalos y Georgina Hassan sobre canciones e historias de inmigrantes de diversas culturas.</span>
+            <span class="bio-project-desc">Trío junto a Florencia Dávalos y Georgina Hassan que reúne canciones de sus ancestros, canciones propias y otras de diferentes partes del mundo.</span>
           </div>
           <div class="bio-project-item">
             <span class="bio-project-title">Cantoras del Sur</span>
-            <span class="bio-project-desc">Ensamble de siete cantantes y percusión explorando repertorio de música del mundo y estilos latinoamericanos.</span>
+            <span class="bio-project-desc">Ensamble de siete cantantes y percusión - una reunión de intérpretes y compositoras de diversas procedencias y estilos, unidas por el deseo de compartir y recrear repertorios populares, propios y anónimos, transmitidos de generación en generación principalmente por mujeres.</span>
           </div>
           <div class="bio-project-item">
             <span class="bio-project-title">Mujererío Voces y Cuerpo</span>
-            <span class="bio-project-desc">Noneto a capela y bailarina bajo la dirección y arreglos de Violeta Manoukian.</span>
+            <span class="bio-project-desc">Es un espectáculo en el que la música y las voces, se entrelazan con poemas y textos en una puesta en escena sutil y poética. Voces a capella, nueve cantoras y una bailarina bajo la dirección y arreglos de Violeta Manoukian.</span>
           </div>
           <div class="bio-project-item">
             <span class="bio-project-title">Stories to Tell (with Pete Churchill)</span>
-            <span class="bio-project-desc">Dúo a voz y piano junto al maestro Pete Churchill (Royal Academy of Music), celebrando la canción íntima.</span>
+            <span class="bio-project-desc">Unidos por las canciones de Pete Churchill y la voz de Mishka, este grupo también incluye el extraordinario Mark Lockheart en saxo, la guitarra exquisita de Ben Barritt, y el fantástico percusionista Adriano Adewale.</span>
           </div>
         </div>
       </div>
+
+      <p style="margin-top: 1.75rem;">Entre todo esto, tengo mi proyecto solista en que toco mis composiciones que nacen de mis raíces en el folk y el jazz. También dirijo dos ensambles de mujeres, doy clases de canto particulares y talleres de percusión para cantantes.</p>
+
+      <p class="bio-closing-note" style="margin-top: 1rem; font-style: italic;">Ha sido una aventura maravillosa hasta ahora, y no podría estar más agradecida, sobre todo a mi maestro John – sin él sería otra persona.</p>
     `,
 
     // Bio Page (Full Bio)
@@ -85,7 +89,7 @@ const i18nData = {
     bioTag: "Trayectoria & Raíces",
     bioTitle: "Biografía Oficial",
     bioLead: "Mishka Adams es cantante, multi-instrumentista, arregladora vocal y directora de ensambles vocales. Filipina-británica, radicada actualmente en Buenos Aires, participa en diversos proyectos que se nutren de los ritmos y estilos de Latinoamérica. Se presenta también como solista y cantautora, con influencias ligadas a sus raíces en el jazz y el folk. Hasta hoy ha grabado 9 discos, ganó el “Awit Awards” en Filipinas y tiene un nuevo álbum y un EP en camino.",
-    bioP1_duo: "Entre sus proyectos colaborativos más recientes se destacan su dúo junto a su esposo Beto Caletti, reconocido cantante, guitarrista y compositor por su trayectoria en la música brasileña;",
+    bioP1_duo: "Entre sus proyectos colaborativos más recientes se destacan su dúo junto a su pareja Beto Caletti, reconocido cantante, guitarrista y compositor por su trayectoria en la música brasileña;",
     bioP1_collaborations: "Canciones Migrantes junto a Florencia Dávalos y Georgina Hassan; Cantoras del Sur; Mujererío Voces y Cuerpo; y Stories to Tell junto a Pete Churchill.",
     bioP2: "En 2004, antes de radicarse en Buenos Aires, firmó un contrato discográfico de cuatro álbumes con Candid Records y en 2006 se mudó a Londres para estudiar jazz. Vivió allí durante muchos años, consolidando una fuerte presencia en la escena del jazz y la música brasileña a través de su proyecto solista y diversas colaboraciones. En 2007 cofundó el London Vocal Project junto a su amigo y maestro Pete Churchill, además de desempeñarse como cantante y percusionista en el reconocido grupo de samba Rhythms of the City.",
     bioP3: "Se ha presentado en numerosos escenarios y giras internacionales, combinando su actividad artística con una profunda pasión por la docencia: cuenta con 20 años de experiencia pedagógica, dirige dos coros femeninos y dicta clases particulares de canto y percusión para cantantes.",
@@ -98,10 +102,10 @@ const i18nData = {
     discoSubtitle: "",
     discoPlayer1Badge: "Dúo · Adams & Caletti (2020)",
     discoPlayer1Title: "Adams & Caletti",
-    discoPlayer1Desc: "Nuestro segundo álbum grabado a dúo con mi esposo Beto Caletti. Escribimos estas canciones mientras estábamos de gira por Asia y Europa en 2019, y lo terminamos y lanzamos en 2020 tras la llegada de la pandemia. Cuenta con la participación de artistas de todo el mundo.",
+    discoPlayer1Desc: "Nuestro segundo álbum grabado a dúo con mi pareja Beto Caletti. Escribimos estas canciones mientras estábamos de gira por Asia y Europa en 2019, y lo terminamos y lanzamos en 2020 tras la llegada de la pandemia. Cuenta con la participación de artistas de todo el mundo.",
     discoPlayer2Badge: "Dúo con Pete Churchill (2015)",
     discoPlayer2Title: "Stories to Tell",
-    discoPlayer2Desc: "Un álbum con canciones de mi entrañable amigo Pete Churchill. Trabajamos juntos durante muchos años en el London Vocal Project y fue uno de mis maestros en mi maestría. Grabado en Londres en 2015 junto a una banda maravillosa.",
+    discoPlayer2Desc: "Un álbum con canciones de mi querido amigo Pete Churchill. Trabajamos juntos durante muchos años en el London Vocal Project y fue uno de mis profesores en mi maestría. Grabado en Londres en 2015 junto a una banda maravillosa.",
     discoPlayer3Badge: "Solista · Candid Records (2012)",
     discoPlayer3Title: "Stranger on the Shore",
     discoPlayer3Desc: "Mi cuarto y último álbum bajo el sello de jazz Candid Records, editado en 2012. Se sienten como canciones de una vida anterior. Grabado, mezclado y masterizado en Manila, Filipinas junto a músicos maravillosos.",
@@ -147,21 +151,19 @@ const i18nData = {
     teachingTeaserTag: "1:1 lessons, percussion for singers & vocal ensembles",
     teachingTeaserTitle: "Clases & Talleres",
     teachingTeaserSubtitle: "",
-    teachingPillar1Title: "Percussion for Singers",
-    teachingPillar1Desc: "Group workshops and 1:1 sessions where we’ll work on groove and time and learn a variety of different rhythms. I’ll share some percussion basics and help you to incorporate percussion into your repertoire.",
-    teachingPillar2Title: "1:1 Private Voice Lessons",
-    teachingPillar2Desc: "Bespoke one to one lessons tailored to your specific needs and interests. We can work on vocal technique, rhythm and time, interpretation and repertoire, and everything in between.",
-    teachingPillar3Title: "Vocal Ensembles",
-    teachingPillar3Desc: "Ensamble Rayuela and Agronomía Canta: two vocal ensembles that meet weekly in Buenos Aires. The repertoire includes a wide variety of styles and languages, with arrangements written specifically for each group. We also do concerts and encounters with other vocal groups.",
+    teachingPillar1Title: "Percusión para cantantes",
+    teachingPillar1Desc: "Talleres y clases particulares en que vamos a trabajar “groove” y ritmo y aprender una gran variedad de estilos. Voy a compartir unos principios básicos y ayudarte a incorporar percusión en tu repertorio.",
+    teachingPillar2Title: "Clases de canto particulares",
+    teachingPillar2Desc: "En estas clases vamos a trabajar técnica vocal, ritmo, interpretación y expresión, y repertorio dentro de otras cosas, siempre guiados por tus necesidades e intereses.",
+    teachingPillar3Title: "Ensambles vocales",
+    teachingPillar3Desc: "Ensamble Rayuela y Agronomía Canta: dos ensambles vocales que se encuentran una vez por semana en Buenos Aires. El repertorio tiene una gran variedad de estilos e idiomas, con arreglos hechos a medida para cada grupo. También hacemos conciertos y encuentros con otros grupos.",
     teachingTeaserBtn: "Explorar Clases & Talleres",
 
     // Teaching Dedicated Page (talleres.html)
     teachingHeroTitle: "CLASSES & WORKSHOPS",
-    teachingTitle: "CLASSES & WORKSHOPS (online y presencial)",
-    teachingSubtitle: "Percussion for singers workshops, bespoke 1:1 voice lessons and vocal mentorship for singers and musicians, vocal ensembles",
-    teachingTag: "Pedagogía Vocal & Ritmo",
-    teachingQuote: "CONECTAR CON EL GROOVE Y EL TIEMPO MIENTRAS CANTAMOS ELEVA LA INTERPRETACIÓN VOCAL Y NOS UNE ORGÁNICAMENTE CON LA MÚSICA Y LOS MÚSICOS CON QUIENES COMPARTIMOS.",
-    teachingQuoteAuthor: "— MISHKA ADAMS",
+    teachingTitle: "CLASSES & TALLERES (online y presencial)",
+    teachingSubtitle: "Percusión para cantantes, clases de canto particulares, mentoría para cantantes y músicos, y ensambles vocales",
+    teachingTag: "Pedagogía Vocal",
 
     // Videos Section (Home)
     videosTag: "Registro Audiovisual",
@@ -219,7 +221,7 @@ const i18nData = {
     // Contact Teaser Section (Landing)
     contactTeaserTag: "Contacto & Booking",
     contactTeaserTitle: "Conversemos",
-    contactTeaserDesc: "¿Te interesa sumarte a los talleres de percusión, tomar clases particulares de canto o coordinar una presentación artística? Estamos a un mensaje de distancia.",
+    contactTeaserDesc: "",
     contactTeaserBtn: "Ir a la Página de Contacto",
     contactDirectEmail: "Enviar un Correo",
 
@@ -229,9 +231,10 @@ const i18nData = {
     contactPageSubtitle: "Escribinos para coordinar clases de canto particulares, consultar por talleres y ensambles vocales, o proponer proyectos artísticos y fechas de conciertos.",
     contactChannelsTitle: "Canales Directos",
     contactChannelsDesc: "Elegí el medio más cómodo para comunicarte:",
+    contactEmailTitle: "Email",
     contactEmailDesc: "Para prensa, contrataciones internacionales o propuestas pedagógicas:",
     contactLocationTitle: "Ubicación & Modalidad",
-    contactLocationDesc: "Agronomía, Buenos Aires, Argentina (presencial) y clases / talleres online para todo el mundo.",
+    contactLocationDesc: "Buenos Aires, Argentina (presencial) y clases / talleres online para todo el mundo.",
     contactPhotoCaption: "Mishka Adams — Buenos Aires & Clases Online",
     contactFormTitle: "Envianos tu mensaje",
     contactFormName: "Nombre completo",
@@ -284,7 +287,7 @@ const i18nData = {
     footerNewsletterDesc: "Novedades de conciertos, talleres y lanzamientos exclusivos.",
 
     // Footer
-    footerBrandDesc: "Cantante, multiinstrumentista y pedagoga vocal. Buenos Aires, Argentina.",
+    footerBrandDesc: "Cantante, multiinstrumentista y coach vocal. Buenos Aires, Argentina.",
     footerNavTitle: "Navegación",
     footerLegalTitle: "Enlaces",
     footerConnectTitle: "Plataformas",
@@ -303,13 +306,13 @@ const i18nData = {
     navContact: "Contact",
 
     // Hero
-    heroBadge: "Singer – multi instrumentalist – ensemble leader – voice coach – percussion for singers",
+    heroBadge: "Singer – multi instrumentalist – voice coach – percussion for singers",
     heroTitlePrefix: "Mishka",
     heroTitleSuffix: "Adams",
-    heroTagline: "Singer, multi-instrumentalist, songwriter and vocal pedagogue based in Buenos Aires. Exploring the rhythmic universe of jazz, bossa nova and Latin American music.",
+    heroTagline: "Singer, multi-instrumentalist, songwriter and vocal coach based in Buenos Aires. Exploring the rhythmic universe of jazz, bossa nova and Latin American music.",
     heroCtaTeaching: "Workshops & Classes",
     heroCtaMusic: "Bio & Discography",
-    heroCtaTag: "Singer – multi instrumentalist – ensemble leader – voice coach – percussion for singers",
+    heroCtaTag: "Singer – multi instrumentalist – voice coach – percussion for singers",
     heroCtaTitle: "Unlock your voice, rhythm & body",
     heroCtaBtn: "1:1 lessons / Percussion for Singers workshops",
 
@@ -340,7 +343,7 @@ const i18nData = {
       <div class="bio-projects-list">
         <div class="bio-project-item">
           <span class="bio-project-title">Mishka Adams &amp; Beto Caletti</span>
-          <span class="bio-project-desc">Acoustic duo touring worldwide, weaving Brazilian music, Argentine songwriting and poetic rhythms.</span>
+          <span class="bio-project-desc">Seven string guitar, percussion and intricate vocal harmonies that take you on a journey through South America’s Afro-Latin rhythms. The songs emerge from this melting pot in four diverse languages – Spanish, Portuguese, English, and Tagalog (Filipino).</span>
         </div>
         <div class="bio-project-item">
           <span class="bio-project-title">Canciones Migrantes</span>
@@ -352,17 +355,17 @@ const i18nData = {
         </div>
         <div class="bio-project-item">
           <span class="bio-project-title">Mujererío Voces y Cuerpo</span>
-          <span class="bio-project-desc">A cappella nonet and dancer under the direction and arrangements of Violeta Manoukian.</span>
+          <span class="bio-project-desc">A cappella nonet and dancer blending song and theatre – repertoire from Latin America under the direction and arrangements of Violeta Manoukian.</span>
         </div>
         <div class="bio-project-item">
           <span class="bio-project-title">Stories to Tell (with Pete Churchill)</span>
-          <span class="bio-project-desc">Duo project with British jazz pianist and professor Pete Churchill (Royal Academy of Music), celebrating poetic songcraft.</span>
+          <span class="bio-project-desc">Brought together by the songs of and the voice of Mishka Adams, this group also includes the extraordinary Mark Lockheart, the exquisite guitar playing of Ben Barritt, and fantastic percussionist Adriano Adewale. The songs are songs of loss and longing, of love, of hope and searching. This is about story telling – come, listen and be part of the journey.</span>
         </div>
       </div>
 
-      <p>In the middle of all this, I have a solo project of my own songs that bring back some of my roots in the folk music my mum taught me in my childhood and two vocal ensembles of students that I direct, as well as my one to one teaching and percussion for singers workshops.</p>
+      <p style="margin-top: 1.75rem;">In the middle of all this, I have a solo project of my own songs that bring back some of my roots in the folk music my mum taught me in my childhood and two vocal ensembles of students that I direct, as well as my one to one teaching and percussion for singers workshops.</p>
 
-      <p class="bio-closing-note">It’s been a great adventure so far, and I couldn’t be more grateful. I’m looking forward to seeing what surprises life brings next! Thanks for coming on the journey with me if you’ve read this far, and do get in touch if these projects or classes are interesting to you.</p>
+      <p class="bio-closing-note" style="margin-top: 1rem; font-style: italic;">It’s been a great adventure so far, and I couldn’t be more grateful, especially to my teacher John, without whom I would be a completely different person.</p>
     `,
 
     // Bio Page (Full Bio)
@@ -370,7 +373,7 @@ const i18nData = {
     bioTag: "Journey & Roots",
     bioTitle: "Official Biography",
     bioLead: "Mishka Adams is a Filipino-British singer, multi-instrumentalist, vocal arranger and vocal ensemble director, currently based in Buenos Aires, Argentina. She participates in diverse projects rooted in the rhythms and styles of Latin America. She also performs as a soloist and singer-songwriter, with influences from her roots in jazz and folk. She was awarded “Best New Female Recording Artist” at the Awit Awards in Manila. To date, she has recorded 9 albums, with a new album and an EP currently in the works.",
-    bioP1_duo: "Among her most recent collaborative projects, highlights include her duo with her husband Beto Caletti, a renowned singer, guitarist and composer celebrated for his extensive career in Brazilian music;",
+    bioP1_duo: "Among her most recent collaborative projects, highlights include her duo with her partner Beto Caletti, a renowned singer, guitarist and composer celebrated for his extensive career in Brazilian music;",
     bioP1_collaborations: "Canciones Migrantes alongside Florencia Dávalos and Georgina Hassan; Cantoras del Sur; Mujererío Voces y Cuerpo; and Stories to Tell alongside Pete Churchill.",
     bioP2: "In 2004, prior to settling in Buenos Aires, she signed a four-album recording contract with Candid Records and moved to London in 2006 to study jazz. She lived there for many years, building a strong presence in the jazz and Brazilian music scenes through her solo project and diverse collaborations. In 2007, she co-founded the London Vocal Project alongside her mentor and friend Pete Churchill, and performed as a singer and percussionist with the acclaimed samba ensemble Rhythms of the City.",
     bioP3: "She has performed on numerous international stages and tours, blending her artistic journey with a deep passion for education: she brings 20 years of pedagogical experience, directs two women's choirs, and offers private vocal lessons and signature Percussion for Singers workshops.",
@@ -383,7 +386,7 @@ const i18nData = {
     discoSubtitle: "",
     discoPlayer1Badge: "Duo · Adams & Caletti (2020)",
     discoPlayer1Title: "Adams & Caletti",
-    discoPlayer1Desc: "Our second album recorded in duo with my husband Beto Caletti. We wrote these songs while on tour in Asia and Europe in 2019 and finished and released it in 2020 after the pandemic hit. Featuring artists from all over the world.",
+    discoPlayer1Desc: "Our second album recorded in duo with my partner Beto Caletti. We wrote these songs while on tour in Asia and Europe in 2019 and finished and released it in 2020 after the pandemic hit. Featuring artists from all over the world.",
     discoPlayer2Badge: "Duo with Pete Churchill (2015)",
     discoPlayer2Title: "Stories to Tell",
     discoPlayer2Desc: "An album of my close friend Pete Churchill’s songs. We worked together for many years in the London Vocal Project and he was one of my teachers on my masters degree. Recorded in London in 2015 with a wonderful band.",
@@ -444,9 +447,7 @@ const i18nData = {
     teachingHeroTitle: "CLASSES & WORKSHOPS",
     teachingTitle: "CLASSES & WORKSHOPS (online and in person)",
     teachingSubtitle: "Percussion for singers workshops, bespoke 1:1 voice lessons and vocal mentorship for singers and musicians, vocal ensembles",
-    teachingTag: "Vocal Pedagogy & Rhythm",
-    teachingQuote: "CONNECTING WITH GROOVE AND TIME WHILE SINGING ELEVATES VOCAL INTERPRETATION AND ORGANICALLY BINDS US WITH THE MUSIC AND THE MUSICIANS WE SHARE IT WITH.",
-    teachingQuoteAuthor: "— MISHKA ADAMS",
+    teachingTag: "Vocal Pedagogy",
 
     // Videos Section (Home)
     videosTag: "Audiovisual Archive",
@@ -504,7 +505,7 @@ const i18nData = {
     // Contact Teaser Section (Landing)
     contactTeaserTag: "Contact & Booking",
     contactTeaserTitle: "Get in Touch",
-    contactTeaserDesc: "Interested in joining the percussion workshops, booking 1:1 voice coaching or coordinating a performance? We are just a message away.",
+    contactTeaserDesc: "",
     contactTeaserBtn: "Go to Contact Page",
     contactDirectEmail: "Send an Email",
 
@@ -514,9 +515,10 @@ const i18nData = {
     contactPageSubtitle: "Reach out to schedule 1:1 voice coaching, inquire about upcoming workshops and vocal ensembles, or discuss concerts and artistic bookings.",
     contactChannelsTitle: "Direct Channels",
     contactChannelsDesc: "Choose your preferred channel to get in touch:",
+    contactEmailTitle: "Email",
     contactEmailDesc: "For press, international bookings or educational inquiries:",
     contactLocationTitle: "Location & Format",
-    contactLocationDesc: "Agronomía, Buenos Aires, Argentina (in-person) and online lessons / workshops worldwide.",
+    contactLocationDesc: "Buenos Aires, Argentina (in-person) and online lessons / workshops worldwide.",
     contactPhotoCaption: "Mishka Adams — Buenos Aires & Online Lessons",
     contactFormTitle: "Send a Message",
     contactFormName: "Full Name",
@@ -569,7 +571,7 @@ const i18nData = {
     footerNewsletterDesc: "Updates on upcoming concerts, workshops and exclusive releases.",
 
     // Footer
-    footerBrandDesc: "Singer, multi-instrumentalist and vocal pedagogue. Buenos Aires, Argentina.",
+    footerBrandDesc: "Singer, multi-instrumentalist and vocal coach. Buenos Aires, Argentina.",
     footerNavTitle: "Navigation",
     footerLegalTitle: "Links",
     footerConnectTitle: "Platforms",
@@ -585,14 +587,14 @@ const teachingCardsES = [
   {
     id: "percussion",
     badge: "Taller Especializado",
-    title: "Percussion for Singers",
+    title: "Percusión para cantantes",
     subtitle: "Talleres grupales & sesiones 1 a 1",
-    summary: "Aprendé nociones básicas de percusión, diferentes ritmos y grooves, y cómo incorporar la percusión a tu repertorio.",
-    desc: "Siempre he sentido una profunda pasión y curiosidad por la percusión, y siento que el ritmo y el groove son esenciales para cantar, toquemos o no un instrumento; a menudo estos elementos de nuestra formación como cantantes quedan fuera de las clases. Nos unifican con la música y con los músicos con quienes compartimos: son parte de lo que convierte a un cantante en un músico. En mi proyecto solista y en los grupos en los que participo, toco mucha percusión mientras canto y lo disfruto enormemente. Me encanta compartir lo aprendido en el camino, ya sea enseñando estilos específicos dentro de su contexto cultural o brindando herramientas de percusión de mano para acompañarse en el propio repertorio.",
+    summary: "Aprendé conceptos básicos de percusión, diferentes ritmos y grooves, y cómo incorporar la percusión a tu repertorio.",
+    desc: "Siempre tuve una profunda pasión y curiosidad por la percusión, y siento que el ritmo y el groove son esenciales para cantar, toquemos o no un instrumento; a menudo estos elementos de nuestra formación como cantantes quedan fuera de las clases. Nos unifican con la música y con los músicos con quienes compartimos: son parte de lo que convierte a un cantante en un músico. En mi proyecto solista y en los grupos en los que participo, toco mucha percusión mientras canto y lo disfruto enormemente. Me encanta compartir lo aprendido en el camino, ya sea enseñando estilos específicos dentro de su contexto cultural o brindando herramientas de percusión para acompañarse en el propio repertorio.",
     featuresTitle: "En los talleres y clases exploramos:",
     features: [
       "Aprender y tocar una gran variedad de grooves y estilos",
-      "Moverte a tiempo mientras cantás y tocás",
+      "Mover con el pulso mientras cantás y tocás",
       "Comprender y sentir los distintos tipos de 'swing' y subdivisiones rítmicas",
       "Aprovechar la percusión de mano (¡y objetos cotidianos!) para acompañar tus canciones",
       "Experimentar con temas de tu propio repertorio dentro del grupo"
@@ -610,7 +612,7 @@ const teachingCardsES = [
     title: "Clases Particulares de Canto",
     subtitle: "Clases 1:1 a medida y mentoría para todos los niveles (inicial a profesional)",
     summary: "El camino de cada cantante es único: todos tenemos necesidades e intereses específicos, distintas metas y diferentes habilidades.",
-    desc: "El camino de cada cantante es único: todos tenemos necesidades e intereses específicos, distintas metas y diferentes habilidades. Trabajo con cantantes de todos los niveles: desde ayudar a principiantes a descubrir su propia voz, pasando por músicos que desean empezar a cantar, hasta cantantes profesionales en busca de coaching y acompañamiento en su carrera. En las clases, trabajamos en cualquiera o en todas estas áreas según lo que necesites y estés buscando:",
+    desc: "El camino de cada cantante es único: todos tenemos necesidades e intereses específicos, distintas metas y diferentes habilidades. Trabajo con cantantes de todos los niveles: desde ayudar a principiantes a descubrir su propia voz, pasando por músicos que desean empezar a cantar, hasta cantantes profesionales en busca de mentoría y acompañamiento en su carrera. En las clases, trabajamos en cualquiera o en todas estas áreas según lo que necesites y estés buscando:",
     featuresTitle: "Ejes de trabajo personalizados:",
     features: [
       "Técnica vocal",
@@ -643,7 +645,7 @@ const teachingCardsES = [
     ctaLink: "#contact",
     youtubeText: "Ver Actuaciones en Vivo",
     youtubeLink: "#ensambles-videos",
-    image: "FOTOS WEBSITE/Percussion for Singers/DSC02056.JPG",
+    image: "FOTOS WEBSITE/Percussion for Singers/mishkaAdmas_ensamblesVocales.jpeg",
     theme: "sand"
   }
 ];
@@ -675,7 +677,7 @@ const teachingCardsEN = [
     id: "voice-1to1",
     badge: "In Person & Online Worldwide",
     title: "Voice Lessons",
-    subtitle: "Bespoke 1:1 lessons and mentorship for all levels (beginner to professional)",
+    subtitle: "Vocal technique, interpretation & expression, rhythm and much more",
     summary: "No two journeys are the same for any singer, we all have specific needs and interests, different goals and different abilities.",
     desc: "No two journeys are the same for any singer, we all have specific needs and interests, different goals and different abilities. I work with singers of all levels, from helping beginners find their voice, to musicians who want to start singing, or professional singers looking for coaching and accompaniment in their career. In the classes, what we’ll work on can include any or all of these things, depending on what you need and what you’re looking for:",
     featuresTitle: "Personalized focus areas:",
@@ -710,7 +712,7 @@ const teachingCardsEN = [
     ctaLink: "#contact",
     youtubeText: "Watch Live Performances",
     youtubeLink: "#ensambles-videos",
-    image: "FOTOS WEBSITE/Percussion for Singers/DSC02056.JPG",
+    image: "FOTOS WEBSITE/Percussion for Singers/mishkaAdmas_ensamblesVocales.jpeg",
     theme: "sand"
   }
 ];
