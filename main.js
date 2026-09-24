@@ -14,7 +14,7 @@ const i18nData = {
     navHome: "Inicio",
     navBio: "Bio",
     navDisco: "Discografía",
-    navTeaching: "Talleres",
+    navTeaching: "Clases y Talleres",
     navVideos: "Videos",
     navShows: "Recitales",
     navContact: "Contacto",
@@ -34,8 +34,8 @@ const i18nData = {
     // Quotes
     preBioQuoteText: "REFRESCANTEMENTE SIN PRETENSIONES Y SIMPLEMENTE TALENTOSA",
     preBioQuoteAuthor: "TIME OUT LONDON",
-    homeQuoteText: "SHE IS A SONGWRITER’S DREAM – A GREAT UNDERSTANDING OF TEXT, AND, QUITE SIMPLY, ONE OF THE MOST BEAUTIFUL VOICES I’VE EVER HEARD",
-    homeQuoteAuthor: "PETE CHURCHILL · PROFESSOR OF JAZZ AT THE ROYAL ACADEMY OF MUSIC, LONDON",
+    homeQuoteText: "EL SUEÑO DE TODO COMPOSITOR: UNA COMPRENSIÓN PROFUNDA DEL TEXTO Y, SENCILLAMENTE, UNA DE LAS VOCES MÁS HERMOSAS QUE HE ESCUCHADO",
+    homeQuoteAuthor: "PETE CHURCHILL · PROFESOR DE JAZZ EN LA ROYAL ACADEMY OF MUSIC, LONDRES",
 
     // Bio Stripe Section (Landing)
     bioStripeLead: "Mishka Adams es cantante, multi-instrumentista, arregladora vocal y directora de ensambles vocales. Filipina-británica, radicada actualmente en Buenos Aires, participa en diversos proyectos que se nutren de los ritmos y estilos de Latinoamérica. Se presenta también como solista y cantautora, con influencias ligadas a sus raíces en el jazz y el folk. Hasta hoy ha grabado 9 discos, ganó el “Awit Awards” en Filipinas y tiene un nuevo álbum y un EP en camino.",
@@ -160,15 +160,15 @@ const i18nData = {
     teachingTeaserBtn: "Explorar Clases & Talleres",
 
     // Teaching Dedicated Page (talleres.html)
-    teachingHeroTitle: "CLASSES & WORKSHOPS",
-    teachingTitle: "CLASSES & TALLERES (online y presencial)",
+    teachingHeroTitle: "CLASES & TALLERES",
+    teachingTitle: "CLASES & TALLERES (online y presencial)",
     teachingSubtitle: "Percusión para cantantes, clases de canto particulares, mentoría para cantantes y músicos, y ensambles vocales",
     teachingTag: "Pedagogía Vocal",
 
     // Videos Section (Home)
     videosTag: "Registro Audiovisual",
     videosTitle: "Videos",
-    videosSubtitle: "Live concerts, solo project and collaborations",
+    videosSubtitle: "Conciertos en vivo, proyecto solista y colaboraciones",
     video1Title: "De Repente",
     video1Sub: "Mishka Adams & Beto Caletti",
     video2Title: "Paalam",
@@ -176,13 +176,13 @@ const i18nData = {
     video3Title: "Chegaste",
     video3Sub: "Mishka Adams & Beto Caletti (En Vivo)",
     video4Title: "Puso Mo",
-    video4Sub: "Live in Berlin",
+    video4Sub: "En vivo en Berlín",
     video5Title: "We’ll Never Know",
-    video5Sub: "Live with Pedro Carneiro Silva",
+    video5Sub: "En vivo con Pedro Carneiro Silva",
     video6Title: "River Song",
-    video6Sub: "Live with Pedro Carneiro Silva",
+    video6Sub: "En vivo con Pedro Carneiro Silva",
     video7Title: "El Pajarillo",
-    video7Sub: "Live with Cantoras del Sur",
+    video7Sub: "En vivo con Cantoras del Sur",
     videosMoreBtn: "Canal Oficial de YouTube",
     videosTeachingBtn: "Canal Percussion for Singers",
 
@@ -265,8 +265,8 @@ const i18nData = {
     // Press & Home Quotes
     homeQuoteBioText: "LA VOZ DE MISHKA ADAMS ES HOY UN INSTRUMENTO CAUTIVADOR: LIVIANO, SUAVE Y SUTIL.",
     homeQuoteBioAuthor: "SEBASTIAN SCOTNEY · UK JAZZ NEWS",
-    homeQuoteText: "SHE IS A SONGWRITER’S DREAM – A GREAT UNDERSTANDING OF TEXT, AND, QUITE SIMPLY, ONE OF THE MOST BEAUTIFUL VOICES I’VE EVER HEARD",
-    homeQuoteAuthor: "PETE CHURCHILL · PROFESSOR OF JAZZ AT THE ROYAL ACADEMY OF MUSIC, LONDON",
+    homeQuoteText: "EL SUEÑO DE TODO COMPOSITOR: UNA COMPRENSIÓN PROFUNDA DEL TEXTO Y, SENCILLAMENTE, UNA DE LAS VOCES MÁS HERMOSAS QUE HE ESCUCHADO",
+    homeQuoteAuthor: "PETE CHURCHILL · PROFESOR DE JAZZ EN LA ROYAL ACADEMY OF MUSIC, LONDRES",
     bioOpeningQuoteText: "REFRESCANTEMENTE SIN PRETENSIONES Y SENCILLAMENTE TALENTOSA.",
     bioOpeningQuoteAuthor: "TIME OUT LONDON",
     pressTag: "Crítica & Prensa Internacional",
@@ -359,7 +359,7 @@ const i18nData = {
         </div>
         <div class="bio-project-item">
           <span class="bio-project-title">Stories to Tell (with Pete Churchill)</span>
-          <span class="bio-project-desc">Brought together by the songs of and the voice of Mishka Adams, this group also includes the extraordinary Mark Lockheart, the exquisite guitar playing of Ben Barritt, and fantastic percussionist Adriano Adewale. The songs are songs of loss and longing, of love, of hope and searching. This is about story telling – come, listen and be part of the journey.</span>
+          <span class="bio-project-desc">Brought together by the songs of Pete Churchill and the voice of Mishka Adams, this group also includes the extraordinary Mark Lockheart, the exquisite guitar playing of Ben Barritt, and fantastic percussionist Adriano Adewale. The songs are songs of loss and longing, of love, of hope and searching. This is about story telling – come, listen and be part of the journey.</span>
         </div>
       </div>
 
@@ -473,7 +473,7 @@ const i18nData = {
     // Vocal Ensembles Videos (talleres.html)
     ensemblesVideoTag: "Vocal Ensembles in Action",
     ensemblesVideoTitle: "Ensamble Rayuela Live",
-    ensemblesVideoSubtitle: "Audiovisual performances and polyphonic arrangements directed by Mishka Adams in Buenos Aires.",
+    ensemblesVideoSubtitle: "",
     ensembleVideo1Title: "Colibrí",
     ensembleVideo1Sub: "Ensamble Rayuela · Dir. Mishka Adams",
     ensembleVideo2Title: "Maagwane",
@@ -611,8 +611,8 @@ const teachingCardsES = [
     badge: "Presencial & Online",
     title: "Clases Particulares de Canto",
     subtitle: "Clases 1:1 a medida y mentoría para todos los niveles (inicial a profesional)",
-    summary: "El camino de cada cantante es único: todos tenemos necesidades e intereses específicos, distintas metas y diferentes habilidades.",
-    desc: "El camino de cada cantante es único: todos tenemos necesidades e intereses específicos, distintas metas y diferentes habilidades. Trabajo con cantantes de todos los niveles: desde ayudar a principiantes a descubrir su propia voz, pasando por músicos que desean empezar a cantar, hasta cantantes profesionales en busca de mentoría y acompañamiento en su carrera. En las clases, trabajamos en cualquiera o en todas estas áreas según lo que necesites y estés buscando:",
+    summary: "En estas clases vamos a trabajar técnica vocal, ritmo, interpretación y expresión, y repertorio dentro de otras cosas, siempre guiados por tus necesidades e intereses.",
+    desc: "En estas clases vamos a trabajar técnica vocal, ritmo, interpretación y expresión, y repertorio dentro de otras cosas, siempre guiados por tus necesidades e intereses. Trabajo con cantantes de todos los niveles: desde ayudar a principiantes a descubrir su propia voz, pasando por músicos que desean empezar a cantar, hasta cantantes profesionales en busca de mentoría y acompañamiento en su carrera. En las clases, trabajamos en cualquiera o en todas estas áreas según lo que necesites y estés buscando:",
     featuresTitle: "Ejes de trabajo personalizados:",
     features: [
       "Técnica vocal",
@@ -633,7 +633,7 @@ const teachingCardsES = [
     title: "Ensambles Vocales",
     subtitle: "Ensamble Rayuela & Agronomía Canta",
     summary: "Dos ensambles vocales femeninos en Agronomía, Buenos Aires, cantando un repertorio variado con arreglos vocales a medida.",
-    desc: "Otra de las cosas que me apasiona profundamente es dirigir grupos vocales y escribir arreglos para ellos. Actualmente dirijo dos ensambles vocales femeninos desde mi espacio en Agronomía, Buenos Aires: Ensamble Rayuela (intermedio/avanzado) y Agronomía Canta (inicial/intermedio). Ambos grupos abordan un amplio abanico de estilos y lenguas, con arreglos hechos a la medida de cada formación. El repertorio incluye música brasileña, folklore argentino, gospel, folk, candombe uruguayo, canciones tradicionales de Europa del Este y mucho más. Se vive un fuerte sentido de comunidad en cada ensamble y los lazos que se tejen entre las integrantes son tan importantes como la música que crean juntas. Con frecuencia realizamos conciertos y encuentros compartidos con otros grupos para cantar y compartir escenario.",
+    desc: "Otra de las cosas que me apasiona profundamente es dirigir grupos vocales y escribir arreglos para ellos. Actualmente dirijo dos ensambles vocales femeninos desde mi espacio en Agronomía Buenos Aires: Ensamble Rayuela (intermedio/avanzado) y Agronomía Canta (inicial/intermedio). Ambos grupos abordan un amplio abanico de estilos y lenguas, con arreglos hechos a la medida para cada formación. El repertorio incluye música brasileña, folklore argentino, gospel, folk, candombe uruguayo, canciones tradicionales de Europa del Este y mucho más. Se vive un fuerte sentido de comunidad en cada ensamble y los lazos que se tejen entre las integrantes son tan importantes como la música que creamos juntas. Con frecuencia realizamos conciertos y encuentros compartidos con otros grupos para cantar y compartir escenario.",
     featuresTitle: "Características del espacio:",
     features: [
       "Arreglos vocales exclusivos hechos a la medida de cada ensamble",
@@ -678,8 +678,8 @@ const teachingCardsEN = [
     badge: "In Person & Online Worldwide",
     title: "Voice Lessons",
     subtitle: "Vocal technique, interpretation & expression, rhythm and much more",
-    summary: "No two journeys are the same for any singer, we all have specific needs and interests, different goals and different abilities.",
-    desc: "No two journeys are the same for any singer, we all have specific needs and interests, different goals and different abilities. I work with singers of all levels, from helping beginners find their voice, to musicians who want to start singing, or professional singers looking for coaching and accompaniment in their career. In the classes, what we’ll work on can include any or all of these things, depending on what you need and what you’re looking for:",
+    summary: "Bespoke one to one lessons tailored to your specific needs and interests. We can work on vocal technique, rhythm and time, interpretation and repertoire, and everything in between.",
+    desc: "Bespoke one to one lessons tailored to your specific needs and interests. We can work on vocal technique, rhythm and time, interpretation and repertoire, and everything in between. I work with singers of all levels, from helping beginners find their voice, to musicians who want to start singing, or professional singers looking for coaching and accompaniment in their career. In the classes, what we’ll work on can include any or all of these things, depending on what you need and what you’re looking for:",
     featuresTitle: "Personalized focus areas:",
     features: [
       "Vocal technique",
@@ -846,8 +846,13 @@ function setLanguage(lang) {
   const dict = i18nData[lang];
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
-    if (dict[key]) {
+    if (dict[key] !== undefined) {
       el.textContent = dict[key];
+      if (dict[key] === "") {
+        el.style.display = 'none';
+      } else {
+        el.style.display = '';
+      }
     }
   });
 
