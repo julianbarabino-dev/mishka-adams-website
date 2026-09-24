@@ -2629,6 +2629,13 @@ body.page-contacto .nav-link {
   border-bottom: 1px solid var(--border-subtle);
 }
 
+.section-videos .section-subtitle,
+.section-gigs .section-subtitle,
+.ensembles-showcase .section-subtitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .videos-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
