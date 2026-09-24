@@ -612,7 +612,7 @@ const teachingCardsES = [
     title: "Clases Particulares de Canto",
     subtitle: "Clases 1:1 a medida y mentoría para todos los niveles (inicial a profesional)",
     summary: "En estas clases vamos a trabajar técnica vocal, ritmo, interpretación y expresión, y repertorio dentro de otras cosas, siempre guiados por tus necesidades e intereses.",
-    desc: "En estas clases vamos a trabajar técnica vocal, ritmo, interpretación y expresión, y repertorio dentro de otras cosas, siempre guiados por tus necesidades e intereses. Trabajo con cantantes de todos los niveles: desde ayudar a principiantes a descubrir su propia voz, pasando por músicos que desean empezar a cantar, hasta cantantes profesionales en busca de mentoría y acompañamiento en su carrera. En las clases, trabajamos en cualquiera o en todas estas áreas según lo que necesites y estés buscando:",
+    desc: "Trabajo con cantantes de todos los niveles: desde ayudar a principiantes a descubrir su propia voz, pasando por músicos que desean empezar a cantar, hasta cantantes profesionales en busca de mentoría y acompañamiento en su carrera. En las clases, trabajamos en cualquiera o en todas estas áreas según lo que necesites y estés buscando:",
     featuresTitle: "Ejes de trabajo personalizados:",
     features: [
       "Técnica vocal",
@@ -679,7 +679,7 @@ const teachingCardsEN = [
     title: "Voice Lessons",
     subtitle: "Vocal technique, interpretation & expression, rhythm and much more",
     summary: "Bespoke one to one lessons tailored to your specific needs and interests. We can work on vocal technique, rhythm and time, interpretation and repertoire, and everything in between.",
-    desc: "Bespoke one to one lessons tailored to your specific needs and interests. We can work on vocal technique, rhythm and time, interpretation and repertoire, and everything in between. I work with singers of all levels, from helping beginners find their voice, to musicians who want to start singing, or professional singers looking for coaching and accompaniment in their career. In the classes, what we’ll work on can include any or all of these things, depending on what you need and what you’re looking for:",
+    desc: "I work with singers of all levels, from helping beginners find their voice, to musicians who want to start singing, or professional singers looking for coaching and accompaniment in their career. In the classes, what we’ll work on can include any or all of these things, depending on what you need and what you’re looking for:",
     featuresTitle: "Personalized focus areas:",
     features: [
       "Vocal technique",
