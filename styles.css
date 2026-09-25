@@ -1459,6 +1459,14 @@ body.page-contacto .nav-link {
   background-color: #b55d40;
 }
 
+.footer-submit-btn:disabled,
+.newsletter-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+  transform: none;
+}
+
 .newsletter-feedback {
   margin-top: 0.75rem;
   font-size: 0.8125rem;

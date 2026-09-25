@@ -283,6 +283,7 @@ const i18nData = {
     newsletterPlaceholder: "Tu correo electrónico...",
     newsletterBtn: "Suscribirme",
     newsletterSuccess: "¡Gracias por suscribirte! Te contactaremos pronto.",
+    newsletterError: "Hubo un error al procesar la suscripción. Por favor, intentá nuevamente.",
     footerNewsletterTitle: "Newsletter",
     footerNewsletterDesc: "Novedades de conciertos, talleres y lanzamientos exclusivos.",
 
@@ -567,6 +568,7 @@ const i18nData = {
     newsletterPlaceholder: "Your email address...",
     newsletterBtn: "Subscribe",
     newsletterSuccess: "Thank you for subscribing! We will be in touch soon.",
+    newsletterError: "There was an error processing your subscription. Please try again.",
     footerNewsletterTitle: "Newsletter",
     footerNewsletterDesc: "Updates on upcoming concerts, workshops and exclusive releases.",
 
@@ -1147,25 +1149,62 @@ function initNewsletterForm() {
   forms.forEach(form => {
     const feedback = form.querySelector('.newsletter-feedback') || document.getElementById('footer-newsletter-feedback') || document.getElementById('newsletter-feedback');
 
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const emailInput = form.querySelector('.footer-input, .newsletter-input');
-      if (!emailInput || !emailInput.value) return;
+      const emailInput = form.querySelector('.footer-input, .newsletter-input, input[type="email"]');
+      if (!emailInput || !emailInput.value.trim()) return;
 
-      const submitBtn = form.querySelector('.footer-submit-btn, .newsletter-submit');
+      const email = emailInput.value.trim();
+      const submitBtn = form.querySelector('.footer-submit-btn, .newsletter-submit, button[type="submit"]');
       if (submitBtn) submitBtn.disabled = true;
 
-      setTimeout(() => {
-        if (submitBtn) submitBtn.disabled = false;
-        emailInput.value = '';
-        if (feedback) {
-          feedback.classList.add('success');
-          feedback.textContent = i18nData[currentLanguage].newsletterSuccess;
-          setTimeout(() => {
-            feedback.classList.remove('success');
-          }, 5000);
+      if (feedback) {
+        feedback.classList.remove('success', 'error');
+        feedback.textContent = '';
+      }
+
+      const dict = i18nData[currentLanguage] || i18nData.es;
+
+      try {
+        const formData = new FormData();
+        formData.append('email_address', email);
+
+        const response = await fetch('https://app.kit.com/forms/9959843/subscriptions', {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        const data = await response.json().catch(() => null);
+
+        if (response.ok && data && data.status === 'success') {
+          emailInput.value = '';
+          if (feedback) {
+            feedback.classList.remove('error');
+            feedback.classList.add('success');
+            feedback.textContent = dict.newsletterSuccess;
+            setTimeout(() => {
+              feedback.classList.remove('success');
+            }, 6000);
+          }
+        } else {
+          throw new Error((data && data.message) || 'Subscription failed');
         }
-      }, 600);
+      } catch (err) {
+        console.error('Kit newsletter subscription error:', err);
+        if (feedback) {
+          feedback.classList.remove('success');
+          feedback.classList.add('error');
+          feedback.textContent = dict.newsletterError;
+          setTimeout(() => {
+            feedback.classList.remove('error');
+          }, 6000);
+        }
+      } finally {
+        if (submitBtn) submitBtn.disabled = false;
+      }
     });
   });
 }
