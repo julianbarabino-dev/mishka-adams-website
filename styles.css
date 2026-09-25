@@ -1468,16 +1468,26 @@ body.page-contacto .nav-link {
 }
 
 .newsletter-feedback {
-  margin-top: 0.75rem;
-  font-size: 0.8125rem;
+  margin-top: 0.85rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.45;
   min-height: 1.25rem;
 }
 
 .newsletter-feedback.success {
-  color: #a3e635;
+  color: #1e7048;
+}
+
+.site-footer .newsletter-feedback.success {
+  color: #4ade80;
 }
 
 .newsletter-feedback.error {
+  color: #b91c1c;
+}
+
+.site-footer .newsletter-feedback.error {
   color: #f87171;
 }
 

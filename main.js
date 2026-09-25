@@ -248,6 +248,7 @@ const i18nData = {
     contactFormMessage: "Tu mensaje",
     contactFormBtn: "Enviar Mensaje",
     contactFormSuccess: "¡Mensaje enviado con éxito! Te responderemos a la brevedad.",
+    contactFormError: "Hubo un error al enviar el mensaje. Por favor, intentá nuevamente.",
 
     // Press Kit & Materials (Google Drive)
     pressKitTitle: "Material de Prensa",
@@ -533,6 +534,7 @@ const i18nData = {
     contactFormMessage: "Your message",
     contactFormBtn: "Send Message",
     contactFormSuccess: "Message sent successfully! We will get back to you shortly.",
+    contactFormError: "There was an error sending your message. Please try again.",
 
     // Press Kit & Materials (Google Drive)
     pressKitTitle: "Press & Media Kit",
@@ -602,7 +604,7 @@ const teachingCardsES = [
       "Experimentar con temas de tu propio repertorio dentro del grupo"
     ],
     ctaText: "Consultar Fechas & Cupos",
-    ctaLink: "#contact",
+    ctaLink: "contacto.html?subject=percussion",
     youtubeText: "Ver Tutoriales en YouTube",
     youtubeLink: "https://www.youtube.com/@PercussionforSingers",
     image: "FOTOS WEBSITE/Percussion for Singers/DSC02010.JPG",
@@ -625,7 +627,7 @@ const teachingCardsES = [
       "Mentoría para grabaciones de álbumes y videos"
     ],
     ctaText: "Reservar Clase Individual",
-    ctaLink: "#contact",
+    ctaLink: "contacto.html?subject=voice",
     image: "FOTOS WEBSITE/Berlin/6 (1 of 1).jpg",
     theme: "warm-dark"
   },
@@ -644,7 +646,7 @@ const teachingCardsES = [
       "Conciertos periódicos y encuentros comunitarios"
     ],
     ctaText: "Consultar por Integración",
-    ctaLink: "#contact",
+    ctaLink: "contacto.html?subject=ensembles",
     youtubeText: "Ver Actuaciones en Vivo",
     youtubeLink: "#ensambles-videos",
     image: "FOTOS WEBSITE/Percussion for Singers/mishkaAdmas_ensamblesVocales.jpeg",
@@ -669,7 +671,7 @@ const teachingCardsEN = [
       "Trying out songs from your own repertoire within the group"
     ],
     ctaText: "Inquire Dates / Book Class",
-    ctaLink: "#contact",
+    ctaLink: "contacto.html?subject=percussion",
     youtubeText: "Watch YouTube Tutorials",
     youtubeLink: "https://www.youtube.com/@PercussionforSingers",
     image: "FOTOS WEBSITE/Percussion for Singers/DSC02010.JPG",
@@ -692,7 +694,7 @@ const teachingCardsEN = [
       "Mentorship for album and video recordings"
     ],
     ctaText: "Book a 1:1 Lesson",
-    ctaLink: "#contact",
+    ctaLink: "contacto.html?subject=voice",
     image: "FOTOS WEBSITE/Berlin/6 (1 of 1).jpg",
     theme: "warm-dark"
   },
@@ -711,7 +713,7 @@ const teachingCardsEN = [
       "Regular concerts and community gatherings"
     ],
     ctaText: "Inquire for Ensembles",
-    ctaLink: "#contact",
+    ctaLink: "contacto.html?subject=ensembles",
     youtubeText: "Watch Live Performances",
     youtubeLink: "#ensambles-videos",
     image: "FOTOS WEBSITE/Percussion for Singers/mishkaAdmas_ensamblesVocales.jpeg",
@@ -803,6 +805,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   initNewsletterForm();
   initContactForm();
+  initContactSubjectFromUrl();
   initSmoothScroll();
   initDiscographyAccordion();
   initBioAccordion();
@@ -1209,33 +1212,127 @@ function initNewsletterForm() {
   });
 }
 
+// Configurable contact destination endpoint (FormSubmit AJAX)
+const CONTACT_FORM_ENDPOINT = 'https://formsubmit.co/ajax/adams.mishka@gmail.com';
+
 function initContactForm() {
   const form = document.getElementById('contact-form');
   const feedback = document.getElementById('contact-feedback');
 
   if (!form) return;
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const submitBtn = form.querySelector('.btn-primary');
-    const originalText = submitBtn.textContent;
+    const submitBtn = form.querySelector('button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = true;
 
-    submitBtn.textContent = '...';
-    submitBtn.disabled = true;
+    if (feedback) {
+      feedback.classList.remove('success', 'error');
+      feedback.textContent = '';
+    }
+
+    const dict = i18nData[currentLanguage] || i18nData.es;
+
+    const nameInput = document.getElementById('form-name');
+    const emailInput = document.getElementById('form-email');
+    const subjectSelect = document.getElementById('form-subject');
+    const messageInput = document.getElementById('form-message');
+    const honeyInput = form.querySelector('input[name="_honey"]');
+
+    // Honeypot spam protection: if filled by a bot, abort silently
+    if (honeyInput && honeyInput.value.trim() !== '') {
+      form.reset();
+      if (submitBtn) submitBtn.disabled = false;
+      return;
+    }
+
+    const name = nameInput ? nameInput.value.trim() : '';
+    const email = emailInput ? emailInput.value.trim() : '';
+    const subjectText = subjectSelect && subjectSelect.selectedIndex >= 0
+      ? subjectSelect.options[subjectSelect.selectedIndex].text
+      : 'Consulta General';
+    const message = messageInput ? messageInput.value.trim() : '';
+
+    if (!name || !email || !message) {
+      if (submitBtn) submitBtn.disabled = false;
+      return;
+    }
+
+    const payload = {
+      _subject: `Hey Mishka! New inquiry: ${subjectText} — ${name}`,
+      _replyto: email,
+      "Notice": `Hey Mishka, someone is interested in ${subjectText}!`,
+      "Full Name": name,
+      "Email": email,
+      "Inquiry": subjectText,
+      "Message": message,
+      "How to reply": "To get in touch, simply hit 'Reply' to this email to write directly to them. Good job!",
+      _template: 'table',
+      _captcha: 'false'
+    };
+
+    try {
+      const response = await fetch(CONTACT_FORM_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      const data = await response.json().catch(() => null);
+
+      if (response.ok && data && (data.success === 'true' || data.success === true)) {
+        form.reset();
+        if (feedback) {
+          feedback.classList.remove('error');
+          feedback.classList.add('success');
+          feedback.textContent = dict.contactFormSuccess;
+          setTimeout(() => {
+            feedback.classList.remove('success');
+          }, 7000);
+        }
+      } else {
+        throw new Error((data && data.message) || 'Submission failed');
+      }
+    } catch (err) {
+      console.error('Contact form submission error:', err);
+      if (feedback) {
+        feedback.classList.remove('success');
+        feedback.classList.add('error');
+        feedback.textContent = dict.contactFormError;
+        setTimeout(() => {
+          feedback.classList.remove('error');
+        }, 7000);
+      }
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
+    }
+  });
+}
+
+function initContactSubjectFromUrl() {
+  const subjectSelect = document.getElementById('form-subject');
+  if (!subjectSelect) return;
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const subjectParam = urlParams.get('subject');
+  if (!subjectParam) return;
+
+  const option = subjectSelect.querySelector(`option[value="${subjectParam}"]`);
+  if (option) {
+    subjectSelect.value = subjectParam;
 
     setTimeout(() => {
-      submitBtn.textContent = originalText;
-      submitBtn.disabled = false;
-      form.reset();
-      if (feedback) {
-        feedback.classList.add('success');
-        feedback.textContent = i18nData[currentLanguage].contactFormSuccess;
-        setTimeout(() => {
-          feedback.classList.remove('success');
-        }, 6000);
+      const formCard = document.querySelector('.contact-form-card') || document.getElementById('contact-form');
+      if (formCard) {
+        formCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const nameInput = document.getElementById('form-name');
+        if (nameInput) nameInput.focus();
       }
-    }, 700);
-  });
+    }, 250);
+  }
 }
 
 // --------------------------------------------------------------------------

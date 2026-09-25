@@ -294,19 +294,22 @@
       </div>
 
       <form id="contact-form">
+        <!-- Anti-spam Honeypot (hidden from human visitors) -->
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+
         <div class="form-group">
           <label class="form-label" for="form-name" data-i18n="contactFormName">Nombre completo</label>
-          <input type="text" id="form-name" class="form-input" required placeholder="Tu nombre" data-i18n-placeholder="contactFormName" />
+          <input type="text" id="form-name" name="name" class="form-input" required placeholder="Tu nombre" data-i18n-placeholder="contactFormName" />
         </div>
 
         <div class="form-group">
           <label class="form-label" for="form-email" data-i18n="contactFormEmail">Correo electrónico</label>
-          <input type="email" id="form-email" class="form-input" required placeholder="tu@email.com" data-i18n-placeholder="contactFormEmail" />
+          <input type="email" id="form-email" name="email" class="form-input" required placeholder="tu@email.com" data-i18n-placeholder="contactFormEmail" />
         </div>
 
         <div class="form-group">
           <label class="form-label" for="form-subject" data-i18n="contactFormSubject">Motivo de la consulta</label>
-          <select id="form-subject" class="form-select">
+          <select id="form-subject" name="subject" class="form-select">
             <option value="voice" data-i18n="contactSubject1">Clases Particulares de Canto (1 a 1)</option>
             <option value="percussion" data-i18n="contactSubject2">Taller Percusión para Cantantes</option>
             <option value="ensembles" data-i18n="contactSubject3">Ensambles Vocales (Rayuela / Agronomía Canta)</option>
@@ -317,7 +320,7 @@
 
         <div class="form-group">
           <label class="form-label" for="form-message" data-i18n="contactFormMessage">Tu mensaje</label>
-          <textarea id="form-message" class="form-textarea" rows="5" required placeholder="Contanos sobre vos o tu consulta..." data-i18n-placeholder="contactFormMessage"></textarea>
+          <textarea id="form-message" name="message" class="form-textarea" rows="5" required placeholder="Contanos sobre vos o tu consulta..." data-i18n-placeholder="contactFormMessage"></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
@@ -352,6 +355,7 @@
         <div class="contact-newsletter-input-wrap">
           <input 
             type="email" 
+            name="email_address"
             class="form-input newsletter-input" 
             placeholder="Ingresá tu correo electrónico" 
             data-i18n-placeholder="contactNewsletterPlaceholder" 
