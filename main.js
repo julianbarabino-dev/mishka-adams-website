@@ -894,7 +894,7 @@ function renderTeachingCards(lang) {
       <!-- Top Grid: Photo and Title/Category Alongside -->
       <div class="edu-card-grid">
         <div class="edu-card-media">
-          <img src="${card.image}" alt="${card.title}" loading="lazy" class="edu-card-img" />
+          <img src="${card.image}" alt="Mishka Adams — ${card.title}" width="800" height="534" loading="lazy" class="edu-card-img" />
         </div>
 
         <div class="edu-card-content">

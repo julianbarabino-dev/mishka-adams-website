@@ -2627,6 +2627,7 @@ body.page-contacto .nav-link {
   height: 18px;
 }
 
+.pillar-info h3,
 .pillar-info h4 {
   font-size: 1.05rem;
   font-weight: 600;
@@ -2847,6 +2848,7 @@ body.page-contacto .nav-link {
   gap: 2rem;
 }
 
+.gigs-booking-text h3,
 .gigs-booking-text h4 {
   font-size: 1.15rem;
   font-weight: 600;
