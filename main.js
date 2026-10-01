@@ -21,13 +21,13 @@ const i18nData = {
 
     // Hero
     // Hero
-    heroBadge: "Cantante – multiinstrumentista – coach vocal – percusión para cantantes",
+    heroBadge: "Cantante – multiinstrumentista – docente – percusión para cantantes",
     heroTitlePrefix: "Mishka",
     heroTitleSuffix: "Adams",
-    heroTagline: "Cantante, multiinstrumentista, compositora y coach vocal radicada en Buenos Aires. Explorando el universo rítmico del jazz, la bossa nova y la música latinoamericana.",
+    heroTagline: "Cantante, multiinstrumentista, compositora y docente radicada en Buenos Aires. Explorando el universo rítmico del jazz, la bossa nova y la música latinoamericana.",
     heroCtaTeaching: "Talleres & Clases",
     heroCtaMusic: "Bio & Discografía",
-    heroCtaTag: "Cantante – multiinstrumentista – coach vocal – percusión para cantantes",
+    heroCtaTag: "Cantante – multiinstrumentista – docente – percusión para cantantes",
     heroCtaTitle: "Explorá tu voz, el ritmo y el cuerpo",
     heroCtaBtn: "Clases 1:1 / Talleres de Percusión para Cantantes",
 
@@ -51,7 +51,7 @@ const i18nData = {
 
       <p>Cuatro años después sentí que ya no pertenecía allí y me mudé definitivamente a Londres para estudiar jazz y vivir como música profesional. Cursé una maestría en jazz en la Guildhall School of Music, donde conocí a profesores maravillosos, entre ellos a Pete Churchill, con quién cofundamos el “London Vocal Project”. Pete y yo grabamos juntos un álbum con sus hermosas canciones. Durante mis años en Londres participé en numerosos proyectos como cantante principal, integrante de coros y sesionista en voces y percusión.</p>
 
-      <p>Profundicé mi amor por la música brasilera al sumarme al grupo de samba “Rhythms of the City”: entré como percusionista y con el tiempo me convertí en una de sus cantantes. Toqué con ellos durante cinco o seis años girando por todo el Reino Unido y parte de Europa. Viajé a Brasil, aprendí portugués y viví un breve tiempo en Berlín. En el medio recorrí el mundo, conociendo lugares increíbles y personas entrañables. Hacia el final de mi estadía en Londres Guillermo Rozenthuler, compañero de banda, amigo y maestro, me introdujo por primera vez a la música argentina y me hizo escuchar las canciones de Beto Caletti, a quién conocí, me enamoré y terminé acompañando a la Argentina. Y aquí estoy en Buenos Aires, donde nació nuestra hija Mayumi, sintiendo que finalmente encontré mi lugar en el mundo. Con Beto giramos por el mundo tocando y cantando como dúo. Este hermoso país y su gente me abrieron infinitas puertas y tengo la suerte de compartir música con artistas extraordinarios.</p>
+      <p>Profundicé mi amor por la música brasilera al sumarme al grupo de samba “Rhythms of the City”: entré como percusionista y con el tiempo me convertí en una de sus cantantes. Toqué con ellos durante seis años girando por todo el Reino Unido y parte de Europa. Viajé a Brasil, aprendí portugués y viví un breve tiempo en Berlín. En el medio recorrí el mundo, conociendo lugares increíbles y personas entrañables. Hacia el final de mi estadía en Londres Guillermo Rozenthuler, compañero de banda, amigo y maestro, me introdujo por primera vez a la música argentina y me hizo escuchar las canciones de Beto Caletti, a quién conocí, me enamoré y terminé acompañando a la Argentina. Y aquí estoy en Buenos Aires, donde nació nuestra hija Mayumi, sintiendo que finalmente encontré mi lugar en el mundo. Con Beto giramos por el mundo tocando y cantando como dúo. Este hermoso país y su gente me abrieron infinitas puertas y tengo la suerte de compartir música con artistas extraordinarios.</p>
 
       <div class="bio-projects-section" style="margin-top: 2.25rem; border-top: 1px solid var(--border-subtle); padding-top: 1.75rem;">
         <h4 style="font-size: 1.15rem; font-weight: 600; color: var(--text-primary); margin-bottom: 1.25rem;">Otros proyectos:</h4>
@@ -79,7 +79,7 @@ const i18nData = {
         </div>
       </div>
 
-      <p style="margin-top: 1.75rem;">Entre todo esto, tengo mi proyecto solista en que toco mis composiciones que nacen de mis raíces en el folk y el jazz. También dirijo dos ensambles de mujeres, doy clases de canto particulares y talleres de percusión para cantantes.</p>
+      <p style="margin-top: 1.75rem;">Entre todo esto, tengo mi proyecto solista en el que toco mis composiciones que nacen de mis raíces en el folk y el jazz. También dirijo dos ensambles de mujeres, doy clases de canto particulares y talleres de percusión para cantantes.</p>
 
       <p class="bio-closing-note" style="margin-top: 1rem; font-style: italic;">Ha sido una aventura maravillosa hasta ahora, y no podría estar más agradecida, sobre todo a mi maestro John – sin él sería otra persona.</p>
     `,
@@ -284,7 +284,7 @@ const i18nData = {
     footerNewsletterDesc: "Novedades de conciertos, talleres y lanzamientos exclusivos.",
 
     // Footer
-    footerBrandDesc: "Cantante, multiinstrumentista y coach vocal. Buenos Aires, Argentina.",
+    footerBrandDesc: "Cantante, multiinstrumentista y docente. Buenos Aires, Argentina.",
     footerNavTitle: "Navegación",
     footerLegalTitle: "Enlaces",
     footerConnectTitle: "Plataformas",
@@ -351,13 +351,13 @@ const i18nData = {
     navContact: "Contact",
 
     // Hero
-    heroBadge: "Singer – multi instrumentalist – voice coach – percussion for singers",
+    heroBadge: "Singer – multi instrumentalist – educator – percussion for singers",
     heroTitlePrefix: "Mishka",
     heroTitleSuffix: "Adams",
-    heroTagline: "Singer, multi-instrumentalist, songwriter and vocal coach based in Buenos Aires. Exploring the rhythmic universe of jazz, bossa nova and Latin American music.",
+    heroTagline: "Singer, multi-instrumentalist, songwriter and educator based in Buenos Aires. Exploring the rhythmic universe of jazz, bossa nova and Latin American music.",
     heroCtaTeaching: "Workshops & Classes",
     heroCtaMusic: "Bio & Discography",
-    heroCtaTag: "Singer – multi instrumentalist – voice coach – percussion for singers",
+    heroCtaTag: "Singer – multi instrumentalist – educator – percussion for singers",
     heroCtaTitle: "Unlock your voice, rhythm & body",
     heroCtaBtn: "1:1 lessons / Percussion for Singers workshops",
 
@@ -552,7 +552,7 @@ const i18nData = {
     // Contact Dedicated Page (contacto.html)
     contactPageTag: "Direct Contact & Booking",
     contactPageTitle: "Get in Touch",
-    contactPageSubtitle: "Reach out to schedule 1:1 voice coaching, inquire about upcoming workshops and vocal ensembles, or discuss concerts and artistic bookings.",
+    contactPageSubtitle: "Reach out to schedule 1:1 voice lessons, inquire about upcoming workshops and vocal ensembles, or discuss concerts and artistic bookings.",
     contactChannelsTitle: "Direct Channels",
     contactChannelsDesc: "Choose your preferred channel to get in touch:",
     contactEmailTitle: "Email",
@@ -564,7 +564,7 @@ const i18nData = {
     contactFormName: "Full Name",
     contactFormEmail: "Email Address",
     contactFormSubject: "Inquiry Type",
-    contactSubject1: "1:1 Voice Lessons (Private Coaching)",
+    contactSubject1: "1:1 Voice Lessons (Private Mentorship)",
     contactSubject2: "Percussion for Singers Workshop",
     contactSubject3: "Vocal Ensembles (Rayuela / Agronomía Canta)",
     contactSubject4: "Concert Booking & Artistic Projects",
@@ -613,7 +613,7 @@ const i18nData = {
     footerNewsletterDesc: "Updates on upcoming concerts, workshops and exclusive releases.",
 
     // Footer
-    footerBrandDesc: "Singer, multi-instrumentalist and vocal coach. Buenos Aires, Argentina.",
+    footerBrandDesc: "Singer, multi-instrumentalist and educator. Buenos Aires, Argentina.",
     footerNavTitle: "Navigation",
     footerLegalTitle: "Links",
     footerConnectTitle: "Platforms",
