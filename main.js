@@ -639,7 +639,7 @@ const teachingCardsES = [
     ctaLink: "contacto.html?subject=ensembles",
     youtubeText: "Ver Actuaciones en Vivo",
     youtubeLink: "#ensambles-videos",
-    image: "FOTOS WEBSITE/Percussion for Singers/mishkaAdmas_ensamblesVocales.jpeg",
+    image: "FOTOS WEBSITE/Percussion for Singers/mishkaAdmas_ensamblesVocales.webp",
     theme: "sand"
   }
 ];
@@ -706,7 +706,7 @@ const teachingCardsEN = [
     ctaLink: "contacto.html?subject=ensembles",
     youtubeText: "Watch Live Performances",
     youtubeLink: "#ensambles-videos",
-    image: "FOTOS WEBSITE/Percussion for Singers/mishkaAdmas_ensamblesVocales.jpeg",
+    image: "FOTOS WEBSITE/Percussion for Singers/mishkaAdmas_ensamblesVocales.webp",
     theme: "sand"
   }
 ];
