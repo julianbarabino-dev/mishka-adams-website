@@ -597,7 +597,7 @@ const teachingCardsES = [
     ctaLink: "contacto.html?subject=percussion",
     youtubeText: "Ver Tutoriales en YouTube",
     youtubeLink: "https://www.youtube.com/@PercussionforSingers",
-    image: "FOTOS WEBSITE/Percussion for Singers/DSC02010.JPG",
+    image: "FOTOS WEBSITE/Fotos Finales Mishka/pagina clases - seccion percu para cantantes.webp",
     theme: "terracotta"
   },
   {
@@ -618,7 +618,7 @@ const teachingCardsES = [
     ],
     ctaText: "Reservar Clase Individual",
     ctaLink: "contacto.html?subject=voice",
-    image: "FOTOS WEBSITE/Berlin/6 (1 of 1).jpg",
+    image: "FOTOS WEBSITE/Fotos Finales Mishka/pagina clases - clases particulares.webp",
     theme: "warm-dark"
   },
   {
@@ -664,7 +664,7 @@ const teachingCardsEN = [
     ctaLink: "contacto.html?subject=percussion",
     youtubeText: "Watch YouTube Tutorials",
     youtubeLink: "https://www.youtube.com/@PercussionforSingers",
-    image: "FOTOS WEBSITE/Percussion for Singers/DSC02010.JPG",
+    image: "FOTOS WEBSITE/Fotos Finales Mishka/pagina clases - seccion percu para cantantes.webp",
     theme: "terracotta"
   },
   {
@@ -685,7 +685,7 @@ const teachingCardsEN = [
     ],
     ctaText: "Book a 1:1 Lesson",
     ctaLink: "contacto.html?subject=voice",
-    image: "FOTOS WEBSITE/Berlin/6 (1 of 1).jpg",
+    image: "FOTOS WEBSITE/Fotos Finales Mishka/pagina clases - clases particulares.webp",
     theme: "warm-dark"
   },
   {
