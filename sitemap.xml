@@ -24,6 +24,17 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mishkaadams.com/talleres.html" />
   </url>
 
+  <!-- Biografía & Trayectoria -->
+  <url>
+    <loc>https://mishkaadams.com/bio.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mishkaadams.com/bio.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mishkaadams.com/bio.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mishkaadams.com/bio.html" />
+  </url>
+
   <!-- Contacto & Booking -->
   <url>
     <loc>https://mishkaadams.com/contacto.html</loc>
@@ -33,6 +44,28 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://mishkaadams.com/contacto.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://mishkaadams.com/contacto.html?lang=en" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mishkaadams.com/contacto.html" />
+  </url>
+
+  <!-- Política de Privacidad (Legal / Meta) -->
+  <url>
+    <loc>https://mishkaadams.com/privacidad.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mishkaadams.com/privacidad.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mishkaadams.com/privacidad.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mishkaadams.com/privacidad.html" />
+  </url>
+
+  <!-- Términos y Condiciones (Legal) -->
+  <url>
+    <loc>https://mishkaadams.com/terminos.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mishkaadams.com/terminos.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mishkaadams.com/terminos.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mishkaadams.com/terminos.html" />
   </url>
 
 </urlset>

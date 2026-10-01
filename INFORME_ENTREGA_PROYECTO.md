@@ -71,31 +71,35 @@ La plataforma combina un archivo sonoro vivo, una galería de medios interactiva
 
 ---
 
-## 4. Tareas Pendientes para la Próxima Fase
+## 4. Tareas de Puesta a Punto Realizadas y Próximos Pasos
 
-1. **Auditoría y Optimización SEO On-Page:**
-   - Redacción y refinamiento de metaetiquetas clave (`title`, `meta description`, etiquetas canonicals diferenciadas por idioma).
-   - Implementación de marcado de datos estructurados Schema.org / JSON-LD para:
-     - `MusicGroup` / `Person` (Mishka Adams).
-     - `MusicAlbum` (lanzamientos discográficos).
-     - `EducationEvent` / `Course` (talleres de percusión y clases vocales).
-     - `MusicEvent` (conciertos y recitales).
-   - Generación de `sitemap.xml` y archivo `robots.txt`.
+### A. Tareas Completadas Recientemente
+1. **Auditoría y Optimización SEO On-Page (Completado):**
+   - Jerarquía semántica de encabezados depurada y optimizada (reducción de etiquetas redundantes a estructura estricta).
+   - Generación y actualización de `sitemap.xml` con alternate hreflang multilingüe y directivas `robots.txt`.
+   - Marcado Schema.org enriquecido para eventos y ofertas de entradas en vivo.
+2. **Alta y Verificación en Google Search Console (Completado):**
+   - Propiedad del dominio `mishkaadams.com` verificada exitosamente mediante registro DNS TXT en DonWeb.
+   - Envío de URLs principales a la cola de indexación prioritaria de Google.
+3. **Páginas Legales y Verificación de Negocio Meta (Completado):**
+   - Creación de Política de Privacidad (`privacidad.html`) y Términos de Servicio (`terminos.html`) adaptados a la Ley 25.326 y estándares de verificación comercial de Meta (Facebook/Instagram).
+   - Traducción completa bilingüe (ES / EN) y enlaces discretos integrados en el pie de página global.
+4. **Infraestructura de Correo Oficial (Completado):**
+   - Vinculación del correo institucional `contact@mishkaadams.com` mediante registros MX y SPF en DonWeb vía ImprovMX.
+   - Reenvío automático directo y sin costo hacia la casilla personal de Mishka (`adams.mishka@gmail.com`).
+   - Cuenta administradora técnica en ImprovMX: `cosmicvicarrecords@gmail.com`.
+5. **Agenda en Vivo (Completado):**
+   - Integración de enlace directo a venta de entradas en Alternativa Teatral para la fecha del 9 de octubre (*Escucho Voces*).
+6. **Actualización de Fotografías y Optimización WebP (Completado):**
+   - Incorporación de todas las fotografías de la nueva sesión enviada por Mishka en la portada, biografía, módulos formativos y fondos.
+   - Conversión de la totalidad de imágenes a formato WebP optimizado, reduciendo el peso de carga drásticamente para navegación móvil ultraveloz sin pérdida de calidad visual.
 
-2. **Alta y Vinculación en Google Search Console (GSC):**
-   - Verificación de propiedad del dominio `mishkaadams.com`.
-   - Envío del mapa del sitio (`sitemap.xml`) para indexación oficial en los resultados de búsqueda de Google.
-
-3. **Actualización de Fotografías en Alta Resolución:**
-   - Sustitución de imágenes de archivo temporal por las fotografías finales de la nueva sesión profesional en cuanto sean entregadas.
-   - Optimización de peso, compresión WebP y ajuste de puntos de encuadre (*focal points*).
-
-4. **Activación Inicial de FormSubmit (Acción requerida por Mishka):**
+### B. Próximos Pasos Pendientes
+1. **Activación Inicial de FormSubmit (Acción requerida por Mishka):**
    - En el primer envío real de prueba al correo `adams.mishka@gmail.com`, Mishka recibirá un correo único con el asunto *"Activate Form"*.
    - Deberá presionar el botón de activación una sola vez para dejar la casilla 100% habilitada para envíos futuros.
-
-5. **Analítica Web (Opcional):**
-   - Configuración de Google Analytics 4 (GA4) o solución liviana y respetuosa de la privacidad si se desea registrar métricas de tráfico y conversión.
+2. **Analítica Web (Opcional):**
+   - Configuración de Google Analytics 4 (GA4) o solución liviana si se desea registrar métricas de tráfico y conversión.
 
 ---
 

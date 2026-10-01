@@ -259,8 +259,9 @@ h1, h2, h3, h4, h5, h6 {
   pointer-events: none;
 }
 
-/* Dedicated Header Background exclusively for Contact Page */
-body.page-contacto .site-header {
+/* Dedicated Header Background exclusively for Contact and Legal Pages */
+body.page-contacto .site-header,
+body.page-legal .site-header {
   background-color: rgba(18, 18, 18, 0.96);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -269,7 +270,9 @@ body.page-contacto .site-header {
 }
 
 body.page-contacto .brand-name,
-body.page-contacto .nav-link {
+body.page-contacto .nav-link,
+body.page-legal .brand-name,
+body.page-legal .nav-link {
   text-shadow: none;
 }
 
@@ -1690,6 +1693,23 @@ body.page-contacto .nav-link {
 
 .footer-credits a:hover {
   color: var(--accent-rose);
+}
+
+.footer-legal-links {
+  display: inline-block;
+  margin-left: 0.25rem;
+}
+
+.footer-legal-links a {
+  color: var(--text-on-dark-muted);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.footer-legal-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* --------------------------------------------------------------------------
@@ -3163,4 +3183,70 @@ body.page-contacto .nav-link {
   .disco-media-diptych {
     grid-template-columns: 1fr;
   }
+}
+
+/* --------------------------------------------------------------------------
+   16. LEGAL PAGES STYLES (privacidad.html & terminos.html)
+   -------------------------------------------------------------------------- */
+.legal-section {
+  padding-top: calc(var(--header-height) + clamp(3rem, 5vw, 4.5rem));
+  padding-bottom: clamp(4rem, 7vw, 6.5rem);
+  background-color: var(--bg-canvas);
+}
+
+.legal-header {
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.legal-meta {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-top: 0.75rem;
+}
+
+.legal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.legal-block h2 {
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.85rem;
+  line-height: 1.35;
+}
+
+.legal-block p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.75;
+  margin-bottom: 0.85rem;
+}
+
+.legal-block ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.legal-block li {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 0.4rem;
+}
+
+.legal-block a {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.legal-block a:hover {
+  color: var(--accent-rose);
 }
