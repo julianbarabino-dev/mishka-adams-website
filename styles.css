@@ -2836,6 +2836,18 @@ body.page-contacto .nav-link {
   border-color: var(--text-primary);
 }
 
+.gig-status-btn.gig-btn-ticket {
+  background: var(--text-primary);
+  color: #ffffff;
+  border-color: var(--text-primary);
+}
+
+.gig-status-btn.gig-btn-ticket:hover {
+  background: var(--accent-rose);
+  border-color: var(--accent-rose);
+  color: #ffffff;
+}
+
 .gigs-booking-callout {
   margin-top: clamp(2.5rem, 4vw, 3.5rem);
   padding: clamp(1.8rem, 3vw, 2.5rem);
