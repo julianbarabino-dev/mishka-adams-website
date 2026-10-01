@@ -41,9 +41,11 @@
 
 * **H1 Principal:**
   `Mishka Adams — Cantante, Multiinstrumentista & Vocal Coach` (Único en la página).
-* **Árbol de Encabezados (Normalizado):**
+* **Árbol de Encabezados (Optimizado y Balanceado - 22 Headings):**
   ```text
   H1: Mishka Adams — Cantante, Multiinstrumentista & Vocal Coach
+  ├── (Bio)
+  │   └── H3: Otros proyectos:
   ├── H2: Discografía
   │   ├── H3: Adams & Caletti
   │   ├── H3: Stories to Tell
@@ -54,11 +56,11 @@
   │   ├── H3: Clases de canto particulares
   │   └── H3: Ensambles vocales
   ├── H2: Videos
-  │   └── H3: [7 Títulos de videos]
   ├── H2: Recitales & Shows
   │   └── H3: ¿Querés programar un concierto o festival?
   └── H2: Conversemos
   ```
+* **Densidad de Encabezados:** Reducida de 32 a 22 al reemplazar títulos de tarjetas multimedia (videos) y columnas del footer por `<p class="...">`, manteniendo el 100% de la fidelidad visual y eliminando la advertencia de exceso de encabezados respecto a la proporción de texto.
 
 ---
 
@@ -96,6 +98,7 @@
 ### 5. Enlaces y Datos Estructurados
 
 * **Seguridad en enlaces:** 100% de los enlaces externos protegidos con `rel="noopener noreferrer"`.
+* **Enlaces dinámicos internos:** Enlaces con parámetros de consulta (`contacto.html?subject=booking`) marcados con `rel="nofollow"` para evitar dilución de rastreo (crawl budget) en formularios pre-filtrados.
 * **Datos estructurados:** Schema JSON-LD multievento presente con `Person`, `Course` y 2 `MusicEvent`.
 * **[robots.txt](file:///Users/jules/Desktop/Metaflow/Web%20Design%20&%20Dev/Mishka%20Adams/robots.txt):** Creado en la raíz, autoriza rastreadores universales y vincula al sitemap.
 * **[sitemap.xml](file:///Users/jules/Desktop/Metaflow/Web%20Design%20&%20Dev/Mishka%20Adams/sitemap.xml):** Creado con protocolo estándar XML, incluyendo prioridades, frecuencias de cambio y mapeo bidireccional hreflang para `es` y `en`.
